@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="ru" class="storymaze-home">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name='yandex-verification' content='6e37696e0fcbfe7e' />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta name="csrf-param" content="_csrf">
+  <meta name="csrf-token" content="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+  <title>Storymaze - Поиск</title>
+  <!-- VK retargeting -->
+  <!--<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=kF3xgVPVwgzZronUawCde/W5hpGXiUarMoUe1QR..*L38t4Ma2v9swoq6HEJfjNnO4BNY06SJUZN9Ugkfmrny0i9w-';</script>-->
+  <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=lBVXcELOpo6bdlFYnDcvtFvFa2189ayCvSTaXKTS13Oo9/yS0R5rbDmLcUj/N0L/8BXsP3M/Hys/o24HZz/wS1X9HLFlaLYV/6GSJXJr439xm5sLDWlPOqngmr01G6UjSjXzhEtpji5QLnE8u/O*z/atHSqJdnJ0xPy6U8Jf9i8-';</script>
+  <!-- /VK retargeting -->
+  <link href="/assets/72caf0b4/css/bootstrap.css?v=1480660791" rel="stylesheet">
+  <link href="/css/jquery.Jcrop.css?v=1454756029" rel="stylesheet">
+  <link href="/css/jquery.Jcrop.min.css?v=1454756029" rel="stylesheet">
+  <link href="/js/sweetalert2/sweetalert2.css?v=1472760467" rel="stylesheet">
+  <link href="/js/scroll/css/style.css?v=1454756029" rel="stylesheet">
+  <link href="/js/jquery-ui-1.11.4/jquery-ui.css?v=1454756029" rel="stylesheet">
+  <link href="/css/site.css?v=1477931093" rel="stylesheet">
+  <link href="/css/chosen.css?v=1472760467" rel="stylesheet">
+  <link href="/css/swiper.min.css?v=1472760467" rel="stylesheet">
+  <link href="/css/style_new.css?v=1481291478" rel="stylesheet">
+  <link href="/css/night_mode.css?v=1474819841" rel="stylesheet">
+  <link href="/css/style_mobile.css?v=1480688314" rel="stylesheet">
+  <link href="/css/bootstrap.min.css?v=1480613207" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;amp;subset=cyrillic" rel="stylesheet">
+  <link href="/css/storymaze-font.css?v=1481548100" rel="stylesheet">
+  <link href="/css/owl.carousel.css?v=1480613207" rel="stylesheet">
+  <link href="/css/owl.theme.css?v=1480613207" rel="stylesheet">
+  <link href="/css/owl.transitions.css?v=1480613207" rel="stylesheet">
+  <link href="/css/summernote.css?v=1480613207" rel="stylesheet">
+  <link href="/css/style.css?v=1490784219" rel="stylesheet">
+  <link href="/css/night-theme.css?v=1480613207" rel="stylesheet">
+  <link href="/css/responsive.css?v=1481548100" rel="stylesheet">
+  <link href="/assets/f1087a50/css/font-awesome.min.css?v=1480660792" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <style type="text/css">
+    #to_top {
+      background: url(../img/anchor_top.png) no-repeat center 100px, rgba(148, 148, 168, .1) !important;
+    }
+  </style>
+
+
+  <div class="wrap">
+    <nav class="navbar navbar-fixed-top">
+      <div class="navbar-header">
+
+        <button type="button" id="burger" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <ul class="nav navbar-nav navbar-right only-mobile" id="nav-lang">
+          <li>
+            <div>
+              <form action="/" method="post">
+                <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                <a class="btn btn-switcher lang-switcher active">RU</a>
+                <a class="btn btn-switcher lang-switcher" href="#" onclick="language_change('en')">EN</a>
+                <script type="text/javascript">
+                  function language_change(selected) {
+                    var lng = selected.value;
+                    if (lng == undefined)
+                      lng = selected;
+                    //alert(lng);
+                    $.ajax({
+                      type: "POST",
+                      url: "/site/language.html",
+                      data: "_lang=" + lng + "&YII_CSRF_TOKEN=enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==",
+                      success: function (data) { window.location.reload(); }
+                    });
+                  }
+                </script>
+
+              </form>
+            </div>
+          </li>
+        </ul>
+        <a class="navbar-brand" href="/">
+          <img src="/images/logo.svg" alt="">
+        </a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="nav-links">
+          <li>
+            <a href="/episodes.html">Все истории</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" id="nav-login">
+          <!-- <li><button class="btn btn-switcher sw-xl">ЗАРЕГИСТРИРОВАТЬСЯ</button></li> -->
+          <li>
+            <a class="btn button-default" href="/site/signup.html" data-method="post"> Зарегистрироваться </a>
+          </li>
+          <li>
+            <a class="btn button-default" href="/site/login.html" data-method="post"> Войти </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right no-mobile" id="nav-lang">
+          <li>
+            <div>
+              <form action="/" method="post">
+                <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                <a class="btn btn-switcher lang-switcher active">RU</a>
+                <a class="btn btn-switcher lang-switcher" href="#" onclick="language_change('en')">EN</a>
+                <script type="text/javascript">
+                  function language_change(selected) {
+                    var lng = selected.value;
+                    if (lng == undefined)
+                      lng = selected;
+                    //alert(lng);
+                    $.ajax({
+                      type: "POST",
+                      url: "/site/language.html",
+                      data: "_lang=" + lng + "&YII_CSRF_TOKEN=enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==",
+                      success: function (data) { window.location.reload(); }
+                    });
+                  }
+                </script>
+
+              </form>
+            </div>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" id="nav-links2">
+          <li>
+            <a href="#" class="search-link">
+              <span>Поиск</span>
+            </a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle help-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <span>Помощь</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <form>
+                  <div class="help-input">
+                    <textarea class="question_form" type="" name="" label="Текст вопроса" autofocus="" placeholder="Введите Ваш вопрос"></textarea>
+                  </div>
+                  <div class="help-submit">
+                    <a href="#" class="btn button-default">Отправить</a>
+                    <a href="#" class="btn btn-switcher active-orange">
+                      Выключить подсказки</a>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="" class="night-link"></a>
+          </li>
+
+        </ul>
+
+
+      </div>
+      <!--/.nav-collapse -->
+    </nav>
+
+
+    <!--         <div class="download-link-mob">
+            <a href="#"><img class="pull-right" src="/img/cancel-small-bl.png" width="15" height="15" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+            <p>
+
+                <a href="https://play.google.com/store/apps/details?id=ru.hipe.storymaze" target="_blank"><img src="/img/android.png" height="25" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+                <span>Storymaze для Android!</span>
+            </p>
+            <p>
+                <a href="http://storymaze.appstor.io/" target="_blank"><img src="/img/ios.png" height="25" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+                <span>Storymaze для iOS!</span>
+            </p>
+        </div> -->
+    <div class="container">
+
+
+      <div class="display-none popup-social" id="block">
+        <a href="http://vk.com/storymaze" target="blank">
+          <img src="/img/vk-popup.png" alt="">
+        </a>
+        <a href="https://twitter.com/storymaze" target="blank">
+          <img src="/img/twitter-popup.png" alt="">
+        </a>
+        <a href="https://www.facebook.com/RuStorymaze/" target="blank">
+          <img src="/img/facebook-popup.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/storymaze/" target="blank">
+          <img src="/img/insta-popup.png" alt="">
+        </a>
+      </div>
+
+
+      <div class="home">
+
+        <section class="main-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="recommended">
+                  <h2>Рекомендованные истории
+                    <i class="icon-icon-star"></i>
+                  </h2>
+                  <div class="row">
+
+                    <div class="col-md-6">
+                      <div class="panel panel-singlestory" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/story/eWYWvNyhznWDl-nsOl5_fG96JXgu6jyP.jpg);">
+                        <div class="ep-count">32 эпизода </div>
+                        <div class="story-headline">
+
+                          <a href="/story/view/17871.html">
+                            <h3>Странная Мэри (12+)</h3>
+                          </a>
+                          <div class="sstat">
+                            <span>
+                              <i class="icon-icon-eye" aria-hidden="true"></i> 809</span>
+                            <span>
+                              <i class="icon-icon-plus" aria-hidden="true"></i> 66</span>
+                            <span>
+                              <i class="icon-icon-comments" aria-hidden="true"></i> 18</span>
+                          </div>
+
+                          <a href="/story/view/17871.html">
+                            <div class="story-start-btn">Открыть историю</div>
+                          </a>
+                          <div class="sinfo">
+                            <div class="author">
+                              <div class="author_ava">
+                                <a href="/user/view/40624.html">
+                                  <img class="profile-image" src="/avatar/R1IOUKAnD8T_LlFcsAWVU0zkrN_7xqO_.png" alt="">
+                                </a>
+                              </div>
+                              <div class="author_info">
+                                <span class="author__name">
+                                  <a href="/user/view/40624.html">Leem</a>
+                                </span>
+                                <span class="author__addts">
+                                  11 месяцев назад </span>
+                              </div>
+                            </div>
+                            <div class="s-btns">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                      <div class="panel panel-singlestory" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/story/XNrROQKDxbaEpcAz8b8p6Q2gOk5rWGJy.jpg);">
+                        <div class="ep-count">151 эпизод </div>
+                        <div class="story-headline">
+
+                          <a href="/story/view/5666.html">
+                            <h3>Проект &quot;Шесть&quot;: Генезис (16+)</h3>
+                          </a>
+                          <div class="sstat">
+                            <span>
+                              <i class="icon-icon-eye" aria-hidden="true"></i> 1.5K</span>
+                            <span>
+                              <i class="icon-icon-plus" aria-hidden="true"></i> 169</span>
+                            <span>
+                              <i class="icon-icon-comments" aria-hidden="true"></i> 8</span>
+                          </div>
+
+                          <a href="/story/view/5666.html">
+                            <div class="story-start-btn">Открыть историю</div>
+                          </a>
+                          <div class="sinfo">
+                            <div class="author">
+                              <div class="author_ava">
+                                <a href="/user/view/22216.html">
+                                  <img class="profile-image" src="/avatar/p9_607utJNUz3YV5BkMM3BEOVAXDmsKM.jpg" alt="">
+                                </a>
+                              </div>
+                              <div class="author_info">
+                                <span class="author__name">
+                                  <a href="/user/view/22216.html">Ravenhardt</a>
+                                </span>
+                                <span class="author__addts">
+                                  1 год назад </span>
+                              </div>
+                            </div>
+                            <div class="s-btns">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                      <div class="panel panel-singlestory" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/story/ceYYuHe3sOtRSfCGiF3iZRBV6_jewI1w.jpeg);">
+                        <div class="ep-count">108 эпизодов </div>
+                        <div class="story-headline">
+
+                          <a href="/story/view/10975.html">
+                            <h3>&quot;Художница из Despair сity&quot; (18+)</h3>
+                          </a>
+                          <div class="sstat">
+                            <span>
+                              <i class="icon-icon-eye" aria-hidden="true"></i> 8.1K</span>
+                            <span>
+                              <i class="icon-icon-plus" aria-hidden="true"></i> 836</span>
+                            <span>
+                              <i class="icon-icon-comments" aria-hidden="true"></i> 37</span>
+                          </div>
+
+                          <a href="/story/view/10975.html">
+                            <div class="story-start-btn">Открыть историю</div>
+                          </a>
+                          <div class="sinfo">
+                            <div class="author">
+                              <div class="author_ava">
+                                <a href="/user/view/43561.html">
+                                  <img class="profile-image" src="/avatar/K-0_1ZYCNCNTuzNYRI4vNC1oIl_vprfp.jpg" alt="">
+                                </a>
+                              </div>
+                              <div class="author_info">
+                                <span class="author__name">
+                                  <a href="/user/view/43561.html">Sail</a>
+                                </span>
+                                <span class="author__addts">
+                                  1 год назад </span>
+                              </div>
+                            </div>
+                            <div class="s-btns">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                      <div class="panel panel-singlestory" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/story/-ndiBywAaU75yWdAzr211xwUr8dX-aU7.jpg);">
+                        <div class="ep-count">94 эпизода </div>
+                        <div class="story-headline">
+
+                          <a href="/story/view/2683.html">
+                            <h3>Дорога домой - Эпизод 2 - Сквозь туман (18+)</h3>
+                          </a>
+                          <div class="sstat">
+                            <span>
+                              <i class="icon-icon-eye" aria-hidden="true"></i> 1.1K</span>
+                            <span>
+                              <i class="icon-icon-plus" aria-hidden="true"></i> 121</span>
+                            <span>
+                              <i class="icon-icon-comments" aria-hidden="true"></i> 14</span>
+                          </div>
+
+                          <a href="/story/view/2683.html">
+                            <div class="story-start-btn">Открыть историю</div>
+                          </a>
+                          <div class="sinfo">
+                            <div class="author">
+                              <div class="author_ava">
+                                <a href="/user/view/10197.html">
+                                  <img class="profile-image" src="/avatar/nnDV2LY-5DSZe5WcimUjyE7SCQToQcTf.jpg" alt="">
+                                </a>
+                              </div>
+                              <div class="author_info">
+                                <span class="author__name">
+                                  <a href="/user/view/10197.html">Rover</a>
+                                </span>
+                                <span class="author__addts">
+                                  1 год назад </span>
+                              </div>
+                            </div>
+                            <div class="s-btns">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 text-center loadbtn-wr">
+                      <div class="lb-hwr">
+                        <a class="btn button-default" href="/site/recommended.html">ЗАГРУЗИТЬ ЕЩЕ ИСТОРИИ</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 right-col">
+                <h2>Обсуждаемые</h2>
+                <div class="panel">
+                  <div class="panel-body">
+                    <a href="/story/view/20224.html">
+                      <h3>Зомби Апокалипсис (16+)
+                        <h3>
+                    </a>
+                    <div class="author">
+                      <div class="author_ava">
+                        <a href="/user/view/58796.html">
+                          <img class="profile-image" src="http://cs633921.vk.me/v633921113/3088a/wSxUGADdIhg.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="author_info">
+                        <span class="author__name">id211338113</span>
+                        <span class="author__addts">7 месяцев назад</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel">
+                  <div class="panel-body">
+                    <a href="/story/view/21791.html">
+                      <h3>Однажды в лесу (18+)
+                        <h3>
+                    </a>
+                    <div class="author">
+                      <div class="author_ava">
+                        <a href="/user/view/72586.html">
+                          <img class="profile-image" src="/avatar/pnLcBpK_J21WHJ7vqPcgH3jyiicqZeyR.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="author_info">
+                        <span class="author__name">satO_Orn</span>
+                        <span class="author__addts">4 дня назад</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel">
+                  <div class="panel-body">
+                    <a href="/story/view/21783.html">
+                      <h3>Однажды ночью, в поместье МакХолл (16+)
+                        <h3>
+                    </a>
+                    <div class="author">
+                      <div class="author_ava">
+                        <a href="/user/view/32985.html">
+                          <img class="profile-image" src="/avatar/BT50Wun7gd9RcweK9plFf4NXDsWT0NwM.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="author_info">
+                        <span class="author__name">Udachi</span>
+                        <span class="author__addts">5 дней назад</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel">
+                  <div class="panel-body">
+                    <a href="/story/view/21795.html">
+                      <h3>Полководец (12+)
+                        <h3>
+                    </a>
+                    <div class="author">
+                      <div class="author_ava">
+                        <a href="/user/view/72579.html">
+                          <img class="profile-image" src="/avatar/user-default.png" alt="">
+                        </a>
+                      </div>
+                      <div class="author_info">
+                        <span class="author__name">denisworldbomba</span>
+                        <span class="author__addts">3 дня назад</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <a class="ra-link" href="/site/top-commented.html">Топ 20 обсуждаемых историй</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="social">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="social-block vk-block">
+                  <a target="_blank" href="https://vk.com/storymaze">
+                    <i class="fa fa-vk fa-4x" aria-hidden="true"></i>
+                    <p>Storymaze VK — Самая атмосферная группа</p>
+                    <p class="small">164 954 подписчика</p>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="social-block fb-block">
+                  <a target="_blank" href="https://www.facebook.com/RuStorymaze">
+                    <i class="fa fa-facebook fa-4x" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="social-block tw-block">
+                  <a target="_blank" href="https://twitter.com/storymaze">
+                    <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="social-block ins-block">
+                  <a target="_blank" href="https://instagram.com/storymaze/">
+                    <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="tags">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Популярные рубрики</h2>
+                <a class="btn btn-popular" href="/site/search.html?s=%23%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0">#фантастика</a>
+                <a class="btn btn-popular" href="/site/search.html?s=%23%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F">#приключения</a>
+                <a class="btn btn-popular" href="/site/search.html?s=%23%D0%94%D1%80%D0%B0%D0%BC%D0%B0">#Драма</a>
+                <a class="btn btn-popular" href="/site/search.html?s=%23%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8">#фэнтези</a>
+                <a class="btn btn-popular" href="/site/search.html?s=%23%D0%BC%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0">#мистика</a>
+                <a class="btn btn-popular" href="/site/search.html?s=%23%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80">#триллер</a>
+                <a class="btn btn-popular" href="/site/search.html?s=%23%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0">#Романтика</a>
+                <a class="btn btn-popular" href="/site/search.html?s=%23%D1%83%D0%B6%D0%B0%D1%81%D1%8B">#ужасы</a>
+                <a class="btn btn-popular" href="/site/search.html?s=%23%D0%A5%D0%BE%D1%87%D1%83%D0%A4%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D1%83">#ХочуФантастику</a>
+                <a class="btn btn-popular" href="/site/search.html?s=%23%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5">#Приключение</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h2>Популярные авторы</h2>
+                <div class="panel panel-default panel-popular">
+                  <div class="row">
+
+                    <div class="col-md-4 panel-block">
+                      <a href="user/view/25117.html">
+                        <img src="/avatar/l7hYO_3B3Y90SiIOUVXIj1bVUAK4SBf_.png" alt="">
+                        <p>SeraphWolf</p>
+                      </a>
+                    </div>
+
+
+                    <div class="col-md-4 panel-block">
+                      <a href="user/view/27872.html">
+                        <img src="/avatar/M7KCYn2QyhBNFLj52uxFutDyi6IcWi3A.png" alt="">
+                        <p>Taro</p>
+                      </a>
+                    </div>
+
+
+                    <div class="col-md-4 panel-block">
+                      <a href="user/view/5935.html">
+                        <img src="/avatar/Zn6vh6xCShn7GLLY21Xe6VzFyc-naU6t.jpg" alt="">
+                        <p>GreatDuet</p>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h2>Интересные каналы</h2>
+                <div class="panel panel-default panel-popular">
+                  <div class="row">
+
+                    <div class="col-md-4 panel-block">
+                      <a href="user/view/35536.html">
+                        <img src="/avatar/VWKfFPN9T9GFKAktRk8nSYYbdICjSuy5.jpg" alt="">
+                        <p>Aisek7</p>
+                      </a>
+                    </div>
+
+
+                    <div class="col-md-4 panel-block">
+                      <a href="user/view/5330.html">
+                        <img src="/avatar/Wvkcb0ZWuTnjpLUzOtjmB5Vr0okrNZ4k.jpg" alt="">
+                        <p>SEAnotMORE</p>
+                      </a>
+                    </div>
+
+
+                    <div class="col-md-4 panel-block">
+                      <a href="user/view/51884.html">
+                        <img src="/avatar/ftE9I5C9HMR-6EoKqFpjVm905itgtjXX.jpg" alt="">
+                        <p>Fxrion</p>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="chat">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Чат
+                  <i class="icon-icon-chat"></i>
+                </h2>
+
+                <div id="w8">
+
+
+                  <div class="commentary-index commentary-partial-wrapper panel panel-default">
+
+
+                    <!-- Commentary form -->
+                    <div class="text-center only_reg">
+                      <p>
+                        <em>Только зарегистрированные пользователи могут оставлять комментарии</em>
+                      </p>
+                      <a href="/site/signup.html">Зарегистрироваться</a> /
+                      <a href="/site/login.html">Войти</a>
+                    </div>
+
+                    <!-- /Commentary form -->
+
+
+                    <div class="open_comments_wrap">
+
+                      <div class="panel panel-default panel-chat pchat-btm">
+
+                        <div class="media" id="comment-1143">
+                          <div class="media-left">
+                            <a href="/user/view/72517.html">
+                              <img class="profile-image" src="/avatar/user-default.png" alt="">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">
+                              <a href="/user/view/72517.html">Apokoalohiz</a>
+                            </h4>
+                            <p>
+                              <a href="http://24autotek.ru/index.php/component/users/?option=com_k2&view=itemlist&task=user&id=52809">игровой автомат жемчужина</a>
+                              <a href="http://redstar-kids.ru/index.php?option=com_k2&view=itemlist&task=user&id=84571">форум азартные игры</a> http://autocaravanastenerife.es/index.php/component/users/?option=com_k2&view=itemlist&task=user&id=100506
+                              казино slot voyager</p>
+
+
+                            <span class="comm-time">1 день назад</span>
+                            <a href="#" role="button" class="reply-btn">Ответить</a>
+
+
+                          </div>
+                        </div>
+
+                        <div class="commentary-form">
+                          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+                            <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                            <input type="hidden" name="MainCommentary[replyTo]" value="1143">
+                            <div class="form-group">
+                              <div class="col-sm-10 col-xs-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                                <a href="" class="smiles"></a>
+                              </div>
+                              <div class="col-sm-2 col-xs-2 hover_tooltip">
+                                <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+
+                      <div class="panel panel-default panel-chat pchat-btm">
+
+                        <div class="media" id="comment-1142">
+                          <div class="media-left">
+                            <a href="/user/view/72517.html">
+                              <img class="profile-image" src="/avatar/user-default.png" alt="">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">
+                              <a href="/user/view/72517.html">Apokoalohiz</a>
+                            </h4>
+                            <p>
+                              <a href="http://indecorbadajoz.com/index.php?option=com_k2&view=itemlist&task=user&id=70723">игральные автоматы онлайн бесплатно без регистрации</a>
+                              <a href="http://24autotek.ru/index.php/component/users/?option=com_k2&view=itemlist&task=user&id=52634">aztec the curse in the heart of the city of gold</a> http://loosp.cz/index.php/component/users/?option=com_k2&view=itemlist&task=user&id=52363
+                              онлайн казино winner</p>
+
+
+                            <span class="comm-time">1 день назад</span>
+                            <a href="#" role="button" class="reply-btn">Ответить</a>
+
+
+                          </div>
+                        </div>
+
+                        <div class="commentary-form">
+                          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+                            <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                            <input type="hidden" name="MainCommentary[replyTo]" value="1142">
+                            <div class="form-group">
+                              <div class="col-sm-10 col-xs-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                                <a href="" class="smiles"></a>
+                              </div>
+                              <div class="col-sm-2 col-xs-2 hover_tooltip">
+                                <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+
+                      <div class="panel panel-default panel-chat pchat-btm">
+
+                        <div class="media" id="comment-1141">
+                          <div class="media-left">
+                            <a href="/user/view/72049.html">
+                              <img class="profile-image" src="/avatar/user-default.png" alt="">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">
+                              <a href="/user/view/72049.html">Kennethsaupe</a>
+                            </h4>
+                            <p>wh0cd633251
+                              <a href=http://buyphenergan.us.org/>phenergan online pharmacy</a>
+                            </p>
+
+
+                            <span class="comm-time">1 день назад</span>
+                            <a href="#" role="button" class="reply-btn">Ответить</a>
+
+
+                          </div>
+                        </div>
+
+                        <div class="commentary-form">
+                          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+                            <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                            <input type="hidden" name="MainCommentary[replyTo]" value="1141">
+                            <div class="form-group">
+                              <div class="col-sm-10 col-xs-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                                <a href="" class="smiles"></a>
+                              </div>
+                              <div class="col-sm-2 col-xs-2 hover_tooltip">
+                                <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+
+                      <div class="panel panel-default panel-chat pchat-btm">
+
+                        <div class="media" id="comment-1140">
+                          <div class="media-left">
+                            <a href="/user/view/72048.html">
+                              <img class="profile-image" src="/avatar/user-default.png" alt="">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">
+                              <a href="/user/view/72048.html">AlfredEnrof</a>
+                            </h4>
+                            <p>wh0cd192405
+                              <a href=http://acyclovir.tools/>where can i buy zovirax</a>
+                              <a href=http://lipitor.work/>lipitor</a>
+                              <a href=http://kamagra.tools/>kamagra</a>
+                              <a href=http://sinequan.reisen/>sinequan</a>
+                              <a href=http://provera.work/>provera 10 mg</a>
+                            </p>
+
+
+                            <span class="comm-time">1 день назад</span>
+                            <a href="#" role="button" class="reply-btn">Ответить</a>
+
+
+                          </div>
+                        </div>
+
+                        <div class="commentary-form">
+                          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+                            <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                            <input type="hidden" name="MainCommentary[replyTo]" value="1140">
+                            <div class="form-group">
+                              <div class="col-sm-10 col-xs-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                                <a href="" class="smiles"></a>
+                              </div>
+                              <div class="col-sm-2 col-xs-2 hover_tooltip">
+                                <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+
+                      <div class="panel panel-default panel-chat pchat-btm">
+
+                        <div class="media" id="comment-1139">
+                          <div class="media-left">
+                            <a href="/user/view/71203.html">
+                              <img class="profile-image" src="/avatar/user-default.png" alt="">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">
+                              <a href="/user/view/71203.html">Bennypauri</a>
+                            </h4>
+                            <p>wh0cd486303
+                              <a href=http://xeloda.reisen/>xeloda</a>
+                              <a href=http://doxazosin.reisen/>doxazosin</a>
+                              <a href=http://prilosec.reisen/>prilosec</a>
+                              <a href=http://emsam.reisen/>emsam price</a>
+                              <a href=http://plendil.world/>plendil er</a>
+                            </p>
+
+
+                            <span class="comm-time">1 день назад</span>
+                            <a href="#" role="button" class="reply-btn">Ответить</a>
+
+
+                          </div>
+                        </div>
+
+                        <div class="commentary-form">
+                          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+                            <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                            <input type="hidden" name="MainCommentary[replyTo]" value="1139">
+                            <div class="form-group">
+                              <div class="col-sm-10 col-xs-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                                <a href="" class="smiles"></a>
+                              </div>
+                              <div class="col-sm-2 col-xs-2 hover_tooltip">
+                                <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+
+                      <div class="panel panel-default panel-chat pchat-btm">
+
+                        <div class="media" id="comment-1138">
+                          <div class="media-left">
+                            <a href="/user/view/71221.html">
+                              <img class="profile-image" src="/avatar/user-default.png" alt="">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">
+                              <a href="/user/view/71221.html">Charlesniz</a>
+                            </h4>
+                            <p>wh0cd192407
+                              <a href=http://genericlipitor.us.com/>generic lipitor</a>
+                            </p>
+
+
+                            <span class="comm-time">1 день назад</span>
+                            <a href="#" role="button" class="reply-btn">Ответить</a>
+
+
+                          </div>
+                        </div>
+
+                        <div class="commentary-form">
+                          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+                            <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                            <input type="hidden" name="MainCommentary[replyTo]" value="1138">
+                            <div class="form-group">
+                              <div class="col-sm-10 col-xs-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                                <a href="" class="smiles"></a>
+                              </div>
+                              <div class="col-sm-2 col-xs-2 hover_tooltip">
+                                <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+
+                      <div class="panel panel-default panel-chat pchat-btm">
+
+                        <div class="media" id="comment-1137">
+                          <div class="media-left">
+                            <a href="/user/view/72517.html">
+                              <img class="profile-image" src="/avatar/user-default.png" alt="">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">
+                              <a href="/user/view/72517.html">Apokoalohiz</a>
+                            </h4>
+                            <p>
+                              <a href="http://bks3.by/index.php/component/users/?option=com_k2&view=itemlist&task=user&id=100324">игровые автоматы онлайн чукча</a>
+                              <a href="http://santetoujours.info/index.php?option=com_k2&view=itemlist&task=user&id=3560974">игры онлайн крейзи манки</a> http://elmundo.com.do/index.php/component/users/?option=com_k2&view=itemlist&task=user&id=6683
+                              игровые автоматы играть бесплатно плейбой</p>
+
+
+                            <span class="comm-time">1 день назад</span>
+                            <a href="#" role="button" class="reply-btn">Ответить</a>
+
+
+                          </div>
+                        </div>
+
+                        <div class="commentary-form">
+                          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+                            <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                            <input type="hidden" name="MainCommentary[replyTo]" value="1137">
+                            <div class="form-group">
+                              <div class="col-sm-10 col-xs-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                                <a href="" class="smiles"></a>
+                              </div>
+                              <div class="col-sm-2 col-xs-2 hover_tooltip">
+                                <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+
+                      <div class="panel panel-default panel-chat pchat-btm">
+
+                        <div class="media" id="comment-1136">
+                          <div class="media-left">
+                            <a href="/user/view/71221.html">
+                              <img class="profile-image" src="/avatar/user-default.png" alt="">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">
+                              <a href="/user/view/71221.html">Charlesniz</a>
+                            </h4>
+                            <p>wh0cd339355
+                              <a href=http://toradolonline.us.com/>Toradol Online</a>
+                              <a href=http://diclofenac75mg.us.com/>Diclofenac 75mg DR</a>
+                              <a href=http://crestorgeneric.us.org/>crestor generic</a>
+                            </p>
+
+
+                            <span class="comm-time">1 день назад</span>
+                            <a href="#" role="button" class="reply-btn">Ответить</a>
+
+
+                          </div>
+                        </div>
+
+                        <div class="commentary-form">
+                          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+                            <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                            <input type="hidden" name="MainCommentary[replyTo]" value="1136">
+                            <div class="form-group">
+                              <div class="col-sm-10 col-xs-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                                <a href="" class="smiles"></a>
+                              </div>
+                              <div class="col-sm-2 col-xs-2 hover_tooltip">
+                                <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+
+                      <div class="panel panel-default panel-chat pchat-btm">
+
+                        <div class="media" id="comment-1135">
+                          <div class="media-left">
+                            <a href="/user/view/72517.html">
+                              <img class="profile-image" src="/avatar/user-default.png" alt="">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">
+                              <a href="/user/view/72517.html">Apokoalohiz</a>
+                            </h4>
+                            <p>
+                              <a href="http://amyc.com/index.php?option=com_k2&view=itemlist&task=user&id=115298&amp;lang=es">флеш игры crazy monkey</a>
+                              <a href="http://www.tangguh.co.id/index.php?option=com_k2&view=itemlist&task=user&id=829090">играть бесплатно автоматы игровые карты</a> http://argillic.com/index.php?option=com_k2&view=itemlist&task=user&id=963264
+                              banana slots</p>
+
+
+                            <span class="comm-time">1 день назад</span>
+                            <a href="#" role="button" class="reply-btn">Ответить</a>
+
+
+                          </div>
+                        </div>
+
+                        <div class="commentary-form">
+                          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+                            <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                            <input type="hidden" name="MainCommentary[replyTo]" value="1135">
+                            <div class="form-group">
+                              <div class="col-sm-10 col-xs-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                                <a href="" class="smiles"></a>
+                              </div>
+                              <div class="col-sm-2 col-xs-2 hover_tooltip">
+                                <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+
+                      <div class="panel panel-default panel-chat pchat-btm">
+
+                        <div class="media" id="comment-1134">
+                          <div class="media-left">
+                            <a href="/user/view/72048.html">
+                              <img class="profile-image" src="/avatar/user-default.png" alt="">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">
+                              <a href="/user/view/72048.html">AlfredEnrof</a>
+                            </h4>
+                            <p>wh0cd955772
+                              <a href=http://trazodonehcl.us.com/>trazodone hcl</a>
+                              <a href=http://clindamycin300mg.us.com/>Generic Cleocin</a>
+                              <a href=http://hydrochlorothiazide25mg.us.com/>hydrochlorothiazide</a>
+                            </p>
+
+
+                            <span class="comm-time">1 день назад</span>
+                            <a href="#" role="button" class="reply-btn">Ответить</a>
+
+
+                          </div>
+                        </div>
+
+                        <div class="commentary-form">
+                          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+                            <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                            <input type="hidden" name="MainCommentary[replyTo]" value="1134">
+                            <div class="form-group">
+                              <div class="col-sm-10 col-xs-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                                <a href="" class="smiles"></a>
+                              </div>
+                              <div class="col-sm-2 col-xs-2 hover_tooltip">
+                                <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+                    </div>
+
+
+                  </div>
+
+                  <form class="form-inline" action="/" method="post" data-pjax="">
+                    <input type="hidden" name="_csrf" value="enRzeENjaTNNWTIrBlMOWTgSIhINIFFjSR8kHDQhUAAbEDtMLzMfWA==">
+                    <input type="hidden" name="nextLimit" value="10">
+                    <button type="submit" class="btn button-default more-comments">Еще</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+      <div class="learning_mode_wrap on">
+        <div class="learning_mode">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-8">
+              <p>Включен режим обучения</p>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-4 text-right">
+              <a href="#" onclick="Training.off(); return false;" class="border_button learning_mode_btn animate">Выключить</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="/site/search.html">Все истории</a>
+              </li>
+              <li>
+                <!-- <a href="#">Что такое Сторимейз</a> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="search">
+      <div class="close">
+        <i class="icon-icon-close"></i>
+      </div>
+      <div class="form-box">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control left-search-icon" placeholder="#Поиск">
+            <p class="help-block">Введите @ для поиска по автору или # для поиска по тегу</p>
+            <input type="submit" class="hidden">
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <script src="/assets/9e3a7fe8/jquery.js?v=1480660791"></script>
+    <script src="/assets/1fc82ea/yii.js?v=1480660791"></script>
+    <script src="/assets/f6352a8b/jquery.pjax.js?v=1480660798"></script>
+    <script src="/assets/72caf0b4/js/bootstrap.js?v=1480660791"></script>
+    <script src="/js/jquery.color.js?v=1454756029"></script>
+    <script src="/js/jquery.scrollTo.min.js?v=1472760467"></script>
+    <script src="/js/jquery.Jcrop.min.js?v=1454756029"></script>
+    <script src="/js/crop.js?v=1477931093"></script>
+    <script src="/js/sweetalert2/sweetalert2.min.js?v=1472760467"></script>
+    <script src="/js/scroll/scroll-startstop.events.jquery.js?v=1454756029"></script>
+    <script src="/js/jquery-ui-1.11.4/jquery-ui.js?v=1454756029"></script>
+    <script src="/js/circle-progress.js?v=1454756029"></script>
+    <script src="/js/site.js?v=1477931093"></script>
+    <script src="/js/chosen.jquery.js?v=1472760467"></script>
+    <script src="/js/swiper.jquery.min.js?v=1472760467"></script>
+    <script src="/js/main.js?v=1480613207"></script>
+    <script src="/js/func.js?v=1481124083"></script>
+    <script src="/js/js.cookie.js?v=1454756029"></script>
+    <script src="/js/jQueryRotate.js?v=1454756029"></script>
+    <script src="/js/training-mode.js?v=1472760467"></script>
+    <script src="/js/owl.carousel.min.js?v=1480613207"></script>
+    <script src="/js/summernote.min.js?v=1480613207"></script>
+    <script src="/js/scripts.js?v=1480613207"></script>
+    <script src="/js/typehead.min.js"></script>
+    <script src="/js/search.js"></script>
+    <script type="text/javascript">jQuery(document).ready(function () {
+        jQuery(document).pjax("#w8 a", "#w8", { "push": true, "replace": false, "timeout": 1000, "scrollTo": false });
+        jQuery(document).on('submit', "#w8 form[data-pjax]", function (event) { jQuery.pjax.submit(event, '#w8', { "push": true, "replace": false, "timeout": 1000, "scrollTo": false }); });
+
+        $('.help-submit .button-default').click(function (event) {
+          var msg = $('.question_form').val();
+          console.log(msg);
+          event.preventDefault();
+          $.post('/api/site/ticket', { message: msg }, function (data) {
+            if (data.ok == true) {
+              swal('Ваше сообщение отправлено!');
+              $('.question_form').val("");
+            } else {
+              console.log(data);
+              $('.question_form').val("");
+            }
+          });
+
+        });
+
+        $('.help-submit .btn-switcher').click(function (event) {
+          event.preventDefault();
+          if (Training.isOff()) {
+            Training.on()
+          } else {
+            Training.off()
+          }
+        });
+
+        var SubscribeReminder = {
+          timeout: 180,
+          now: function () {
+            return Date.now() / 1000 | 0;
+          },
+          setNextAlertIn: function (alertTime) {
+            Cookies.set('showSubscribeAlert', alertTime, { expires: 365 });
+            if (alertTime !== 'false' && alertTime !== false) {
+              this.init();
+            }
+          },
+          init: function () {
+            var showAlert = Cookies.get('showSubscribeAlert'),
+              timer = undefined;
+            if (showAlert === undefined || showAlert < this.now()) {
+              this.setNextAlertIn(this.now() + this.timeout);
+              timer = this.timeout;
+            }
+
+            if (showAlert > this.now()) {
+              timer = showAlert - this.now();
+            }
+
+            if (timer) {
+              setTimeout(function () {
+                SubscribeReminder.followAlert.call(SubscribeReminder);
+              }, timer * 1000);
+            }
+          },
+          followAlert: function () {
+            that = this;
+            swal({
+              html: $('#block').html(),
+              title: "Подпишись на нас в соцсетях!",
+              showCancelButton: true,
+              cancelButtonText: "Больше не показывать",
+              confirmButtonText: "Позже",
+            }).then(function (isConfirm) {
+              that.setNextAlertIn(isConfirm ? that.now() + that.timeout : 'false');
+              if (!isConfirm) {
+                $.post('/user/disable-social-alert.html', { userId: 0 });
+              }
+            });
+          }
+        }
+
+        SubscribeReminder.init();
+        Search.initHashtagSearch([{ "tagtext": "\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", "id": "1039", "storiesCount": "1243" }, { "tagtext": "\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f", "id": "1118", "storiesCount": "866" }, { "tagtext": "\u0414\u0440\u0430\u043c\u0430", "id": "1050", "storiesCount": "768" }, { "tagtext": "\u0444\u044d\u043d\u0442\u0435\u0437\u0438", "id": "1172", "storiesCount": "709" }, { "tagtext": "\u043c\u0438\u0441\u0442\u0438\u043a\u0430", "id": "1082", "storiesCount": "584" }, { "tagtext": "\u0442\u0440\u0438\u043b\u043b\u0435\u0440", "id": "1167", "storiesCount": "544" }, { "tagtext": "\u0420\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0430", "id": "1218", "storiesCount": "532" }, { "tagtext": "\u0443\u0436\u0430\u0441\u044b", "id": "1084", "storiesCount": "509" }, { "tagtext": "\u0425\u043e\u0447\u0443\u0424\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0443", "id": "1298", "storiesCount": "477" }, { "tagtext": "\u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435", "id": "1226", "storiesCount": "446" }]);
+        $('.timeline-mode-select').change(function () {
+          var mode = $(this).val();
+
+          if (mode) {
+            if (mode == 'authors') {
+              location.href = "/authors/index.html";
+            } else {
+              location.href = "/site/" + mode + ".html";
+            }
+          }
+        });
+      });</script>
+    <div id="liver">
+      <!--LiveInternet counter-->
+      <script type="text/javascript">//<!--
+        document.write("<a href='//www.liveinternet.ru/click' " +
+          "target=_blank><img src='//counter.yadro.ru/hit?t26.5;r" +
+          escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+            ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+              screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+          ";h" + escape(document.title.substring(0, 80)) + ";" + Math.random() +
+          "' alt='' title='LiveInternet: показано число посетителей за" +
+          " сегодня' " +
+          "border='0' width='88' height='15'><\/a>")
+            //--></script>
+      <!--/LiveInternet-->
+      <!-- Yandex.Metrika counter -->
+      <script type="text/javascript">
+          (function (d, w, c) {
+            (w[c] = w[c] || []).push(function () {
+              try {
+                w.yaCounter34170405 = new Ya.Metrika({
+                  id: 34170405,
+                  clickmap: true,
+                  trackLinks: true,
+                  accurateTrackBounce: true,
+                  webvisor: true
+                });
+              } catch (e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+              s = d.createElement("script"),
+              f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+          })(document, window, "yandex_metrika_callbacks");
+      </script>
+      <noscript>
+        <div>
+          <img src="https://mc.yandex.ru/watch/34170405" style="position:absolute; left:-9999px;" alt="" />
+        </div>
+      </noscript>
+      <!-- /Yandex.Metrika counter -->
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+  <script type="text/javascript">
+    var Training = new TrainingMode();
+    $("#search form").submit(function (event) {
+      event.preventDefault();
+      var search = $(this).find('input.form-control').val();
+      if (search) {
+        window.location.replace('/site/search.html?s=' + search)
+      }
+    });
+
+  </script>
+</body>
+
+</html>
