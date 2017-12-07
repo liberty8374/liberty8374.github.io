@@ -1,0 +1,56 @@
+body.night-theme{
+	background-color: #24232b;
+}
+.night-theme h2, .night-theme h3, .night-theme .author__name, .night-theme .author__addts{
+	color: #ffffff;
+}
+.night-theme .ra-link{
+	color: #9494a8;
+}
+.night-theme .ra-link:hover{
+	color: #714aed;
+}
+.night-theme .panel{
+	background-color: #3e3e4d;
+}
+.night-theme .show-more{
+	background-color: #2a2a34;
+	color: #ffffff;
+}
+.night-theme .btn-popular {
+    color: #3e3e4d;
+    background-color: #9494a8;
+}
+.night-theme .panel-block {
+    border-color: #4b4b5e;
+}
+.night-theme .panel-block p {
+    color: #9494a8;
+}
+.night-theme .note-editor.note-frame .note-editing-area .note-editable,
+.night-theme .note-editor.note-frame .note-statusbar .note-resizebar{
+	background-color: #3e3e4d;
+	color: white;
+}
+.night-theme .btn-group-vertical>.btn, .night-theme .btn-group>.btn{
+	color: white;
+	background-color: #3e3e4d;
+}
+.night-theme .open>.dropdown-toggle.btn-default.focus, .night-theme .open>.dropdown-toggle.btn-default:focus, .night-theme .open>.dropdown-toggle.btn-default:hover,
+.night-theme .btn-group-vertical>.btn:hover, .night-theme .btn-group>.btn:hover,
+.night-theme .btn-group-vertical>.btn:focus, .night-theme .btn-group>.btn:focus,
+.night-theme .btn-group-vertical>.btn:active, .night-theme .btn-group>.btn:active{
+
+	background-color: #714aed;
+	color: #ffffff;
+}
+.night-theme .media-heading,
+.night-theme a.reply-btn{
+	color: #9494a8;
+}
+.night-theme .media-body p {
+    color: #ffffff;
+}
+.night-theme .loadbtn-wr .lb-hwr:before, .night-theme .loadbtn-wr .lb-hwr:after{
+	background-color: #3e3e4d;
+}

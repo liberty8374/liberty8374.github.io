@@ -1,0 +1,737 @@
+.night_mode .profile_white,
+.night_mode .user-followers,
+.night_mode .story-wrapper,
+.night_mode .user-update {
+    background: #3e3e4d;
+}
+
+body.night_mode {
+    background: #24232b;
+    /*background: url(../img/bg_night.jpg) 50% 0;
+    background-attachment: fixed;*/
+    color: #f8f7f7;
+}
+
+.night_mode story-index,
+.night_mode .episode-wrapper,
+.night_mode .profile-wrapper,
+.night_mode .user-actions,
+.night_mode .site-change-password,
+.night_mode .user-followings,
+.night_mode .roles-editor,
+.night_mode .user-followers,
+.night_mode .story-view .edit-btn,
+.night_mode .episode-index,
+.night_mode .episode-form,
+.night_mode .user-friends,
+.night_mode .search-result-content,
+.night_mode .commentary-create,
+.night_mode .site-confirm,
+.night_mode .site-restore-password,
+.night_mode .user-update,
+.night_mode .story-update,
+.night_mode .episode-create,
+.night_mode .episode-update,
+.night_mode .story-view,
+.night_mode .episode-view,
+.night_mode .commentary-update,
+.night_mode .site-error {
+    color: #f8f7f7;
+}
+
+.night_mode .file-drop-zone {
+    min-height: 176px;
+    background-color: #2d2d38;
+}
+
+.night_mode .user-form .form-control {
+    border: 1px solid #454555;
+}
+
+.night_mode .user-form .form-group {
+    border-bottom: 1px solid #424253;
+}
+
+.night_mode .user-form .control-label {
+    color: #c9c9e6;
+}
+
+.night_mode .profile-wrapper .form-control:focus {
+    background: #424253 !important;
+    color: #bcbcd6 !important;
+}
+
+.night_mode .field-user-private label {
+    background-color: #484858;
+}
+
+.night_mode .user-form .form-horizontal .join_using {
+    background-color: #484858;
+}
+
+.night_mode .checkbox_block label:after {
+    background-color: #bcbcd6;
+}
+
+.field-user-private input[type="checkbox"]:checked + label span::before {
+    background: url(../img/checked_night.png) no-repeat center, #b6b6d0;
+}
+
+.night_mode .checkbox_block input[type="checkbox"]:checked + label:after {
+    background: url(../img/checked_night.png) no-repeat center, #b6b6d0;
+}
+
+.night_mode .checkbox_block.genre_checkbox input[type="checkbox"]:checked + label::after {
+    background: url(../img/checked_night.png) no-repeat center;
+}
+
+.night_mode .profile_white,
+.night_mode .user-followers,
+.night_mode .story-wrapper,
+.night_mode .user-update {
+    background-color: #545469;
+}
+
+.night_mode .story_short,
+.night_mode .profile_title_maze .title_maze {
+    color: #545469;
+}
+
+.night_mode .user-followers_wrap > div:not(:nth-of-type(5n)) {
+    border-right: 1px solid #4a4a5c;
+}
+
+.night_mode .user-followers_wrap > div {
+    // border-bottom: 1px solid #505063;
+    border-top: none;
+}
+
+.night_mode .profile-wrapper .margin-tb li:not(:last-child)::after {
+    background: #545465;
+}
+
+.night_mode .edit-follow-profile a,
+.night_mode#left-part-profile a,
+.night_mode #left-part-profile p {
+    color: #f8f7f7;
+}
+
+.night_mode .story_short,
+.night_mode .profile_title_maze .title_maze {
+    color: #c9c9e6 !important;
+}
+
+.night_mode .profile_white .border_button {
+    color: #f8f7f7 !important;
+}
+
+.night_mode .story_short {
+    border-bottom: 1px solid #505063;
+}
+
+.night_mode .profile_title_maze {
+    border-bottom: 1px solid #505063;
+}
+
+.night_mode .story-wrapper .story_info {
+    background: #545469;
+}
+
+.night_mode .search-result-content {
+    color: #f8f7f7 !important;
+}
+
+.night_mode .story-wrapper .yet {
+    color: #f8f7f7 !important;
+}
+
+.night_mode .story-wrapper .more_comments {
+    background: #3e3e4d;
+}
+
+.night_mode .story_info .episodes-count span.number {
+    background: #9595a9;
+    color: #f3f3f3;
+}
+
+.night_mode .story-wrapper .more_comments {
+    color: #9494a8 !important;
+}
+
+.night_mode .story-wrapper .episodes-count {
+    color: #f3f3f3;
+}
+
+.night_mode .commentary-partial-wrapper {
+    background: #545469;
+}
+
+.night_mode .comment-wrapper .commentText p {
+    color: #e7e6e7 !important;
+}
+
+.night_mode .comment-wrapper > div.row > div.row {
+    border-bottom: 1px solid #4c4c5f;
+}
+
+.night_mode .comment-wrapper .commentText p {
+    color: #f8f7f7;
+}
+
+.night_mode .story-wrapper .maze-btn-black {
+    color: #2d2d38 !important;
+    background: #9494a8;
+}
+
+.night_mode .commentary-form {
+    background: #3e3e4d;
+}
+
+.night_mode .blue_btn {
+    color: #2a2a34 !important;
+}
+
+.night_mode .form-control .blue_btn {
+    background: #9494a8;
+}
+
+.night_mode .tab_wrap .tab-content,
+.night_mode .white_block_bg,
+.night_mode .tab_wrap .tab-content {
+    background: #3e3e4d;
+}
+
+.night_mode .authors > .margin0,
+.night_mode .profile_white,
+.night_mode .user-update {
+    background: #2d2d38;
+}
+
+.night_mode .user-followers {
+    background: #545469 !important;
+}
+
+.night_mode .swal2-modal.show-swal2.visible:before,
+.night_mode .swal2-modal.show-swal2.visible:after {
+    opacity: 0.4;
+}
+
+.night_mode .swal2-modal.show-swal2.visible textarea,
+.night_mode .swal2-modal.show-swal2.visible {
+    background: #2d2d38 !important;
+}
+
+.night_mode .swal2-modal.show-swal2.visible textarea {
+    border: 1px solid #454555;
+    color: #9494a8;
+}
+
+.night_mode .swal2-modal.show-swal2.visible textarea:focus {
+    background: #424253 !important;
+    color: #bcbcd6 !important;
+}
+
+.night_mode .story-wrapper {
+    background: #545469;
+}
+
+.night_mode .tab_wrap .nav-tabs > li.active > a {
+    background: #3e3e4d;
+    color: #f3f3f3;
+}
+
+.night_mode .tab_wrap .nav-tabs > li > a {
+    background: #545469;
+    color: #9090a4;
+}
+
+.night_mode .story-form .form-control {
+    border: 1px solid #434352;
+}
+
+.night_mode .file-input.file-input-ajax-new .file-preview {
+    border: 1px solid #4a4a5a;
+}
+
+.night_mode .story-form .bottom_story_form .redactor-box .redactor-toolbar {
+    background: #2d2d38;
+}
+
+.night_mode .redactor-editor,
+.night_mode .redactor-box {
+    background: #545469;
+    border: none;
+}
+
+.night_mode .bottom_story_form {
+    border-top: 1px solid #4f4f5f;
+}
+
+.night_mode .story-form .form-control {
+    background: #545469 !important;
+    border: 1px solid #4f4f61;
+}
+
+.night_mode .blue_btn {
+    background: #02addb !important;
+    color: #ffffff !important;
+}
+
+.night_mode .btn-primary {
+    background: #2d2d38;
+    color: #9494a8;
+}
+
+.night_mode .night_mode .genre_checkbox label::after {
+    background: none;
+}
+
+.night_mode .checkbox_block input[type="radio"] + label {
+    color: #9494a8;
+}
+
+.night_mode #story-agelimit input[type="radio"]:checked + label::after {
+    background: url(../img/checked_night.png) no-repeat center #b7b7d1;
+}
+
+.night_mode .file-drop-zone {
+    border: 1px dashed #4c4c5b;
+}
+
+.night_mode .story-wrapper a {
+    color: #fff;
+}
+
+.night_mode .edit_episode_block {
+    background: #545469;
+}
+
+.night_mode .episode-index .episode_name a,
+.night_mode .episode-index .episode_name {
+    color: #9494a8;
+}
+
+.night_mode .my-story-wrapper a,
+.night_mode .my-episode-wrapper a,
+.night_mode .comment-wrapper a {
+    color: #9494a8 !important;
+}
+
+.night_mode .grey_bg {
+    background: #2d2d38;
+}
+
+.night_mode .my_story_block .my-story-wrapper:hover {
+    background: #3e3e4d;
+}
+
+.night_mode .my_story_block .my-story-wrapper:hover .story_title a {
+    color: #f8f7f7 !important;
+}
+
+.night_mode .profile-wrapper a.publish_btn {
+    background: #4e4e62;
+}
+
+.night_mode .profile-wrapper .open a.publish_btn,
+.night_mode .profile-wrapper a.publish_btn:hover {
+    background: #9494a8 !important;
+    color: #3e3e4d !important;
+}
+
+.night_mode .top_line {
+    border-top: 1px solid #9494a8;
+}
+
+.night_mode .my_story_block .col-md-6:first-child {
+    border-right: 1px solid #9494a8;
+}
+
+.night_mode .my_story_block .my-story-wrapper {
+    border-bottom: 1px solid #9494a8;
+}
+
+.night_mode .my-episode-wrapper:last-child {
+    border-bottom: 1px solid #9494a8
+}
+
+.night_mode .my_story_block .my-story-wrapper:hover .episode_info li,
+.night_mode .my_story_block .my-story-wrapper:hover .episode_info a {
+    color: #9494a8 !important;
+}
+
+.night_mode .story_short_preview p {
+    color: #9494a8 !important;
+}
+
+.night_mode .my_story_block .my-story-wrapper.open {
+    background: #3e3e4d;
+}
+
+.night_mode .my_story_block .my-story-wrapper.open .story_title a {
+    color: #f8f7f7 !important;
+}
+
+.night_mode .my_story_block .my-story-wrapper.open .episode_info li,
+.night_mode .my_story_block .my-story-wrapper .more.open {
+    color: #9494a8 !important;
+}
+
+.night_mode .night_mode .story-wrapper {
+    background: #3e3e4d;
+}
+
+.night_mode .tab_wrap .nav-tabs > li.active > a {
+    color: #f8f7f7;
+}
+
+.night_mode .tab_wrap .nav-tabs > li > a {
+    color: #9494a8;
+}
+
+.night_mode .story_text p {
+    color: #c9c9e6;
+}
+
+.night_mode .story_text .story-name {
+    color: #f8f7f7;
+}
+
+.night_mode .profile_white .bottom_episodes_block li a {
+    background: #545469;
+    border: none;
+    color: #f8f7f7 !important;
+}
+
+.night_mode .statistic_maze {
+    border-top: 1px solid rgb(84, 84, 105);
+}
+
+.night_mode .statistic_maze td span {
+    background: #545469;
+    color: #9494a8;
+}
+
+.night_mode .statistic_maze td p {
+    color: #9494a8;
+}
+
+.night_mode .profile_white .border_button {
+    background: #2d2d38;
+    color: #9494a8 !important;
+    border: 1px solid #9494a8;
+}
+
+.night_mode .last_word_author {
+    border-top: 1px solid #9494a8;
+}
+
+.night_mode .last_word_author p.bold {
+    color: #f8f7f7;
+}
+
+.night_mode .col-md-8 p {
+    color: #f8f7f7;
+}
+
+.night_mode .profile_white .border_button {
+    background: #9494a8;
+    border: none;
+    color: #f8f7f7 !important;
+}
+
+.night_mode .support_author {
+    background: #2d2d38;
+}
+
+.night_mode .support_author .title {
+    color: #f8f7f7 !important;
+}
+
+
+/*.night_mode .profile-wrapper a {
+    color: #01afde !important;
+}*/
+
+.night_mode .comment-wrapper .commentText .delete_comment,
+.night_mode .story-wrapper .comment-wrapper .profile-text ul li {
+    color: #9494a8 !important;
+}
+
+.night_mode .story-wrapper .comment-wrapper .profile-text ul li.time_online::after {
+    background: #9494a8 !important;
+}
+
+.night_mode .complain span,
+{
+    color: #9494a8 !important;
+}
+
+.night_mode .profile-wrapper .tab_wrap li.active a {
+    color: #f8f7f7 !important;
+}
+
+.night_mode .title14 {
+    color: #bcbcd6;
+}
+
+.night_mode .top_line {
+    border-top: 1px solid #4b4b5e;
+}
+
+.night_mode .story-form .control-label {
+    color: #9494a8;
+}
+
+.night_mode .blue_btn.border_rad5.animate.btn.pull-right {
+    color: #2d2d38 !important;
+}
+
+.night_mode .episode_block {
+    background: #3e3e4d !important;
+}
+
+.night_mode .error .episode_block {
+    background: #2d2d38 !important;
+}
+
+.night_mode .inline_li li a {
+    color: #9494a8 !important;
+}
+
+.night_mode .progress_wrap .episode-index {
+    border-top: 1px solid #9494a8;
+}
+
+.night_mode .progress_wrap .my-episode-wrapper {
+    border-bottom: 1px solid #9494a8;
+    background: #3e3e4d !important;
+}
+
+.night_mode .progress_wrap .error .my-episode-wrapper {
+    background: #2d2d38 !important;
+}
+
+.night_mode .progress_wrap .episode_title a {
+    color: #9494a8 !important;
+}
+
+.night_mode .tab_wrap .nav-tabs > li > a {
+    color: #9494a8 !important;
+}
+
+.night_mode .progress_wrap .episode_block p {
+    color: #9494a8;
+}
+
+.night_mode .progress_wrap .active .episode_block a {
+    color: #c9c9e6 !important;
+}
+
+.night_mode .progress_wrap .my-episode-wrapper p {
+    color: #545469;
+}
+
+.night_mode .commentary-partial-wrapper .more_comments {
+    background: #3e3e4d;
+    color: #9494a8;
+}
+
+.night_mode .story-wrapper .story-name,
+.night_mode .story-wrapper .story-name a {
+    color: #fff !important;
+}
+
+.night_mode .tab_wrap .nav-tabs > li:first-child:before {
+    background: url(../img/tab_left_light.png);
+}
+
+.night_mode .tab_wrap .nav-tabs > li.active:first-child:before {
+    background: url(../img/tab_left_dark.png);
+}
+
+.night_mode .tab_wrap .nav-tabs > li + li:before {
+    background: url(../img/tab_right_light.png);
+}
+
+.night_mode .tab_wrap .nav-tabs > li + li.active:before {
+    background: url(../img/tab_right_dark.png);
+}
+
+.night_mode .profile-wrapper .episode-index a {
+    color: #9494a8 !important;
+}
+
+.night_mode .profile-wrapper a.blue_btn {
+    color: #fff !important;
+}
+
+.night_mode .part_slide ul li a.next {
+    background: url(../img/next_part_night.png) no-repeat center 3px;
+}
+
+.night_mode .part_slide ul li a.to_end {
+    background: url(../img/to_end_night.png) no-repeat center 3px;
+}
+
+.night_mode .part_slide ul li a.to_start {
+    background: url(../img/to_start_night.png) no-repeat center 3px;
+}
+
+.night_mode .part_slide ul li a.prev {
+    background: url(../img/prev_part_night.png) no-repeat center 2px;
+}
+
+.night_mode .bottom_story_block {
+    background: #545469;
+}
+
+.night_mode .bottom_story_block a {
+    color: #b8b8d1 !important;
+}
+
+.night_mode .more_comments {
+    color: #9494a8 !important;
+}
+
+.night_mode .review:after {
+    background: url(../img/book_dark.png);
+}
+
+.night_mode .genre_checkbox.checkbox_block label:after {
+    background: none;
+}
+
+.form-group .form-control {
+    color: #9494a8;
+}
+
+.night_mode .form-group .form-control::-webkit-input-placeholder {
+    color: #9494a8;
+}
+
+#search-container .form-control::-webkit-input-placeholder {
+    color: #9494a8;
+}
+
+#search-container .form-control::-moz-placeholder {
+    color: #9494a8;
+}
+
+.night_mode .form-group .form-control::-moz-placeholder {
+    color: #9494a8;
+}
+
+#search-container .form-control:-moz-placeholder {
+    color: #9494a8;
+}
+
+.night_mode .form-group .form-control:-moz-placeholder {
+    color: #9494a8;
+}
+
+#search-container .form-control:-ms-input-placeholder {
+    color: #9494a8;
+}
+
+.night_mode .form-group .form-control:-ms-input-placeholder {
+    color: #9494a8;
+}
+
+#search-container .form-control,
+.night_mode .roles-editor input[type=checkbox] + label {
+    color: #9494a8;
+}
+
+.roles-editor input[type=checkbox]:disabled + label {
+    color: #b3b3b3;
+}
+
+.roles-editor .user-update .btn-file {
+    margin-bottom: 30px;
+}
+
+.progress_wrap .my-episode-wrapper:hover .my-episode_right span {
+    color: #01afde !important;
+}
+
+.night_mode .progress_wrap .error:hover .episode_title,
+.night_mode .progress_wrap .episode_title,
+.night_mode .progress_wrap .my-episode-wrapper.error:hover .my-episode_right span,
+.night_mode .progress_wrap .my-episode_right span,
+.night_mode .progress_wrap .episode_title a {
+    color: #c9c9e6 !important;
+}
+
+.night_mode .progress_wrap .my-episode-wrapper.open .my-episode_right span,
+.night_mode .progress_wrap .my-episode-wrapper p {
+    color: #9494a8 !important;
+}
+
+.night_mode .redactor-toolbar {
+    background: #2d2d38;
+}
+
+.night_mode .redactor-box li a {
+    color: #01afde !important;
+}
+
+.night_mode .redactor-placeholder:after {
+    color: #fff !important;
+}
+
+.night_mode .created_story .text-center.episodes {
+    background: #3e3e4d;
+    border-top: 1px solid #545469;
+}
+
+.night_mode .author_name a {
+    color: #01afde !important;
+}
+
+.night_mode .subscribe_top.maze_edit_top .maze-btn-black {
+    color: #2d2d38 !important;
+    background: #9494a8;
+    padding: 3px 6px;
+}
+
+.night_mode .profile_white .bottom_episodes_block li .maze-btn-blue {
+    color: #1db0dc !important;
+}
+
+.night_mode .profile_white .bottom_episodes_block li .maze-btn-red {
+    color: #c34332 !important;
+    border-color: #c34332 !important;
+    background: none !important;
+}
+
+.night_mode .commentary-form input {
+    background: #9494a8;
+    border: 1px solid #7a7a8d;
+    color: #24232b !important;
+    font-size: 11px;
+}
+
+.night_mode .commentary-form input.form-control::-webkit-input-placeholder {
+    color: #b8b8d1;
+}
+
+.night_mode .commentary-form input.form-control::-moz-placeholder {
+    color: #b8b8d1;
+}
+
+.night_mode .commentary-form input.form-control:-moz-placeholder {
+    color: #b8b8d1;
+}
+
+.night_mode .commentary-form input.form-control:-ms-input-placeholder {
+    color: #b8b8d1;
+}
+
+.night_mode .user-followers_wrap > div{
+        border-bottom: 1px solid #4a4a5c;
+}
+
+.night_mode .user-followers_wrap:before {
+    background: #545469;
+}

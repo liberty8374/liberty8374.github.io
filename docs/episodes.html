@@ -1,0 +1,49 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Список эпизодов в архиве</title>
+</head>
+
+<body>
+    <div id="episodes_table">
+        <div>
+            <p>
+                Некоторые страницы оказались главными страницами сторимейзов, а не эпизодами.
+            </p>
+            <p>
+                <input type="checkbox" v-model="show_stories"> Показать сторимейзы
+            </p>
+        </div>
+        <hr>
+        <table v-if="episodes.length > 0">
+            <thead>
+                <tr>
+                    <th>Сторимейз</th>
+                    <th>Эпизод</th>
+                    <th>Ссылка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="desc in episodes" v-if="desc.story !== 'none' && (show_stories || desc.type !== 'story')">
+                    <td>{{desc.story}}</td>
+                    <td>{{desc.episode}}</td>
+                    <td>
+                        <a target="_blank" :href="'/episode/view/' + desc.id + '.html'">
+                            {{desc.id}}
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p v-else>
+            Загрузка...
+        </p>
+    </div>
+
+    <script src="/js/vue.js"></script>
+    <script src="/assets/jquery.js"></script>
+    <script src="/episodes.js"></script>
+</body>
+
+</html>

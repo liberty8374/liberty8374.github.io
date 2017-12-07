@@ -1,0 +1,713 @@
+<!DOCTYPE html><html><head>
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app4.us.archive.org";archive_analytics.values.server_ms=0;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta charset="utf-8" /><meta name="description" content="Живые рассказы, в которых несколько сюжетных линий, и концовка зависит от выбора читателя."><meta name="keywords" content="pickerbook, пикербук, storymaze, сторимэйз, интерактивные рассказы, интерактивные истории, живые рассказы, читать, интересные рассказы, истории, интерактивная литература"><meta property="og:title" content="Пикербук: Интерактивные истории"/><meta property="og:description" content="Читайте короткие рассказы, в которых сюжет и концовка зависят от Вашего выбора"/><meta property="og:image" content="http://u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/583212a7550f6e38582774a234433cef.gif"/><title>PickerBook</title><link rel="icon" type='image/png' href="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/a165bcb399fb4b9de9b7d20a952718ed.png"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script>window.plp = {"page_id":1014155,"content_id":1192686,"lang":"ru","time":1511948589,"screens":"screens-xs-md-lg","animations":{"section":{"type":"scroll"},"widget":{"type":"scroll"}}};window.plp_page_id = 1014155;window.plp_content_id = 1192686;window.plp_lang = "ru";window.error_handler = function (e, fn_id) {    window.console && console.log && console.log(fn_id);    window['error_handler_' + fn_id] && eval(window['error_handler_' + fn_id]);    window.trackJs && trackJs.track(e);    window.console && console.error && console.error(e.message);};</script><link type="text/css" rel="stylesheet" href="/save/_embed/http://s.platformalp.ru/assets/3.0/default.css"></link><script type="text/javascript">window._trackJs = {    token: "4fd557ccb06a4bd28e7b90da188cd54b",    application: "production",    enabled: location.href.indexOf("notrackjs") < 0,};</script><script src="/save/_embed/https://vk.com/js/api/openapi.js?147" type="text/javascript"></script>
+<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = '/save/https://vk.com/rtrg?p=VK-RTRG-189799-hkmxQ';</script></head><body class="area ">
+
+
+
+
+  
+    
+<script> if (window.archive_analytics) { window.archive_analytics.values['server_name']="wwwb-app4.us.archive.org";}; </script>
+
+<!-- Start of Record Banner output -->
+<wb_div id="__wb_record_overlay_div" class="__wb_overlay">
+</wb_div>
+
+<wb_div class="__wb_record_content" id="__wb_record_content_loader">
+<wb_h1 id="_wb_load_msg">Saving page now...</wb_h1>
+<wb_p id="_wb_curr_url">http://pickerbook.com/?s=%2523%25D0%25BA%25D0%25B0%25D0%25BF%25D1%2581%25D1%2583%25D0%25BB%25D0%25B0_%25D0%25B2%25D1%2580%25D0%25B5%25D0%25BC%25D0%25B5%25D0%25BD%25D0%25B8</wb_p>
+<wb_p>As it appears live December 5, 2017 9:37:41 AM UTC</wb_p>
+
+
+
+<wb_div id="__wb_spinningSquaresG">
+<wb_div id="__wb_spinningSquaresG_1" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_2" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_3" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_4" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_5" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_6" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_7" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_8" class="__wb_spinningSquaresG">
+</wb_div>
+</wb_div>
+
+<img id="_wb_logo" src="/static/images/logo_WM.png"/>
+</wb_div>
+
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript">
+  function doRedir()
+  {   
+    var redirUrl = "/web/20171205093741/http://pickerbook.com/?s=%2523%25D0%25BA%25D0%25B0%25D0%25BF%25D1%2581%25D1%2583%25D0%25BB%25D0%25B0_%25D0%25B2%25D1%2580%25D0%25B5%25D0%25BC%25D0%25B5%25D0%25BD%25D0%25B8";
+    var textElem = document.getElementById("_wb_load_msg");
+    if (textElem) {
+      textElem.innerHTML = "Loading Saved Page...";
+    }
+    window.location.replace(redirUrl);  
+  }
+  
+  function redirToCapture()
+  {
+    window.setTimeout(doRedir, 1000);
+  }
+
+  
+  if ( window != window.top ) {
+    
+    var wmOverlay = document.getElementById("__wb_record_overlay");
+    
+    if (wmOverlay) {
+      wmOverlay.style.display = "none";
+    }
+    
+  } else {
+    
+    if (window.addEventListener) {
+      window.addEventListener('load', redirToCapture, false);
+    } else if (window.attachEvent) {
+      window.attachEvent('onload', redirToCapture);
+    }
+    
+    // Just in case, redir after 90 secs
+    window.setTimeout(doRedir, 90000);
+  }
+</script>
+
+<!-- End of Record Banner Output output -->
+
+  
+
+
+
+<div class="area font-text-neucha font-header-neucha"><style>.node2 > .wrapper1 { color: #FFF; border-radius: 0px }
+.node2 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node2 a { color: rgb(25, 133, 230) }
+
+
+.node0 > .wrapper1 { background-color: rgb(5, 11, 16); color: #FFF }
+.node0 > .wrapper1 > .wrapper2 { padding-top: 0px; padding-bottom: 0px }
+.node0 a { color: rgb(25, 133, 230) }
+
+
+.node5 > .wrapper1 { background-color: rgba(5, 11, 16, 0.8); color: #FFF; border-radius: 0px }
+.node5 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node5 a { color: rgb(25, 133, 230) }
+
+
+#uid2 { background-color: rgb(252, 252, 252);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(202, 202, 202);padding-top: 14px;padding-bottom: 14px;padding-left: 28px;padding-right: 28px;font-size: 24px;font-weight: bold;color: rgb(0, 0, 0); } #uid2:hover, #uid2.hover { background-color: rgb(0, 0, 0);border-color: rgb(255, 255, 255);color: rgb(252, 252, 252); } #uid2:active, #uid2.active { background-color: rgb(0, 0, 0);border-color: rgb(0, 0, 0);color: rgb(252, 252, 252); } #uid2:before {  } #uid2:active:before, #uid2.active:before { background-color: rgb(0, 0, 0); } #uid2 .fa { font-size: 31px; } 
+
+.node6 > .wrapper1 { color: #FFF; border-radius: 0px }
+.node6 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node6 a { color: rgb(25, 133, 230) }
+
+
+#uid3 { background-color: rgba(5, 11, 16, 0.8);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(4, 8, 13);padding-top: 14px;padding-bottom: 14px;padding-left: 28px;padding-right: 28px;font-size: 24px;font-weight: bold;color: rgb(255, 255, 255); } #uid3:hover, #uid3.hover { background-color: rgb(4, 10, 14);border-color: rgb(3, 8, 12);color: rgb(255, 255, 255); } #uid3:active, #uid3.active { background-color: rgb(4, 9, 13);border-color: rgb(2, 6, 9);color: rgb(255, 255, 255); } #uid3:before {  } #uid3:active:before, #uid3.active:before { background-color: rgb(4, 9, 13); } #uid3 .fa { font-size: 31px; } 
+
+.node7 > .wrapper1 { color: #FFF; border-radius: 0px }
+.node7 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node7 a { color: rgb(25, 133, 230) }
+
+
+.node4 > .wrapper1 { color: #FFF; border-radius: 0px }
+.node4 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node4 a { color: rgb(25, 133, 230) }
+
+
+.node3 > .wrapper1 { background-attachment: fixed; background-position: center center; background-size: cover; background-repeat: repeat; color: #FFF }
+.node3 > .wrapper1 > .wrapper2 { background-image: linear-gradient(to bottom, rgb(5, 11, 16) 0%, rgba(5, 11, 16, 0.2) 100%); padding-top: 200px; padding-bottom: 200px }
+.node3 a { color: rgb(25, 133, 230) }
+
+
+.node10 > .wrapper1 { background-color: rgba(5, 11, 16, 0.8); color: #FFF; border-radius: 0px }
+.node10 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node10 a { color: rgb(25, 133, 230) }
+
+
+#uid4 { background-color: rgb(252, 252, 252);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(202, 202, 202);padding-top: 14px;padding-bottom: 14px;padding-left: 28px;padding-right: 28px;font-size: 20px;font-weight: bold;color: rgb(0, 0, 0); } #uid4:hover, #uid4.hover { background-color: rgb(0, 0, 0);border-color: rgb(255, 255, 255);color: rgb(252, 252, 252); } #uid4:active, #uid4.active { background-color: rgb(0, 0, 0);border-color: rgb(0, 0, 0);color: rgb(252, 252, 252); } #uid4:before {  } #uid4:active:before, #uid4.active:before { background-color: rgb(0, 0, 0); } #uid4 .fa { font-size: 26px; } 
+
+.node11 > .wrapper1 { color: #FFF; border-radius: 0px }
+.node11 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node11 a { color: rgb(25, 133, 230) }
+
+
+#uid5 { background-color: rgba(5, 11, 16, 0.8);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(4, 8, 13);padding-top: 14px;padding-bottom: 14px;padding-left: 28px;padding-right: 28px;font-size: 20px;font-weight: bold;color: rgb(255, 255, 255); } #uid5:hover, #uid5.hover { background-color: rgb(4, 10, 14);border-color: rgb(3, 8, 12);color: rgb(255, 255, 255); } #uid5:active, #uid5.active { background-color: rgb(4, 9, 13);border-color: rgb(2, 6, 9);color: rgb(255, 255, 255); } #uid5:before {  } #uid5:active:before, #uid5.active:before { background-color: rgb(4, 9, 13); } #uid5 .fa { font-size: 26px; } 
+
+.node12 > .wrapper1 { color: #FFF; border-radius: 0px }
+.node12 > .wrapper1 > .wrapper2 { padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; border-radius: -3px }
+.node12 a { color: rgb(25, 133, 230) }
+
+
+.node9 > .wrapper1 { color: #FFF; border-radius: 0px }
+.node9 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node9 a { color: rgb(25, 133, 230) }
+
+
+.node8 > .wrapper1 { background-position: center center; background-size: cover; background-repeat: repeat; color: #FFF }
+.node8 > .wrapper1 > .wrapper2 { background-image: linear-gradient(to bottom, rgb(5, 11, 16) 0%, rgba(5, 11, 16, 0.2) 100%); padding-top: 100px; padding-bottom: 100px }
+.node8 a { color: rgb(25, 133, 230) }
+
+
+.node15 > .wrapper1 { color: #333; border-radius: 0px }
+.node15 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node15 a { color: rgb(25, 168, 230) }
+
+
+.node16 > .wrapper1 { color: #333; border-radius: 0px }
+.node16 > .wrapper1 > .wrapper2 { padding-top: 10px; padding-right: 5px; padding-bottom: 10px; padding-left: 5px; border-radius: -3px }
+.node16 a { color: rgb(25, 168, 230) }
+
+
+.node17 > .wrapper1 { color: #333; border-radius: 0px }
+.node17 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node17 a { color: rgb(25, 168, 230) }
+
+
+.node14 > .wrapper1 { color: #333; border-radius: 0px }
+.node14 > .wrapper1 > .wrapper2 { padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; border-radius: -2px }
+.node14 a { color: rgb(25, 168, 230) }
+
+
+.node19 > .wrapper1 { color: #333; border-radius: 0px }
+.node19 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node19 a { color: rgb(25, 168, 230) }
+
+
+.node20 > .wrapper1 { color: #333; border-radius: 0px }
+.node20 > .wrapper1 > .wrapper2 { padding-top: 10px; padding-right: 5px; padding-bottom: 10px; padding-left: 5px; border-radius: -3px }
+.node20 a { color: rgb(25, 168, 230) }
+
+
+.node21 > .wrapper1 { color: #333; border-radius: 0px }
+.node21 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node21 a { color: rgb(25, 168, 230) }
+
+
+.node18 > .wrapper1 { color: #333; border-radius: 0px }
+.node18 > .wrapper1 > .wrapper2 { padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; border-radius: -2px }
+.node18 a { color: rgb(25, 168, 230) }
+
+
+.node23 > .wrapper1 { color: #333; border-radius: 0px }
+.node23 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node23 a { color: rgb(25, 168, 230) }
+
+
+.node24 > .wrapper1 { color: #333; border-radius: 0px }
+.node24 > .wrapper1 > .wrapper2 { padding-top: 10px; padding-right: 5px; padding-bottom: 10px; padding-left: 5px; border-radius: -3px }
+.node24 a { color: rgb(25, 168, 230) }
+
+
+.node25 > .wrapper1 { color: #333; border-radius: 0px }
+.node25 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node25 a { color: rgb(25, 168, 230) }
+
+
+.node22 > .wrapper1 { color: #333; border-radius: 0px }
+.node22 > .wrapper1 > .wrapper2 { padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; border-radius: -2px }
+.node22 a { color: rgb(25, 168, 230) }
+
+
+.node13 > .wrapper1 { background-attachment: fixed; background-position: center center; background-size: auto; background-repeat: repeat; color: #333 }
+.node13 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0); padding-top: 0px; padding-bottom: 0px }
+.node13 a { color: rgb(25, 168, 230) }
+
+
+.node28 > .wrapper1 { color: #333; border-radius: 10px; box-shadow:  0px 11px 5px -7px rgba(0, 0, 0, 0.35) }
+.node28 > .wrapper1 > .wrapper2 { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-radius: 7px }
+.node28 a { color: rgb(25, 168, 230) }
+
+
+.node29 > .wrapper1 { color: #333; border-radius: 0px }
+.node29 > .wrapper1 > .wrapper2 { padding-top: 10px; padding-right: 5px; padding-bottom: 10px; padding-left: 5px; border-radius: -3px }
+.node29 a { color: rgb(25, 168, 230) }
+
+
+.node30 > .wrapper1 { color: #333; border-radius: 0px }
+.node30 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node30 a { color: rgb(25, 168, 230) }
+
+
+#uid9 { background-color: rgb(255, 255, 255);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 2px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(3, 3, 3);padding-top: 8px;padding-bottom: 6px;padding-left: 16px;padding-right: 16px;font-size: 23px;color: rgb(3, 3, 3); } #uid9:hover, #uid9.hover { background-color: rgb(3, 3, 3);border-color: rgb(2, 2, 2);color: rgb(255, 255, 255); } #uid9:active, #uid9.active { background-color: rgb(2, 2, 2);border-color: rgb(2, 2, 2);color: rgb(255, 255, 255); } #uid9:before {  } #uid9:active:before, #uid9.active:before { background-color: rgb(2, 2, 2); } #uid9 .fa { font-size: 30px; } 
+
+.node31 > .wrapper1 { color: #333; border-radius: 0px }
+.node31 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node31 a { color: rgb(25, 168, 230) }
+
+
+.node27 > .wrapper1 { color: #333; border-radius: 0px }
+.node27 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node27 a { color: rgb(25, 168, 230) }
+
+
+.node26 > .wrapper1 { background-attachment: fixed; background-position: center center; background-size: auto; background-repeat: repeat; color: #333 }
+.node26 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0); padding-top: 120px; padding-bottom: 120px }
+.node26 a { color: rgb(25, 168, 230) }
+
+
+.node34 > .wrapper1 { color: #333; border-radius: 0px }
+.node34 > .wrapper1 > .wrapper2 { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-radius: -3px }
+.node34 a { color: rgb(25, 168, 230) }
+
+
+.node35 > .wrapper1 { color: #333; border-radius: 0px }
+.node35 > .wrapper1 > .wrapper2 { padding-top: 10px; padding-right: 5px; padding-bottom: 10px; padding-left: 5px; border-radius: -3px }
+.node35 a { color: rgb(25, 168, 230) }
+
+
+.node36 > .wrapper1 { color: #333; border-radius: 0px }
+.node36 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node36 a { color: rgb(25, 168, 230) }
+
+
+#uid10 { background-color: rgb(255, 255, 255);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 2px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(3, 3, 3);padding-top: 8px;padding-bottom: 6px;padding-left: 16px;padding-right: 16px;font-size: 20px;color: rgb(3, 3, 3); } #uid10:hover, #uid10.hover { background-color: rgb(3, 3, 3);border-color: rgb(2, 2, 2);color: rgb(255, 255, 255); } #uid10:active, #uid10.active { background-color: rgb(2, 2, 2);border-color: rgb(2, 2, 2);color: rgb(255, 255, 255); } #uid10:before {  } #uid10:active:before, #uid10.active:before { background-color: rgb(2, 2, 2); } #uid10 .fa { font-size: 26px; } 
+
+.node37 > .wrapper1 { color: #333; border-radius: 0px }
+.node37 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node37 a { color: rgb(25, 168, 230) }
+
+
+.node32 > .wrapper1 { background-attachment: fixed; background-position: center center; background-size: auto; background-repeat: repeat; color: #333 }
+.node32 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0); padding-top: 30px; padding-bottom: 25px }
+.node32 a { color: rgb(25, 168, 230) }
+
+
+.node39 > .wrapper1 { color: #333; border-radius: 0px }
+.node39 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node39 a { color: rgb(25, 168, 230) }
+
+
+.node40 > .wrapper1 { color: #333; border-radius: 0px }
+.node40 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 20px; padding-left: 5px; border-radius: -3px }
+.node40 a { color: rgb(25, 168, 230) }
+
+
+.node42 > .wrapper1 { color: #333; border-radius: 0px }
+.node42 > .wrapper1 > .wrapper2 { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-radius: -3px }
+.node42 a { color: rgb(25, 168, 230) }
+
+
+.node44 > .wrapper1 { color: #333; border-radius: 0px }
+.node44 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node44 a { color: rgb(225, 25, 230) }
+
+
+.node45 > .wrapper1 { color: #333; border-radius: 0px }
+.node45 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -4px }
+.node45 a { color: rgb(225, 25, 230) }
+
+
+.node46 > .wrapper1 { color: #333; border-radius: 0px }
+.node46 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node46 a { color: rgb(225, 25, 230) }
+
+
+#uid14 { background-color: rgb(3, 3, 3);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 2px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(2, 2, 2);padding-top: 8px;padding-bottom: 5px;padding-left: 10px;padding-right: 10px;font-size: 23px;color: rgb(255, 255, 255); } #uid14:hover, #uid14.hover { background-color: rgb(28, 28, 28);border-color: rgb(255, 255, 255);color: rgb(255, 255, 255); } #uid14:active, #uid14.active { background-color: rgb(51, 51, 51);border-color: rgb(255, 255, 255);color: rgb(255, 255, 255); } #uid14:before {  } #uid14:active:before, #uid14.active:before { background-color: rgb(51, 51, 51); } #uid14 .fa { font-size: 30px; } 
+
+.node47 > .wrapper1 { color: #333; border-radius: 0px }
+.node47 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node47 a { color: rgb(225, 25, 230) }
+
+
+.node43 > .wrapper1 { background-color: rgba(255, 255, 255, 0.5); color: #333; border-radius: 0px }
+.node43 > .wrapper1 > .wrapper2 { padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; border-radius: -2px }
+.node43 a { color: rgb(225, 25, 230) }
+
+
+.node41 > .wrapper1 { color: #333; border-radius: 5px; border-width: 2px; border-style: solid; border-color: rgb(230, 230, 230) }
+.node41 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: 3px }
+.node41 a { color: rgb(25, 168, 230) }
+
+
+.node49 > .wrapper1 { color: #333; border-radius: 0px }
+.node49 > .wrapper1 > .wrapper2 { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-radius: -3px }
+.node49 a { color: rgb(25, 168, 230) }
+
+
+.node51 > .wrapper1 { color: #333; border-radius: 0px }
+.node51 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node51 a { color: rgb(225, 25, 230) }
+
+
+.node52 > .wrapper1 { color: #333; border-radius: 0px }
+.node52 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -4px }
+.node52 a { color: rgb(225, 25, 230) }
+
+
+.node53 > .wrapper1 { color: #333; border-radius: 0px }
+.node53 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node53 a { color: rgb(225, 25, 230) }
+
+
+#uid15 { background-color: rgba(3, 3, 3, 0.2);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 2px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(2, 2, 2);padding-top: 8px;padding-bottom: 5px;padding-left: 10px;padding-right: 10px;font-size: 23px;color: rgb(0, 0, 0); } #uid15:hover, #uid15.hover { background-color: rgb(2, 2, 2);border-color: rgb(2, 2, 2);color: rgb(0, 0, 0); } #uid15:active, #uid15.active { background-color: rgb(2, 2, 2);border-color: rgb(1, 1, 1);color: rgb(0, 0, 0); } #uid15:before {  } #uid15:active:before, #uid15.active:before { background-color: rgb(2, 2, 2); } #uid15 .fa { font-size: 30px; } 
+
+.node54 > .wrapper1 { color: #333; border-radius: 0px }
+.node54 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node54 a { color: rgb(225, 25, 230) }
+
+
+.node50 > .wrapper1 { background-color: rgba(255, 255, 255, 0.5); color: #333; border-radius: 0px }
+.node50 > .wrapper1 > .wrapper2 { padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; border-radius: -2px }
+.node50 a { color: rgb(225, 25, 230) }
+
+
+.node48 > .wrapper1 { color: #333; border-radius: 5px; border-width: 2px; border-style: solid; border-color: rgb(230, 230, 230) }
+.node48 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: 3px }
+.node48 a { color: rgb(25, 168, 230) }
+
+
+.node56 > .wrapper1 { color: #333; border-radius: 0px }
+.node56 > .wrapper1 > .wrapper2 { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-radius: -3px }
+.node56 a { color: rgb(25, 168, 230) }
+
+
+.node58 > .wrapper1 { color: #333; border-radius: 0px }
+.node58 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node58 a { color: rgb(225, 25, 230) }
+
+
+.node59 > .wrapper1 { color: #333; border-radius: 0px }
+.node59 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -4px }
+.node59 a { color: rgb(225, 25, 230) }
+
+
+.node60 > .wrapper1 { color: #333; border-radius: 0px }
+.node60 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node60 a { color: rgb(225, 25, 230) }
+
+
+#uid29 { background-color: rgba(3, 3, 3, 0.2);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 2px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(2, 2, 2);padding-top: 8px;padding-bottom: 5px;padding-left: 10px;padding-right: 10px;font-size: 23px;color: rgb(0, 0, 0); } #uid29:hover, #uid29.hover { background-color: rgb(2, 2, 2);border-color: rgb(2, 2, 2);color: rgb(0, 0, 0); } #uid29:active, #uid29.active { background-color: rgb(2, 2, 2);border-color: rgb(1, 1, 1);color: rgb(0, 0, 0); } #uid29:before {  } #uid29:active:before, #uid29.active:before { background-color: rgb(2, 2, 2); } #uid29 .fa { font-size: 30px; } 
+
+.node107 > .wrapper1 { color: #333; border-radius: 0px }
+.node107 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node107 a { color: rgb(225, 25, 230) }
+
+
+.node57 > .wrapper1 { background-color: rgba(255, 255, 255, 0.5); color: #333; border-radius: 0px }
+.node57 > .wrapper1 > .wrapper2 { padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; border-radius: -2px }
+.node57 a { color: rgb(225, 25, 230) }
+
+
+.node55 > .wrapper1 { color: #333; border-radius: 5px; border-width: 2px; border-style: solid; border-color: rgb(230, 230, 230) }
+.node55 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: 3px }
+.node55 a { color: rgb(25, 168, 230) }
+
+
+.node38 > .wrapper1 { background-attachment: fixed; background-position: center center; background-size: auto; background-repeat: repeat; color: #333 }
+.node38 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0); padding-top: 50px; padding-bottom: 20px }
+.node38 a { color: rgb(25, 168, 230) }
+
+
+.node63 > .wrapper1 { color: #333; border-radius: 0px }
+.node63 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node63 a { color: rgb(25, 168, 230) }
+
+
+.node64 > .wrapper1 { color: #333; border-radius: 0px }
+.node64 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node64 a { color: rgb(25, 168, 230) }
+
+
+.node66 > .wrapper1 { color: #333; border-radius: 0px }
+.node66 > .wrapper1 > .wrapper2 { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-radius: -3px }
+.node66 a { color: rgb(25, 168, 230) }
+
+
+.node68 > .wrapper1 { color: #333; border-radius: 0px }
+.node68 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node68 a { color: rgb(225, 25, 230) }
+
+
+.node69 > .wrapper1 { color: #333; border-radius: 0px }
+.node69 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -4px }
+.node69 a { color: rgb(225, 25, 230) }
+
+
+.node70 > .wrapper1 { color: #333; border-radius: 0px }
+.node70 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node70 a { color: rgb(225, 25, 230) }
+
+
+#uid20 { background-color: rgb(3, 3, 3);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 2px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(2, 2, 2);padding-top: 8px;padding-bottom: 5px;padding-left: 10px;padding-right: 10px;font-size: 20px;color: rgb(255, 255, 255); } #uid20:hover, #uid20.hover { background-color: rgb(28, 28, 28);border-color: rgb(255, 255, 255);color: rgb(255, 255, 255); } #uid20:active, #uid20.active { background-color: rgb(51, 51, 51);border-color: rgb(255, 255, 255);color: rgb(255, 255, 255); } #uid20:before {  } #uid20:active:before, #uid20.active:before { background-color: rgb(51, 51, 51); } #uid20 .fa { font-size: 26px; } 
+
+.node71 > .wrapper1 { color: #333; border-radius: 0px }
+.node71 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node71 a { color: rgb(225, 25, 230) }
+
+
+.node67 > .wrapper1 { background-color: rgba(255, 255, 255, 0.5); color: #333; border-radius: 0px }
+.node67 > .wrapper1 > .wrapper2 { padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; border-radius: -2px }
+.node67 a { color: rgb(225, 25, 230) }
+
+
+.node65 > .wrapper1 { color: #333; border-radius: 5px; border-width: 2px; border-style: solid; border-color: rgb(230, 230, 230) }
+.node65 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: 3px }
+.node65 a { color: rgb(25, 168, 230) }
+
+
+.node73 > .wrapper1 { color: #333; border-radius: 0px }
+.node73 > .wrapper1 > .wrapper2 { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-radius: -3px }
+.node73 a { color: rgb(25, 168, 230) }
+
+
+.node75 > .wrapper1 { color: #333; border-radius: 0px }
+.node75 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node75 a { color: rgb(225, 25, 230) }
+
+
+.node76 > .wrapper1 { color: #333; border-radius: 0px }
+.node76 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -4px }
+.node76 a { color: rgb(225, 25, 230) }
+
+
+.node77 > .wrapper1 { color: #333; border-radius: 0px }
+.node77 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node77 a { color: rgb(225, 25, 230) }
+
+
+#uid30 { background-color: rgba(3, 3, 3, 0.2);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 2px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(2, 2, 2);padding-top: 8px;padding-bottom: 5px;padding-left: 10px;padding-right: 10px;font-size: 20px;color: rgb(0, 0, 0); } #uid30:hover, #uid30.hover { background-color: rgba(28, 28, 28, 0.6);border-color: rgb(53, 53, 53);color: rgb(0, 0, 0); } #uid30:active, #uid30.active { background-color: rgba(25, 25, 25, 0.5);border-color: rgb(42, 42, 42);color: rgb(0, 0, 0); } #uid30:before {  } #uid30:active:before, #uid30.active:before { background-color: rgba(25, 25, 25, 0.5); } #uid30 .fa { font-size: 26px; } 
+
+.node110 > .wrapper1 { color: #333; border-radius: 0px }
+.node110 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node110 a { color: rgb(225, 25, 230) }
+
+
+.node74 > .wrapper1 { background-color: rgba(255, 255, 255, 0.5); color: #333; border-radius: 0px }
+.node74 > .wrapper1 > .wrapper2 { padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; border-radius: -2px }
+.node74 a { color: rgb(225, 25, 230) }
+
+
+.node72 > .wrapper1 { color: #333; border-radius: 5px; border-width: 2px; border-style: solid; border-color: rgb(230, 230, 230) }
+.node72 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: 3px }
+.node72 a { color: rgb(25, 168, 230) }
+
+
+.node80 > .wrapper1 { color: #333; border-radius: 0px }
+.node80 > .wrapper1 > .wrapper2 { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-radius: -3px }
+.node80 a { color: rgb(25, 168, 230) }
+
+
+.node82 > .wrapper1 { color: #333; border-radius: 0px }
+.node82 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node82 a { color: rgb(225, 25, 230) }
+
+
+.node83 > .wrapper1 { color: #333; border-radius: 0px }
+.node83 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -4px }
+.node83 a { color: rgb(225, 25, 230) }
+
+
+.node84 > .wrapper1 { color: #333; border-radius: 0px }
+.node84 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node84 a { color: rgb(225, 25, 230) }
+
+
+#uid31 { background-color: rgba(3, 3, 3, 0.2);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 2px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(2, 2, 2);padding-top: 8px;padding-bottom: 5px;padding-left: 10px;padding-right: 10px;font-size: 20px;color: rgb(0, 0, 0); } #uid31:hover, #uid31.hover { background-color: rgba(28, 28, 28, 0.6);border-color: rgb(53, 53, 53);color: rgb(0, 0, 0); } #uid31:active, #uid31.active { background-color: rgba(25, 25, 25, 0.5);border-color: rgb(42, 42, 42);color: rgb(0, 0, 0); } #uid31:before {  } #uid31:active:before, #uid31.active:before { background-color: rgba(25, 25, 25, 0.5); } #uid31 .fa { font-size: 26px; } 
+
+.node111 > .wrapper1 { color: #333; border-radius: 0px }
+.node111 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node111 a { color: rgb(225, 25, 230) }
+
+
+.node81 > .wrapper1 { background-color: rgba(255, 255, 255, 0.5); color: #333; border-radius: 0px }
+.node81 > .wrapper1 > .wrapper2 { padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; border-radius: -2px }
+.node81 a { color: rgb(225, 25, 230) }
+
+
+.node79 > .wrapper1 { color: #333; border-radius: 5px; border-width: 2px; border-style: solid; border-color: rgb(230, 230, 230) }
+.node79 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: 3px }
+.node79 a { color: rgb(25, 168, 230) }
+
+
+.node62 > .wrapper1 { background-position: center center; background-size: auto; background-repeat: repeat; color: #333 }
+.node62 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0); padding-top: 30px; padding-bottom: 20px }
+.node62 a { color: rgb(25, 168, 230) }
+
+
+.node87 > .wrapper1 { color: #333; border-radius: 0px }
+.node87 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node87 a { color: rgb(25, 168, 230) }
+
+
+.node88 > .wrapper1 { color: #333; border-radius: 0px }
+.node88 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 20px; padding-left: 5px; border-radius: -3px }
+.node88 a { color: rgb(25, 168, 230) }
+
+
+.node90 > .wrapper1 { color: #333; border-radius: 0px }
+.node90 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node90 a { color: rgb(25, 168, 230) }
+
+
+.node91 > .wrapper1 { color: #333; border-radius: 0px }
+.node91 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node91 a { color: rgb(25, 168, 230) }
+
+
+.node89 > .wrapper1 { color: #333; border-radius: 0px }
+.node89 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node89 a { color: rgb(25, 168, 230) }
+
+
+.node86 > .wrapper1 { background-position: center center; background-size: auto; background-repeat: repeat; color: #333 }
+.node86 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0); padding-top: 35px; padding-bottom: 0px }
+.node86 a { color: rgb(25, 168, 230) }
+
+
+.node96 > .wrapper1 { color: #333; border-radius: 0px }
+.node96 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node96 a { color: rgb(25, 133, 230) }
+
+
+.node97 > .wrapper1 { color: #333; border-radius: 0px }
+.node97 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node97 a { color: rgb(25, 133, 230) }
+
+
+.node98 > .wrapper1 { color: #333; border-radius: 0px }
+.node98 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node98 a { color: rgb(25, 133, 230) }
+
+
+.node99 > .wrapper1 { color: #333; border-radius: 0px }
+.node99 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node99 a { color: rgb(25, 133, 230) }
+
+
+.node100 > .wrapper1 { color: #333; border-radius: 0px }
+.node100 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node100 a { color: rgb(25, 133, 230) }
+
+
+.node95 > .wrapper1 { color: #333; border-radius: 0px }
+.node95 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node95 a { color: rgb(25, 133, 230) }
+
+
+.node101 > .wrapper1 { color: #333; border-radius: 0px }
+.node101 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -4px }
+.node101 a { color: rgb(25, 133, 230) }
+
+
+.node94 > .wrapper1 { color: #333; border-radius: 0px }
+.node94 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node94 a { color: rgb(25, 133, 230) }
+
+
+.node103 > .wrapper1 { color: #333; border-radius: 0px }
+.node103 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node103 a { color: rgb(25, 133, 230) }
+
+
+#uid26 { background-color: rgb(45, 106, 161);border-top-left-radius: 25px;border-top-right-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;border-style: solid;border-top-width: 2px;border-bottom-width: 2px;border-left-width: 2px;border-right-width: 2px;border-color: rgb(36, 85, 129);padding-top: 8px;padding-bottom: 8px;padding-left: 30px;padding-right: 30px;font-size: 14px;color: rgb(255, 255, 255); } #uid26:hover, #uid26.hover { background-color: rgb(41, 95, 145);border-color: rgb(29, 68, 103);color: rgb(255, 255, 255); } #uid26:active, #uid26.active { background-color: rgb(41, 95, 145);border-color: rgb(32, 76, 116);color: rgb(255, 255, 255); } #uid26:before {  } #uid26:active:before, #uid26.active:before { background-color: rgb(41, 95, 145); } #uid26 .fa { font-size: 18px; } 
+
+#uid28 { background-color: rgb(45, 106, 161);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-style: solid;border-top-width: 1px;border-bottom-width: 3px;border-left-width: 1px;border-right-width: 1px;border-color: rgb(36, 85, 129);padding-top: 8px;padding-bottom: 8px;padding-left: 16px;padding-right: 16px;font-size: 18px;color: rgb(255, 255, 255);box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25); } #uid28:hover, #uid28.hover { background-color: rgb(41, 95, 145);border-color: rgb(29, 68, 103);color: rgb(255, 255, 255); } #uid28:active, #uid28.active { background-color: rgb(41, 95, 145);border-color: rgb(32, 76, 116);border-top-width: 3px;border-bottom-width: 1px;color: rgb(255, 255, 255);box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.25); } #uid28:before {  } #uid28:active:before, #uid28.active:before { background-color: rgb(41, 95, 145);box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.25); } #uid28 .fa { font-size: 23px; } 
+
+.node104 > .wrapper1 { color: #333; border-radius: 0px }
+.node104 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node104 a { color: rgb(25, 133, 230) }
+
+
+.node102 > .wrapper1 { color: #333; border-radius: 0px }
+.node102 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node102 a { color: rgb(25, 133, 230) }
+
+
+.node108 > .wrapper1 { color: #333; border-radius: 0px }
+.node108 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node108 a { color: rgb(230, 25, 25) }
+
+
+.node109 > .wrapper1 { color: #333; border-radius: 0px }
+.node109 > .wrapper1 > .wrapper2 { padding-top: 15px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node109 a { color: rgb(230, 25, 25) }
+
+
+.node105 > .wrapper1 { color: #333; border-radius: 0px }
+.node105 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node105 a { color: rgb(25, 133, 230) }
+
+
+.node106 > .wrapper1 { color: #333; border-radius: 0px }
+.node106 > .wrapper1 > .wrapper2 { padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-radius: -3px }
+.node106 a { color: rgb(25, 133, 230) }
+</style><script>if (plp.screens === 'screens-xs') plp.screen = 'xs';
+else if (plp.screens === 'screens-sm') plp.screen = 'sm';
+else if (plp.screens === 'screens-md') plp.screen = 'md';
+else if (plp.screens === 'screens-lg') plp.screen = 'lg';
+else if (plp.screens === 'screens-xs-sm') {
+    if (document.body.clientWidth >= 768) plp.screen = 'sm';
+    else if (document.body.clientWidth <= 767) plp.screen = 'xs';
+} else if (plp.screens === 'screens-xs-md') {
+    if (document.body.clientWidth >= 992) plp.screen = 'md';
+    else if (document.body.clientWidth <= 991) plp.screen = 'xs';
+} else if (plp.screens === 'screens-xs-lg') {
+    if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+    else if (document.body.clientWidth <= 1199) plp.screen = 'xs';
+} else if (plp.screens === 'screens-sm-md') {
+    if (document.body.clientWidth >= 992) plp.screen = 'md';
+    else if (document.body.clientWidth <= 991) plp.screen = 'sm';
+} else if (plp.screens === 'screens-sm-lg') {
+    if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+    else if (document.body.clientWidth <= 1199) plp.screen = 'sm';
+} else if (plp.screens === 'screens-md-lg') {
+    if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+    else if (document.body.clientWidth <= 1199) plp.screen = 'md';
+} else if (plp.screens === 'screens-xs-sm-md') {
+    if (document.body.clientWidth >= 992) plp.screen = 'md';
+    else if (document.body.clientWidth >= 768 && document.body.clientWidth <= 991) plp.screen = 'sm';
+    else if (document.body.clientWidth <= 767) plp.screen = 'xs';
+} else if (plp.screens === 'screens-xs-sm-lg') {
+    if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+    else if (document.body.clientWidth >= 768 && document.body.clientWidth <= 1199) plp.screen = 'sm';
+    else if (document.body.clientWidth <= 767) plp.screen = 'xs';
+} else if (plp.screens === 'screens-xs-md-lg') {
+    if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+    else if (document.body.clientWidth >= 992 && document.body.clientWidth <= 1199) plp.screen = 'md';
+    else if (document.body.clientWidth <= 991) plp.screen = 'xs';
+} else if (plp.screens === 'screens-sm-md-lg') {
+    if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+    else if (document.body.clientWidth >= 992 && document.body.clientWidth <= 1199) plp.screen = 'md';
+    else if (document.body.clientWidth <= 991) plp.screen = 'sm';
+} else if (plp.screens === 'screens-xs-sm-md-lg') {
+    if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+    else if (document.body.clientWidth >= 992 && document.body.clientWidth <= 1199) plp.screen = 'md';
+    else if (document.body.clientWidth >= 768 && document.body.clientWidth <= 991) plp.screen = 'sm';
+    else if (document.body.clientWidth <= 767) plp.screen = 'xs';
+}
+[].slice.call(document.body.childNodes).forEach(function (el) {
+    if (el.className && el.className.indexOf('area') >= 0) {
+        el.classList.add('screen-' + plp.screen);
+    }
+});</script><div class="node node0 section section-clear"><div class="wrapper1"><div class="wrapper2"><div class="container"><div class="cont"></div><div class="cont"><div class="node node2 widget widget-imagedtext" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="tbl middle"><div class="td icon" style="width: 79px;"><div class="wrap"><img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAATCAYAAACZZ43PAAAAAXNSR0IArs4c6QAAABZJREFUOBFjYBgFoyEwGgKjITBsQgAABNMAAQ8tIGUAAAAASUVORK5CYII=" style="width: 79px; height: 94.04761904761905px;" data-lazy-image="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/d092b27648525a12205415ebe5b88a1a.jpg" data-lazy-image_size="126,150" data-lazy-image_detect="css-width-height"></div></div><div class="td text"><div style="padding-left: 18px;"><div class="cont"></div><h2 class="textable gray-theme" style="margin-bottom: 2px;"><p style="font-size: 150%;"><span style="font-size: 24px;">PICKER BOOK</span></p></h2><div class="textable gray-theme" style="margin-top: 2px; opacity: 0.5;"><p style="font-size: 110%;"><span style="font-size: 16px;">Истории со множеством концовок</span></p></div><div class="cont"></div></div></div></div></div></div></div></div></div><span class="plplink"></span></div></div></div><script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script><div class="node node3 section section-clear xs-hidden"><div class="wrapper1" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAAXNSR0IArs4c6QAAABFJREFUKBVjYBgFoyFAhRAAAAJJAAFEkgypAAAAAElFTkSuQmCC);" data-lazy-bgimage="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/d25f8a8703b05088f6cca2f2c9dee32c.jpg" data-lazy-bgimage_size="1920,1080"><div class="wrapper2"><div class="container"><div class="cont"></div><div class="cont"><div class="node node4 widget widget-grid" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 59.971014492754%;"><div class="cont"><div class="node node5 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><h2 class="font-header spans xs-force-center textable"><span style="font-size: 200%; text-align: center; line-height: 0.6;" class="p"><span style="font-family: Neucha;"><br></span></span><span style="font-size: 200%; text-align: center; line-height: 0.5;" class="p"><br><span style="font-size: 72px;"><span style="font-family: Neucha;"><strong>ПИКЕРБУК</strong></span></span></span><span style="font-size: 200%; text-align: center; line-height: 0.7;" class="p"><span style="font-family: Neucha;"><br><span style="font-size: 26px;">Короткие рассказы, в которых сюжет</span><br><span style="font-size: 26px;">зависит от Вашего выбора</span></span></span><span style="font-size: 200%; text-align: center; line-height: 0.5;" class="p"><br></span></h2></div></div></div></div></div></div><div class="col" style="width: 40.028985507246%;"><div class="cont"><div class="node node6 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><a class="btn-inner" href="#pickerbooks" target="_self"><button class="btn font-text" id="uid2" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">СВЕЖИЕ ПИКЕРБУКИ</span></button></a></div></div></div></div></div><div class="node node7 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><a class="btn-inner" href="#about" target="_self"><button class="btn font-text" id="uid3" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">О ПРОЕКТЕ</span></button></a></div></div></div></div></div></div></div></div></div></div></div></div></div></div><span class="plplink"></span></div></div></div><!-- ADAPTIVE --><script class="adaptive">if (["md","lg"].indexOf(plp.screen) >= 0) document.write("<!--")</script><div class="node node8 section section-clear md-hidden lg-hidden"><div class="wrapper1" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAAXNSR0IArs4c6QAAABNJREFUKBVjYBgFoyEwGgKgEAAAAwwAAcPMGtwAAAAASUVORK5CYII=);" data-lazy-bgimage="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/83173e94f4ada5aa5de0348e540d7705.jpg" data-lazy-bgimage_size="1600,1200"><div class="wrapper2"><div class="container"><div class="cont"></div><div class="cont"><div class="node node9 widget widget-grid" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 59.971014492754%;"><div class="cont"><div class="node node10 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><h2 class="font-header spans xs-force-center textable"><span style="font-size: 200%; text-align: center; line-height: 0.6;" class="p"><span style="font-size: 24px;"><span style="font-family: Neucha;"><br></span></span></span><span style="font-size: 200%; text-align: center; line-height: 0.5;" class="p">ПИКЕРБУК</span><span style="font-size: 200%; text-align: center; line-height: 0.7;" class="p"><span style="font-size: 24px;"><span style="font-family: Neucha;"><br></span></span><span style="font-size: 18px;"><span style="font-family: Neucha;">Короткие рассказы, в которых сюжет<br>зависит от Вашего выбора</span></span></span><span style="font-size: 200%; text-align: center; line-height: 0.5;" class="p"><br></span></h2></div></div></div></div></div></div><div class="col" style="width: 40.028985507246%;"><div class="cont"><div class="node node11 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><a class="btn-inner" href="#pickerbooks" target="_self"><button class="btn font-text" id="uid4" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">ВЫБРАТЬ ПИКЕРБУК</span></button></a></div></div></div></div></div><div class="node node12 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><a class="btn-inner" href="#about" target="_self"><button class="btn font-text" id="uid5" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">ЧТО ЭТО?</span></button></a></div></div></div></div></div></div></div></div></div></div></div></div></div></div><span class="plplink"></span></div></div></div><!-- ADAPTIVE --><div class="node node13 section section-elements"><div class="wrapper1" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAXCAYAAAAC9s/ZAAAAAXNSR0IArs4c6QAAABhJREFUOBFjYBgFoyEwGgKjITAaAsMoBAAF1wABSAvvoAAAAABJRU5ErkJggg==);" data-lazy-bgimage="//s.platformalp.ru/img/bg-patterns-light/5.png" data-lazy-bgimage_size="67,100"><div class="wrapper2"><div class="container"><div class="cont"></div></div><div class="container"><div class="cont"></div><div class="s-elements-wrapper incon"><div class="s-elements-grid valign-top xs-wrap" style="margin-left: -10px; margin-right: -10px;"><div class="s-elements-grid__cell" style="width: 33.333333333333336%; padding-left: 10px;"><div class="s-elements-grid__cellwrapper" style="padding-top: 0px; padding-bottom: 0px; padding-right: 10px;"><div class="cont cell"><div class="node node14 widget widget-element" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node15 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="xs-force-center" style="text-align: center;"><img class="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAABVJREFUOBFjYBgFoyEwGgKjIQAJAQAEEAABvmNTIgAAAABJRU5ErkJggg==" style="width: 128px;" data-lazy-image="//s.platformalp.ru/img/icons-round-tech/43.png" data-lazy-image_size="256,256" data-lazy-image_detect="css-width"></div><noscript><img src="//s.platformalp.ru/img/icons-round-tech/43.png" alt=""></noscript></div></div></div><div class="node node16 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><h4 class="spans xs-force-center textable"><span style="text-align: center; font-size: 18px;" class="p"><strong>Захватывающие</strong></span></h4></div></div></div></div><div class="node node17 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(0, 0, 0);">С первой секунды Вы погружаетесь</span><br><span style="color: rgb(0, 0, 0);">в невероятные приключения</span></p></div></div></div></div></div></div></div></div></div></div></div></div><div class="s-elements-grid__cell" style="width: 33.333333333333336%;"><div class="s-elements-grid__cellwrapper" style="padding: 0px 10px;"><div class="cont cell"><div class="node node18 widget widget-element" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node19 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="xs-force-center" style="text-align: center;"><img class="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAABVJREFUOBFjYBgFoyEwGgKjIQAJAQAEEAABvmNTIgAAAABJRU5ErkJggg==" style="width: 128px;" data-lazy-image="//s.platformalp.ru/img/icons-round-symbols/61.png" data-lazy-image_size="256,256" data-lazy-image_detect="css-width"></div><noscript><img src="//s.platformalp.ru/img/icons-round-symbols/61.png" alt=""></noscript></div></div></div><div class="node node20 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><h4 class="spans xs-force-center textable"><span style="text-align: center; font-size: 18px;" class="p"><strong>Интерактивные</strong></span></h4></div></div></div></div><div class="node node21 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(0, 0, 0);">От каждого Вашего действия</span><br><span style="color: rgb(0, 0, 0);">зависит поворот сюжета и финал истории</span></p></div></div></div></div></div></div></div></div></div></div></div></div><div class="s-elements-grid__cell" style="width: 33.333333333333336%; padding-right: 10px;"><div class="s-elements-grid__cellwrapper" style="padding-top: 0px; padding-bottom: 0px; padding-left: 10px;"><div class="cont cell"><div class="node node22 widget widget-element" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node23 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="xs-force-center" style="text-align: center;"><img class="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAABVJREFUOBFjYBgFoyEwGgKjIQAJAQAEEAABvmNTIgAAAABJRU5ErkJggg==" style="width: 128px;" data-lazy-image="//s.platformalp.ru/img/icons-round-tech/44.png" data-lazy-image_size="256,256" data-lazy-image_detect="css-width"></div><noscript><img src="//s.platformalp.ru/img/icons-round-tech/44.png" alt=""></noscript></div></div></div><div class="node node24 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><h4 class="spans xs-force-center textable"><span style="text-align: center; font-size: 18px;" class="p"><strong>Быстрые</strong></span></h4></div></div></div></div><div class="node node25 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable"><p style="text-align: center;">Вы можете проходить пикербук в перерывах,<br>в дороге, в очереди и перед сном</p></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="cont"></div></div><span class="plplink"></span></div></div></div><script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script><div class="node node26 section section-clear xs-hidden" id="about"><div class="wrapper1" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAXCAYAAAAC9s/ZAAAAAXNSR0IArs4c6QAAABhJREFUOBFjYBgFoyEwGgKjITAaAsMoBAAF1wABSAvvoAAAAABJRU5ErkJggg==);" data-lazy-bgimage="//s.platformalp.ru/img/bg-patterns-light/5.png" data-lazy-bgimage_size="67,100"><div class="wrapper2"><div class="container"><div class="cont"></div><div class="cont"><div class="node node27 widget widget-grid" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 50%;"><div class="cont"><div class="node node28 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="bgimage" style="background-size: contain; height: 230px; background-image: url(data:,); background-position: center center;" data-lazy-bgimage="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/583212a7550f6e38582774a234433cef.gif" data-lazy-bgimage_size="undefined,undefined"><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></div><noscript><img src="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/583212a7550f6e38582774a234433cef.gif" alt=""></noscript></div></div></div></div></div><div class="col" style="width: 50%;"><div class="cont"><div class="node node29 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><h2 class="spans xs-force-center textable"><span style="font-size: 28px;" class="p"><strong>Более 1 000 000 человек уже попробовали Пикербук&nbsp;</strong>(ранее Сторимэйз)</span></h2></div></div></div></div><div class="node node30 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable"><p>4 октября 2015 года я захотел написать рассказ, и уже через 3 месяца их прочитало несколько сотен тысяч человек.<br><br>Секрет в том, что в Пикербуке читателю дается выбор, и чаще всего выбор совсем не простой...</p></div></div></div></div></div><div class="node node31 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out left xs-none"><a class="btn-inner" href="#pickerbooks" target="_self"><button class="btn font-text" id="uid9" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">ВЫБРАТЬ ПРИКЕРБУК</span></button></a></div></div></div></div></div></div></div></div></div></div></div></div></div></div><span class="plplink"></span></div></div></div><!-- ADAPTIVE --><script class="adaptive">if (["md","lg"].indexOf(plp.screen) >= 0) document.write("<!--")</script><div class="node node32 section section-clear md-hidden lg-hidden" id="about"><div class="wrapper1" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAXCAYAAAAC9s/ZAAAAAXNSR0IArs4c6QAAABhJREFUOBFjYBgFoyEwGgKjITAaAsMoBAAF1wABSAvvoAAAAABJRU5ErkJggg==);" data-lazy-bgimage="//s.platformalp.ru/img/bg-patterns-light/5.png" data-lazy-bgimage_size="67,100"><div class="wrapper2"><div class="container"><div class="cont"><div class="node node34 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="bgimage" style="background-size: cover; height: 200px; background-image: url(data:,); background-position: center center;" data-lazy-bgimage="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/583212a7550f6e38582774a234433cef.gif" data-lazy-bgimage_size="undefined,undefined"><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></div><noscript><img src="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/583212a7550f6e38582774a234433cef.gif" alt=""></noscript></div></div></div></div><div class="cont"><div class="node node35 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><h2 class="spans textable"><span style="font-size: 28px;" class="p"><span style="font-size: 24px;"><strong>Более 1 000 000 человек уже попробовали Пикербук</strong></span></span></h2></div></div></div></div><div class="node node36 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="textable"><p>4 октября 2015 года я захотел написать рассказ, и уже через 3 месяца их прочитало несколько сотен тысяч человек.<br><br>Секрет в том, что в Пикербуке читателю дается выбор, и чаще всего выбор совсем не простой...</p></div></div></div></div></div><div class="node node37 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><a class="btn-inner" href="#pickerbooks" target="_self"><button class="btn font-text" id="uid10" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">ВЫБРАТЬ ПРИКЕРБУК</span></button></a></div></div></div></div></div></div></div><span class="plplink"></span></div></div></div><!-- ADAPTIVE --><script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script><div class="node node38 section section-elements xs-hidden" id="pickerbooks"><div class="wrapper1" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAXCAYAAAAC9s/ZAAAAAXNSR0IArs4c6QAAABhJREFUOBFjYBgFoyEwGgKjITAaAsMoBAAF1wABSAvvoAAAAABJRU5ErkJggg==);" data-lazy-bgimage="//s.platformalp.ru/img/bg-patterns-light/5.png" data-lazy-bgimage_size="67,100"><div class="wrapper2"><div class="container fullwidth"><div class="cont"></div></div><div class="container fullwidth"><div class="cont"><div class="node node39 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><h2 class="font-header spans xs-force-center textable gray-theme"><span style="font-size: 200%; text-align: center;" class="p"><strong>СВЕЖИЕ ПИКЕРБУКИ</strong></span></h2></div></div></div></div><div class="node node40 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable"><p style="font-size: 110%; text-align: center;">Выбери понравившийся сюжет и добро пожаловать :)</p></div></div></div></div></div></div><div class="s-elements-wrapper incon"><div class="s-elements-grid valign-top xs-wrap" style="margin-left: -10px; margin-right: -10px;"><div class="s-elements-grid__cell" style="width: 33.333333333333336%; padding-left: 10px;"><div class="s-elements-grid__cellwrapper" style="padding-top: 10px; padding-bottom: 10px; padding-right: 10px;"><div class="cont cell"><div class="node node41 widget widget-element wow fadeIn" data-item="[{&quot;name&quot;:&quot;Название товара&quot;,&quot;type&quot;:&quot;title&quot;,&quot;value&quot;:&quot;1. Авария на космическом корабле&quot;},{&quot;name&quot;:&quot;Цена товара&quot;,&quot;type&quot;:&quot;price&quot;,&quot;value&quot;:&quot;4 минуты&quot;},{&quot;name&quot;:&quot;Фото товара&quot;,&quot;type&quot;:&quot;photo&quot;,&quot;value&quot;:&quot;//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/ed943d8904de3158fb3581db5deef507.gif&quot;}]" outline="0" data-wow-delay="0.5s"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node42 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="bgimage" data-role="image" style="background-size: cover; height: 200px; background-image: url(data:,); background-position: center center;" data-lazy-bgimage="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/ed943d8904de3158fb3581db5deef507.gif" data-lazy-bgimage_size="undefined,undefined"><a class="colorbox" href="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/ed943d8904de3158fb3581db5deef507.gif" data-rel=""><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></a></div><noscript><img src="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/ed943d8904de3158fb3581db5deef507.gif" alt=""></noscript></div></div></div><div class="node node43 widget widget-element" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node44 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div data-role="itemname" class=""><h3 data-role="itemname" class="spans xs-force-center textable"><span style="font-size: 24px; text-align: center;" class="p"><span style="font-size: 24px;"><strong>1. Авария на космическом корабле</strong></span></span></h3></div></div></div></div><div class="node node45 widget widget-line" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top-style: solid; border-top-width: 1px; border-top-color: rgb(232, 232, 232);"></div></div></div></div></div><div class="node node46 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable gray-theme"><p style="text-align: center;"><span style="font-size: 18px;">Сигналы тревоги, разгерметизация: бежать к жене, или выполнять инструкцию?</span></p></div></div></div></div></div><div class="node node47 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><a class="btn-inner" href="/save/http://pickerbook.com/1" target="_self"><button class="btn font-text" id="uid14" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">ОТКРЫТЬ</span></button></a></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="s-elements-grid__cell" style="width: 33.333333333333336%;"><div class="s-elements-grid__cellwrapper" style="padding: 10px;"><div class="cont cell"><div class="node node48 widget widget-element wow fadeIn" data-item="[{&quot;name&quot;:&quot;Название товара&quot;,&quot;type&quot;:&quot;title&quot;,&quot;value&quot;:&quot;2. Зомби-апокалипсис&quot;},{&quot;name&quot;:&quot;Цена товара&quot;,&quot;type&quot;:&quot;price&quot;,&quot;value&quot;:&quot;4 минуты&quot;},{&quot;name&quot;:&quot;Фото товара&quot;,&quot;type&quot;:&quot;photo&quot;,&quot;value&quot;:&quot;//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/45140a867021da912140969573936c08.gif&quot;}]" outline="0" data-wow-delay="1s"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node49 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="bgimage" data-role="image" style="background-size: cover; height: 200px; background-image: url(data:,); background-position: center center;" data-lazy-bgimage="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/45140a867021da912140969573936c08.gif" data-lazy-bgimage_size="undefined,undefined"><a class="colorbox" href="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/45140a867021da912140969573936c08.gif" data-rel=""><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></a></div><noscript><img src="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/45140a867021da912140969573936c08.gif" alt=""></noscript></div></div></div><div class="node node50 widget widget-element" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node51 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div data-role="itemname" class=""><h3 data-role="itemname" class="spans xs-force-center textable"><span style="font-size: 24px; text-align: center;" class="p"><span style="font-size: 24px;"><strong>2. Зомби-апокалипсис</strong></span></span></h3></div></div></div></div><div class="node node52 widget widget-line" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top-style: solid; border-top-width: 1px; border-top-color: rgb(232, 232, 232);"></div></div></div></div></div><div class="node node53 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="textable gray-theme"><p style="text-align: center;"><span style="font-size: 18px;">Оказавшись в мегаполисе в час Х вам предстоит не только выжить, но и знатно повеселиться.</span></p></div></div></div></div></div><div class="node node54 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><div class="btn-inner"><button class="btn font-text" id="uid15" data-id="" data-action="none" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">СКОРО</span></button></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="s-elements-grid__cell" style="width: 33.333333333333336%; padding-right: 10px;"><div class="s-elements-grid__cellwrapper" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px;"><div class="cont cell"><div class="node node55 widget widget-element wow fadeIn" data-item="[{&quot;name&quot;:&quot;Название товара&quot;,&quot;type&quot;:&quot;title&quot;,&quot;value&quot;:&quot;3. Обретение сверхспособностей&quot;},{&quot;name&quot;:&quot;Цена товара&quot;,&quot;type&quot;:&quot;price&quot;,&quot;value&quot;:&quot;4 минуты&quot;},{&quot;name&quot;:&quot;Фото товара&quot;,&quot;type&quot;:&quot;photo&quot;,&quot;value&quot;:&quot;//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/66bc14bdc1c2160aca85c9668245e969.gif&quot;}]" outline="0" data-wow-delay="1.5s"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node56 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="bgimage" data-role="image" style="background-size: cover; height: 200px; background-image: url(data:,); background-position: center center;" data-lazy-bgimage="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/66bc14bdc1c2160aca85c9668245e969.gif" data-lazy-bgimage_size="undefined,undefined"><a class="colorbox" href="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/66bc14bdc1c2160aca85c9668245e969.gif" data-rel=""><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></a></div><noscript><img src="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/66bc14bdc1c2160aca85c9668245e969.gif" alt=""></noscript></div></div></div><div class="node node57 widget widget-element" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node58 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div data-role="itemname" class=""><h3 data-role="itemname" class="spans xs-force-center textable"><span style="font-size: 24px; text-align: center;" class="p"><span style="font-size: 24px;"><strong>3. Обретение сверхспособностей</strong></span></span></h3></div></div></div></div><div class="node node59 widget widget-line" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top-style: solid; border-top-width: 1px; border-top-color: rgb(232, 232, 232);"></div></div></div></div></div><div class="node node60 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable gray-theme"><p style="text-align: center;"><span style="font-size: 18px;">Каждый мечтает стать обладателем суперсилы. Но мало кому удастся пройти этот путь...</span></p></div></div></div></div></div><div class="node node107 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><div class="btn-inner"><button class="btn font-text" id="uid29" data-id="" data-action="none" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">СКОРО</span></button></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="cont"></div></div><span class="plplink"></span></div></div></div><!-- ADAPTIVE --><script class="adaptive">if (["md","lg"].indexOf(plp.screen) >= 0) document.write("<!--")</script><div class="node node62 section section-elements md-hidden lg-hidden" id="pickerbooks"><div class="wrapper1" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAXCAYAAAAC9s/ZAAAAAXNSR0IArs4c6QAAABhJREFUOBFjYBgFoyEwGgKjITAaAsMoBAAF1wABSAvvoAAAAABJRU5ErkJggg==);" data-lazy-bgimage="//s.platformalp.ru/img/bg-patterns-light/5.png" data-lazy-bgimage_size="67,100"><div class="wrapper2"><div class="container fullwidth"><div class="cont"></div></div><div class="container fullwidth"><div class="cont"><div class="node node63 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><h2 class="font-header spans xs-force-center textable gray-theme"><span style="font-size: 200%; text-align: center;" class="p"><span style="font-size: 24px;"><strong>СВЕЖИЕ ПИКЕРБУКИ</strong></span></span></h2></div></div></div></div><div class="node node64 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable"><p style="font-size: 110%; text-align: center;">Выбери понравившийся сюжет<br>и нажми "начать" :)</p></div></div></div></div></div></div><div class="s-elements-wrapper incon"><div class="s-elements-grid valign-top xs-wrap" style="margin-left: -10px; margin-right: -10px;"><div class="s-elements-grid__cell" style="width: 33.333333333333336%; padding-left: 10px;"><div class="s-elements-grid__cellwrapper" style="padding-top: 10px; padding-bottom: 10px; padding-right: 10px;"><div class="cont cell"><div class="node node65 widget widget-element" data-item="[{&quot;name&quot;:&quot;Название товара&quot;,&quot;type&quot;:&quot;title&quot;,&quot;value&quot;:&quot;1. Авария на космическом корабле&quot;},{&quot;name&quot;:&quot;Цена товара&quot;,&quot;type&quot;:&quot;price&quot;,&quot;value&quot;:&quot;4 минуты&quot;},{&quot;name&quot;:&quot;Фото товара&quot;,&quot;type&quot;:&quot;photo&quot;,&quot;value&quot;:&quot;//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/ed943d8904de3158fb3581db5deef507.gif&quot;}]" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node66 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="bgimage" data-role="image" style="background-size: cover; height: 200px; background-image: url(data:,); background-position: center center;" data-lazy-bgimage="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/ed943d8904de3158fb3581db5deef507.gif" data-lazy-bgimage_size="undefined,undefined"><a class="colorbox" href="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/ed943d8904de3158fb3581db5deef507.gif" data-rel=""><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></a></div><noscript><img src="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/ed943d8904de3158fb3581db5deef507.gif" alt=""></noscript></div></div></div><div class="node node67 widget widget-element" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node68 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div data-role="itemname" class=""><h3 data-role="itemname" class="spans textable"><span style="font-size: 24px;" class="p"><span style="font-size: 20px;"><strong>1. Авария на космическом корабле</strong></span></span></h3></div></div></div></div><div class="node node69 widget widget-line" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top-style: solid; border-top-width: 1px; border-top-color: rgb(232, 232, 232);"></div></div></div></div></div><div class="node node70 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="textable"><p><span style="font-size: 18px;">Сигналы тревоги, разгерметизация, бежать к жене, или выполнять инструкцию...</span></p></div></div></div></div></div><div class="node node71 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><a class="btn-inner" href="/save/http://pickerbook.com/1" target="_self"><button class="btn font-text" id="uid20" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">ОТКРЫТЬ</span></button></a></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="s-elements-grid__cell" style="width: 33.333333333333336%;"><div class="s-elements-grid__cellwrapper" style="padding: 10px;"><div class="cont cell"><div class="node node72 widget widget-element" data-item="[{&quot;name&quot;:&quot;Название товара&quot;,&quot;type&quot;:&quot;title&quot;,&quot;value&quot;:&quot;2. Зомби-апокалипсис&quot;},{&quot;name&quot;:&quot;Цена товара&quot;,&quot;type&quot;:&quot;price&quot;,&quot;value&quot;:&quot;4 минуты&quot;},{&quot;name&quot;:&quot;Фото товара&quot;,&quot;type&quot;:&quot;photo&quot;,&quot;value&quot;:&quot;//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/45140a867021da912140969573936c08.gif&quot;}]" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node73 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="bgimage" data-role="image" style="background-size: cover; height: 200px; background-image: url(data:,); background-position: center center;" data-lazy-bgimage="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/45140a867021da912140969573936c08.gif" data-lazy-bgimage_size="undefined,undefined"><a class="colorbox" href="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/45140a867021da912140969573936c08.gif" data-rel=""><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></a></div><noscript><img src="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/45140a867021da912140969573936c08.gif" alt=""></noscript></div></div></div><div class="node node74 widget widget-element" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node75 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div data-role="itemname" class=""><h3 data-role="itemname" class="spans textable"><span style="font-size: 24px;" class="p"><span style="font-size: 20px;"><strong>2. Зомби-апокалипсис</strong></span></span></h3></div></div></div></div><div class="node node76 widget widget-line" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top-style: solid; border-top-width: 1px; border-top-color: rgb(232, 232, 232);"></div></div></div></div></div><div class="node node77 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="textable"><p><span style="font-size: 18px;">Оказавшись в мегаполисе в час Х вам предстоит не только выжить, но и знатно повеселиться.</span></p></div></div></div></div></div><div class="node node110 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><div class="btn-inner"><button class="btn font-text" id="uid30" data-id="" data-action="none" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">СКОРО</span></button></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="s-elements-grid__cell" style="width: 33.333333333333336%; padding-right: 10px;"><div class="s-elements-grid__cellwrapper" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px;"><div class="cont cell"><div class="node node79 widget widget-element" data-item="[{&quot;name&quot;:&quot;Название товара&quot;,&quot;type&quot;:&quot;title&quot;,&quot;value&quot;:&quot;3. Обретение сверхспособностей&quot;},{&quot;name&quot;:&quot;Цена товара&quot;,&quot;type&quot;:&quot;price&quot;,&quot;value&quot;:&quot;4 минуты&quot;},{&quot;name&quot;:&quot;Фото товара&quot;,&quot;type&quot;:&quot;photo&quot;,&quot;value&quot;:&quot;//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/66bc14bdc1c2160aca85c9668245e969.gif&quot;}]" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node80 widget widget-image" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="bgimage" data-role="image" style="background-size: cover; height: 200px; background-image: url(data:,); background-position: center center;" data-lazy-bgimage="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/66bc14bdc1c2160aca85c9668245e969.gif" data-lazy-bgimage_size="undefined,undefined"><a class="colorbox" href="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/66bc14bdc1c2160aca85c9668245e969.gif" data-rel=""><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></a></div><noscript><img src="//u8.platformalp.ru/5bfc0a757eeb4414d1fed6b63bef2d51/66bc14bdc1c2160aca85c9668245e969.gif" alt=""></noscript></div></div></div><div class="node node81 widget widget-element" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node82 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div data-role="itemname" class=""><h3 data-role="itemname" class="spans textable"><span style="font-size: 24px; text-align: left;" class="p"><span style="font-size: 20px;"><strong>3. Обретение сверхспособностей</strong></span></span></h3></div></div></div></div><div class="node node83 widget widget-line" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top-style: solid; border-top-width: 1px; border-top-color: rgb(232, 232, 232);"></div></div></div></div></div><div class="node node84 widget widget-text" outline="0"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="textable"><p style="text-align: left;"><span style="font-size: 18px;">Каждый мечтал стать обладателем суперсилы. Но суперсила рождает суперпроблемы...</span></p></div></div></div></div></div><div class="node node111 widget widget-button" outline="0"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out full xs-none"><div class="btn-inner"><button class="btn font-text" id="uid31" data-id="" data-action="none" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">СКОРО</span></button></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="cont"></div></div><span class="plplink"></span></div></div></div><!-- ADAPTIVE --><div class="node node86 section section-clear"><div class="wrapper1" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAXCAYAAAAC9s/ZAAAAAXNSR0IArs4c6QAAABhJREFUOBFjYBgFoyEwGgKjITAaAsMoBAAF1wABSAvvoAAAAABJRU5ErkJggg==);" data-lazy-bgimage="//s.platformalp.ru/img/bg-patterns-light/5.png" data-lazy-bgimage_size="67,100"><div class="wrapper2"><div class="container"><div class="cont"></div><div class="cont"><div class="node node87 widget widget-text" outline="4"><div class="wrapper1"><div class="wrapper2"><div class=""><h2 class="font-header spans xs-force-center textable gray-theme"><span style="font-size: 200%; text-align: center;" class="p"><strong>Комментарии</strong></span></h2></div></div></div></div><div class="node node88 widget widget-text" outline="6"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable"><p style="font-size: 110%; text-align: center;">В Задавайте любые вопросы, общайтесь и делитесь эмоциями :)</p></div></div></div></div></div><div class="node node89 widget widget-grid" outline="6"><div class="wrapper1"><div class="wrapper2"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 33.333333333333%;"><div class="cont"><div class="node node90 widget widget-html" outline="6"><div class="wrapper1"><div class="wrapper2"><div class="code"><script type="text/javascript" src="//vk.com/js/api/openapi.js?150"></script>
+
+
+<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 3, width: "250"}, 103840881);
+</script></div></div></div></div></div></div><div class="col" style="width: 66.666666666667%;"><div class="cont"><div class="node node91 widget widget-comments-vk" outline="6"><div class="wrapper1"><div class="wrapper2"><div class="vk" data-apiid="6275711" data-joint="false"></div></div></div></div></div></div></div></div></div></div></div></div></div><span class="plplink"></span></div></div></div><div class="node section section-helper"><div class="macros-modal"><div class="modal fade nocolors" data-modal="cart" area-context="uid23"><div class="modal-dialog" style="width: 760px;"><div class="modal-content"><div class="modal-header"><button class="close nofonts">×</button><h4 class="textable"><p>Корзина</p></h4></div><div class="modal-body"><div class="cont"><div class="node node94 widget widget-cart-list"><div class="wrapper1"><div class="wrapper2"><div class="cont"><div class="node node95 widget widget-grid"><div class="wrapper1"><div class="wrapper2"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 15.958083832335%;"><div class="cont"><div class="node node96 widget widget-cart-image"><div class="wrapper1"><div class="wrapper2"><div class="bgimage" data-role="itemphoto" style="background-size: contain; height: 80px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAABVJREFUOBFjYBgFoyEwGgKjIQAJAQAEEAABvmNTIgAAAABJRU5ErkJggg==); background-position: center center;" data-lazy-bgimage="//s.platformalp.ru/nodes/SectionShop/aibo.jpg" data-lazy-bgimage_size="650,650"></div></div></div></div></div></div><div class="col" style="width: 29.612946808334%;"><div class="cont"><div class="node node97 widget widget-cart-name"><div class="wrapper1"><div class="wrapper2"><div data-role="itemname" style="text-align: left;">Собака робот AIBO</div></div></div></div></div></div><div class="col" style="width: 24.290937424792%;"><div class="cont"><div class="node node98 widget widget-cart-amount"><div class="wrapper1"><div class="wrapper2"><div style="text-align: center;"><button class="btn btn-default" data-role="decreaseamount"><i class="fa fa-minus"></i></button><input class="form-control" data-role="setamount" value="1"><button class="btn btn-default" data-role="increaseamount"><i class="fa fa-plus"></i></button></div></div></div></div></div></div><div class="col" style="width: 20.718014825899%;"><div class="cont"><div class="node node99 widget widget-cart-price"><div class="wrapper1"><div class="wrapper2"><div data-role="itemprice" style="text-align: center;">17 000 руб.</div></div></div></div></div></div><div class="col" style="width: 9.4200171086398%;"><div class="cont"><div class="node node100 widget widget-cart-remove"><div class="wrapper1"><div class="wrapper2"><div style="text-align: right;"><button class="btn btn-default" data-role="removefromcart"><i class="fa fa-times"></i></button></div></div></div></div></div></div></div></div></div></div></div><div class="node node101 widget widget-line"><div class="wrapper1"><div class="wrapper2"><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top-style: solid; border-top-width: 1px; border-top-color: rgb(242, 242, 242);"></div></div></div></div></div></div></div></div></div><div class="node node102 widget widget-grid"><div class="wrapper1"><div class="wrapper2"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 50%;"><div class="cont"><div class="node node103 widget widget-cart-total"><div class="wrapper1"><div class="wrapper2"><div data-role="carttotal" style="text-align: left;">Итого: <span></span></div></div></div></div></div></div><div class="col" style="width: 50%;"><div class="cont"><div class="node node104 widget widget-button"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out right xs-none"><div class="btn-inner"><button class="btn font-text" id="uid26" data-id="" data-action="modal" data-ym_goal="" data-ga_category="" data-ga_action="" data-modal="form"><span class="text">Оформить заявку</span></button></div></div></div><div class="macros-modal"><div class="modal fade nocolors" data-modal="form" area-context="uid27"><div class="modal-dialog" style="width: 400px;"><div class="modal-content"><div class="modal-header"><button class="close nofonts">×</button><h4 class="textable"><p><strong>Заявка</strong></p></h4></div><div class="modal-body"><div class="macros-form"><div class="outer"><div class="inner"><div class="vertical none size-default"><div class="body"><div class="cont"></div><form class="form text-top" data-form="{&quot;name&quot;:&quot;Виджет \&quot;Кнопка\&quot;&quot;,&quot;type&quot;:&quot;order&quot;,&quot;privacy&quot;:&quot;none&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;,&quot;integrations&quot;:[]}" data-fields="[{&quot;name&quot;:&quot;Имя&quot;,&quot;type&quot;:&quot;name&quot;,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;},{&quot;name&quot;:&quot;Электронная почта&quot;,&quot;type&quot;:&quot;email&quot;,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;}]"><div class="fields"><div class="field" data-type="name"><div class="name">Имя</div><div class="input"><input class="form-control text" style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div class="field" data-type="email"><div class="name">Электронная почта<span class="required">&nbsp;*</span></div><div class="input"><input class="form-control text" style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div></div><div class="macros-button"><div class="btn-out full xs-none"><div class="btn-inner"><button class="btn font-text submit" id="uid28" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text">Отправить заявку!</span><input type="submit"></button></div></div></div></form><div class="cont"></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="cont"><div class="node node108 widget widget-image"><div class="wrapper1"><div class="wrapper2"><div class="xs-force-center" style="text-align: center;"><img class="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAABVJREFUOBFjYBgFoyEwGgKjIQAJAQAEEAABvmNTIgAAAABJRU5ErkJggg==" style="width: 128px;" data-lazy-image="//s.platformalp.ru/img/icons-catforce/14.png" data-lazy-image_size="256,256" data-lazy-image_detect="css-width"></div><noscript><img src="/save/_embed/http://s.platformalp.ru/img/icons-catforce/14.png" alt=""></noscript></div></div></div><div class="node node109 widget widget-text"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(160, 160, 160);"><span style="font-size: 24px;">В корзине пусто</span></span></p></div></div></div></div></div></div></div></div></div></div></div><div class="macros-modal"><div class="modal fade nocolors robots-noindex robots-nocontent" data-modal="agreement" area-context="uid24"><!--googleoff: all--><!--noindex--><div class="modal-dialog" style="width: 600px;"><div class="modal-content"><div class="modal-header"><button class="close nofonts">×</button><h4 class="textable"><p>Политика конфиденциальности</p></h4></div><div class="modal-body"><div class="cont"><div class="node node105 widget widget-text"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable"><p>Редактируемый текст</p></div></div></div></div></div></div></div></div></div><!--/noindex--><!--googleon: all--></div></div><div class="macros-modal"><div class="modal fade nocolors" data-modal="cookie" area-context="uid25"><div class="modal-dialog" style="width: 600px;"><div class="modal-content"><div class="modal-header"><button class="close nofonts">×</button><h4 class="textable"><p>Данный сайт использует Cookie</p></h4></div><div class="modal-body"><div class="cont"><div class="node node106 widget widget-text"><div class="wrapper1"><div class="wrapper2"><div class=""><div class="xs-force-center textable"><p>Редактируемый текст</p></div></div></div></div></div></div></div></div></div></div></div></div></div><script type="text/javascript" src="/save/_embed/http://s.platformalp.ru/assets/3.0/default.js"></script><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter46800201 = new Ya.Metrika({ id:46800201, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); w.yaCounter = w.yaCounter46800201; } catch(e) { } }); var n = d.getElementsByTagName("script")[0],s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "/save/https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]")  { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="/save/_embed/https://mc.yandex.ru/watch/46800201" style="position:absolute; left:-9999px;" alt="" /></div></noscript></body></html>
+
+
+
+
+<!--
+     FILE ARCHIVED ON 9:37:41 Dec 5, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 9:37:43 Dec 5, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->

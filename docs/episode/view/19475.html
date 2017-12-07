@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='yandex-verification' content='6e37696e0fcbfe7e' />
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="YUIzWHcxMVk7KWQXIUlTbxRwXWwRZFYuEDRSIBFLABcUFmUOQHpECA==">
+    <title>Стрелять</title>
+    <!-- VK retargeting -->
+    <!--<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=kF3xgVPVwgzZronUawCde/W5hpGXiUarMoUe1QR..*L38t4Ma2v9swoq6HEJfjNnO4BNY06SJUZN9Ugkfmrny0i9w-';</script>-->
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=lBVXcELOpo6bdlFYnDcvtFvFa2189ayCvSTaXKTS13Oo9/yS0R5rbDmLcUj/N0L/8BXsP3M/Hys/o24HZz/wS1X9HLFlaLYV/6GSJXJr439xm5sLDWlPOqngmr01G6UjSjXzhEtpji5QLnE8u/O*z/atHSqJdnJ0xPy6U8Jf9i8-';</script>
+    <!-- /VK retargeting -->
+    <link href="/css/social-likes_flat.css" rel="stylesheet">
+<link href="/assets/css/bootstrap.css" rel="stylesheet">
+<link href="/css/jquery.Jcrop.css" rel="stylesheet">
+<link href="/css/jquery.Jcrop.min.css" rel="stylesheet">
+<link href="/js/node_modules/sweetalert/dist/sweetalert.css" rel="stylesheet">
+<link href="/js/scroll/css/style.css" rel="stylesheet">
+<link href="/js/jquery-ui-1.11.4/jquery-ui.css" rel="stylesheet">
+<link href="/css/site.css" rel="stylesheet">
+<link href="/assets/9c1fa2f3/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript">
+    var socialLikesButtons = {
+        vkontakte: {
+            popupUrl: 'http://vk.com/share.php?url=http%3A%2F%2Fstorymaze.ru%2Fstory%2Fview%2F1251.html&title=%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B9+%23storymaze+%D0%9F%D0%BE%D0%B1%D0%B5%D0%B3+%D0%B8%D0%B7+%D0%91%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8B+%28%D0%90%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%BE+%22%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%80%22+%3A+%D0%9F%D1%80%D0%BE%D0%BB%D0%BE%D0%B3%29&description=%3Cp%3E%D0%97%D0%B4%D0%B5%D1%81%D1%8C+%D0%B2%D1%81%D0%B5%D0%B3%D0%BE+%D0%BE%D0%B4%D0%BD%D0%B0+%D0%B5%D0%B4%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%81%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D0%B0%D1%8F+%D0%BA%D0%BE%D0%BD%D1%86%D0%BE%D0%B2%D0%BA%D0%B0.+%D0%9D%D0%B0%D0%B9%D0%B4%D0%B8+%D0%B5%D1%91%2C+%D0%B4%D0%BE%D0%BA%D0%B0%D0%B6%D0%B8%2C+%D1%87%D1%82%D0%BE+%D1%82%D1%8B+%D0%98%D0%B7%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%21...&image=http%3A%2F%2Fstorymaze.ru%2Fstory%2FUlmt--cZVfhuluxlnaTE54JU3MA21as_.jpg'
+        },
+        facebook: {
+            popupUrl: 'https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fstorymaze.ru%2Fstory%2Fview%2F1251.html'
+        },
+        twitter: {
+            popupUrl: 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fstorymaze.ru%2Fstory%2Fview%2F1251.html&text=%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B9+%23storymaze+%D0%9F%D0%BE%D0%B1%D0%B5%D0%B3+%D0%B8%D0%B7+%D0%91%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8B+%28%D0%90%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%BE+%22%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%80%22+%3A+%D0%9F%D1%80%D0%BE%D0%BB%D0%BE%D0%B3%29'
+        }
+    };
+</script></head>
+<body>
+
+
+<div class="wrap">
+    <nav id="w62" class="navbar-inverse navbar-fixed-top navbar-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w62-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/"><img class="logo-image desktop" src="/img/logo-text-right.png" width="150" height="45" alt=""><img class="logo-image pad" src="/img/logo.png" width="45" height="45" alt=""></a></div><div id="w62-collapse" class="collapse navbar-collapse"><ul id="w63" class="navbar-nav navbar-left nav"><li><a href="/site/index.html"><img class="menu-image" src="/img/home-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Дом</a></li>
+<li><a href="/site/recommended.html"><img class="menu-image" src="/img/search-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Поиск</a></li>
+<li><a href="/site/signup.html"><img class="menu-image" src="/img/note-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Зарегистрироваться</a></li>
+<li><a href="/site/login.html"><img class="menu-image" src="/img/enter-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Войти</a></li></ul>    <div class="pull-right">
+        <div id="lang-select" class="navbar-text pull-left">
+            <div style="width: auto;overflow: hidden;">
+                <div style="width: auto;float:left;">
+<form action="/episode/view/19475.html" method="post">
+<input type="hidden" name="_csrf" value="YUIzWHcxMVk7KWQXIUlTbxRwXWwRZFYuEDRSIBFLABcUFmUOQHpECA==">
+        <b>Руc</b> | <a href="#" onclick="language_change(&quot;en&quot;)">Eng</a>        <script type="text/javascript">
+            function language_change(selected) {
+                var lng = selected.value;
+                if(lng == undefined)
+                    lng = selected;
+                //alert(lng);
+                $.ajax({
+                    type : "POST",
+                    url : "/site/language.html",
+                    data : "_lang="+lng+"&YII_CSRF_TOKEN=YUIzWHcxMVk7KWQXIUlTbxRwXWwRZFYuEDRSIBFLABcUFmUOQHpECA==",
+                    success : function(data){window.location.reload();}
+                });
+            }
+        </script>
+
+</form></div>
+            </div>
+        </div>
+        <div class="pull-left download-link">
+            <a href="https://play.google.com/store/apps/details?id=ru.hipe.storymaze" target="_blank"><img src="/img/download-android.jpg" width="80" height="25" alt=""></a>
+        </div>
+    </div>
+    </div></div></nav>            <div class="download-link-mob">
+            <a href="#"><img class="pull-right" src="/img/cancel-small-bl.png" width="15" height="15" alt="" onclick="Cookies.set(&quot;_smdal&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+            <a href="https://play.google.com/store/apps/details?id=ru.hipe.storymaze" target="_blank"><img src="/img/download-android.jpg" width="80" height="25" alt="" onclick="Cookies.set(&quot;_smdal&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+            Storymaze для Android!
+        </div>
+    
+    <div class="container">
+        <ul class="breadcrumb"><li><a href="/">Главная</a></li>
+<li><a href="/story/index.html">Мои storymaze</a></li>
+<li><a href="/story/view/1251.html">Побег из Больницы (Агентство &quot;Маркер&quot; : Пролог)</a></li>
+<li><a href="/episode/index/1251.html">Эпизоды</a></li>
+<li class="active">Стрелять</li>
+</ul>        <div class="episode-view null-bottom-margin">
+    <div class="header">
+        <p>
+            <a href="/user/view/68.html"><img class="profile-image" src="/avatar/YZBmJfZGDSYVasANNwq1K5X8jOtwl0pw.jpg" width="60" height="60" alt=""></a>&nbsp;&nbsp;<a href="/user/view/68.html">Vetalione</a>&nbsp;&nbsp;
+            <!-- Subscribe button -->
+                                                    <!-- /Subscribe button -->
+        </p>
+        <div class="row margin0">
+            <div class="w15 text-center pull-left">
+                <a class="pull-left" href="/episode/#.html" onclick="goBack(event);"><img class="back-image act-image" src="/img/back-arrow.png" alt=""></a>            </div>
+            <div class="w70 text-center pull-left">
+                <h3>
+                <a href="/story/view/1251.html">Побег из Больницы (Агентство &quot;Маркер&quot; : Пролог)</a>                </h3>
+            </div>
+            <div class="w15 text-center pull-left">
+                            </div>
+        </div>
+        
+        <!--<div class="text-center episodes">
+            <a class="maze-btn-black" href="/episode/progress/1251.html">Прогресс</a>        </div>-->
+    </div>
+
+    
+<!-- <div class="episode-wrapper"> -->
+<div class="margin-top">
+    <h4>Стрелять</h4>
+    <p></p>
+    <p class="text-episode"><p>Ты решил воспользоваться моментом и, пока они не поняли что ты предатель, расстрелять их всех из автомата. Ты вскинул оружие, но не успел ты сделать и пары выстрелов, как тебя подстрелили. Всё таки у солдат лучше реакция и их там больше.</p></p>
+    <div class="text-center episodeNext">
+            </div>
+        <div class="text-center">
+            </div>
+
+    
+    <div class="text-center">
+            </div>
+
+    <h4>
+            </h4>
+
+            <!--<div></div>-->
+                    <div class="rate-request">
+                <h4 class="text-center">
+                    Понравилось? Поддержи автора!</h4>
+                <div class="row">
+                    <div class="w20 text-center pull-left">&nbsp;</div>
+                    <div class="w20 text-center pull-left">
+                        <button type="button" class="img-btn" title="Оцени!" onclick="likeStory(1251, true);"><img id="plus-karma" class="act-image" src="/img/plus-small-bl.png" width="30" height="30" alt=""></button>                    </div>
+                    <div class="w20 text-center pull-left">
+                        <a href="/commentary/index/1251.html">
+                            <button type="button" class="img-btn" title="Оставь мнение!"><img id="comments-link" class="act-image" src="/img/comments-big-bl.png" width="30" height="30" alt=""></button>                        </a>
+                    </div>
+                    <div class="w20 text-center pull-left">
+                        <button type="button" class="img-btn" title="Поделись!" onclick="repostStory(event, 1251);"><img id="repost-img-1251" class="act-image repost" src="/img/repost-small-bl.png" width="30" height="30" alt=""></button>                    </div>
+                    <div class="w20 text-center pull-left">&nbsp;</div>
+                </div>
+            </div>
+                <div class="end-story-buttons text-center">
+            <!--<a href="/story/view/1251.html"><img class="act-image" src="/img/home-big-bl.png" width="40" height="40" alt=""></a>-->
+        </div>
+    
+    
+<div class="socialShareBlock text-center">
+    <p>Понравился этот storymaze? Поделись им с друзьями!</p>
+
+    <div class="social-likes" data-title="Интересный #storymaze Побег из Больницы (Агентство "Маркер" : Пролог)">
+        <div class="vkontakte" title="Поделись в Vkontakte">Вконтакте</div>
+        <div class="facebook" title="Поделись в Facebook">Facebook</div>
+        <div class="twitter" title="Поделись в Twitter">Twitter</div>
+    </div>
+</div>
+        <div class="jumbotron last-episode-jumbotron">
+        <p>
+            <a class="btn btn-lg maze-btn-black" href="/episode/view/19372.html" onclick="saveProgress(19372, 0)">Сначала</a>        </p>
+    </div>
+    </div>
+</div>
+
+    
+<div class="commentary-index commentary-partial-wrapper">
+    <div class="row margin0 text-center">
+        <div class="text-center">
+            <h3 class="commentary-title">
+                Комментарии            </h3>
+        </div>
+    </div>
+
+<!-- Commentary form -->
+            <div class="text-center margin-top margin-bottom">
+            <p><em>Только зарегистрированные пользователи могут оставлять комментарии</em></p>
+            <a href="/site/signup.html">Зарегистрироваться</a> 
+            / 
+            <a href="/site/login.html">Войти</a>        </div>
+    <!-- /Commentary form -->
+            <div class="text-center">
+            -59-
+        </div>
+                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/4848.html"><img class="profile-image" src="/avatar/Faign28T75Fi0uzcnJsyHpruXlbljUAl.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/4848.html">three_paper_trees</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Ох, наконец-то я дошла до счастливой концовки!</p><p>Искусно написано, радует наличие деталей, а не сухое описание действий. Действия персонажа логичны и обоснованы - благодаря стилю изложения при чтении не понимаешь, что приближаешься к плохому концу. </p><p>Чем больше концовок читаешь, тем ситуация становится полнее, яснее, четче. Это именно то, чего ожидаешь от сторимэйза.</p><p>Разговоры, фразы не литературизированы, что добавляет реализма.</p><p>Обалденно! С нетерпением жду следующего вашего творения)</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/54.html"><img class="profile-image" src="/avatar/FplM9evkl1dE6rQ3QyKm9VOgMhL7ocDU.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><i class="fa fa-2x fa-pencil critic-icon" title="критик"></i><a href="/user/view/54.html">Vladislove_Pestrikov</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Виталь, это шедевр!! Я проходил 40 минут, и не жалею, просто обалденно!<br><br>Даже рад, что прошел все концовки, потому что понял все секреты))<br></p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/1453.html"><img class="profile-image" src="/avatar/CqfhuiZFicozhXTn8aoC8FDltZNs8udf.jpeg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/1453.html">Fixikin</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Очень круто. Сначала маленькие эпизоды, динамично, резко :)<br>Потом подольше, с объяснениями. Превосходный сторимейз. <br>Самое классное, то что одна хорошая концовка. Это правильно :)</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/4551.html"><img class="profile-image" src="/avatar/6F-VRH4rhLUqrq3YhKcRCLAk_6pmgdcg.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/4551.html">ЦЕНИТЕЛЬ</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Шик . Порадовало исполнение и богатое наличие выбора, не пожалел того времени, которое потратил на этот сторимэйз . Автору большой +, продолжай в том же духе, надеюсь увидеть продолжение!</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/2538.html"><img class="profile-image" src="/avatar/mgg7cErMra-l3eeHrsKQjgpkvlqdc3VG.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/2538.html">LynadZ</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Это шедевввврррррр!!!</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/55.html"><img class="profile-image" src="/avatar/eGTXB2VmqzsLdlCcalftbPN9GUScll3Q.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/55.html">Cayzer</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Резерв.</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/1930.html"><img class="profile-image" src="/avatar/W77LxajzkJ1ORcR3vqEhKdWJgBPuEJ-x.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/1930.html">Apelsin</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Жду продолжения. Очень круто</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/3446.html"><img class="profile-image" src="/avatar/N8xNXd1T5gSh3z9dh24Ej9xZPvDlI9e-.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/3446.html">EvaVolod</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Супер! Проходила один вечер и одно утро! ЦЕЛЫЕ! Это просто офигено! Никогда бы не нашла этот сторимэйз, если бы не группа</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/68.html"><img class="profile-image" src="/avatar/YZBmJfZGDSYVasANNwq1K5X8jOtwl0pw.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/68.html">Vetalione</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Ставь плюс, если выжил!</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/4848.html"><img class="profile-image" src="/avatar/Faign28T75Fi0uzcnJsyHpruXlbljUAl.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/4848.html">three_paper_trees</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>+</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/6412.html"><img class="profile-image" src="http://cs7011.vk.me/v7011357/fd98/sOmkvwWfO4g.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/6412.html">id240592357</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>+</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/68.html"><img class="profile-image" src="/avatar/YZBmJfZGDSYVasANNwq1K5X8jOtwl0pw.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/68.html">Vetalione</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Ребята, как вам?)</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/54.html"><img class="profile-image" src="/avatar/FplM9evkl1dE6rQ3QyKm9VOgMhL7ocDU.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><i class="fa fa-2x fa-pencil critic-icon" title="критик"></i><a href="/user/view/54.html">Vladislove_Pestrikov</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Я продолжения жду на неделе, прямо очень)<br></p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/68.html"><img class="profile-image" src="/avatar/YZBmJfZGDSYVasANNwq1K5X8jOtwl0pw.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/68.html">Vetalione</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Продолжению быть!</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/4070.html"><img class="profile-image" src="http://cs630826.vk.me/v630826296/789/6udxAMc7_mM.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/4070.html">id33683296</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Супер сюжет! Я раз 10, правда, по дороге умирала, но почитала комменты и поняла, что я не одна такая) Автору 10+</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/2489.html"><img class="profile-image" src="/avatar/cfSO9PAga4olfWJ2X5wROdI9Je7osNoz.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/2489.html">Kate_Marsh</a></div>
+                    <p class="datetime">5 месяцев назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Vital, 410 +, where the continuation</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/11374.html"><img class="profile-image" src="http://cs628019.vk.me/v628019755/38081/lvze1syskx8.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/11374.html">ngololobov</a></div>
+                    <p class="datetime">4 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Блин, все перепробовал, почему то то пройти немогу(</div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/7845.html"><img class="profile-image" src="/avatar/eD9dCVtZLboN4FhDY4IGzUIy5aH1t-Mo.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/7845.html">Amazon</a></div>
+                    <p class="datetime">4 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Потрясно</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/11800.html"><img class="profile-image" src="/avatar/tN0mDl77cvkth5zmLf2Kw8Mom6kTWW7T.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/11800.html">ZeFirKa</a></div>
+                    <p class="datetime">4 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Очень классно!Жду продолжения)+</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/11975.html"><img class="profile-image" src="/avatar/w6maowQb8ul4_-HFDtWq7YybtjMHX1lr.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/11975.html">StagER</a></div>
+                    <p class="datetime">4 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Это просто шедевр.Жду продолжения</p><p><br></p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/13477.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/13477.html">DiMaw</a></div>
+                    <p class="datetime">4 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>тут есть хорошая концовка?)</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/106.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/106.html">DEHNC47</a></div>
+                    <p class="datetime">4 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Где продолжение?</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/2489.html"><img class="profile-image" src="/avatar/cfSO9PAga4olfWJ2X5wROdI9Je7osNoz.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/2489.html">Kate_Marsh</a></div>
+                    <p class="datetime">4 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>где блять продолжение</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/14273.html"><img class="profile-image" src="http://cs625631.vk.me/v625631301/4afb3/BrCtdYMnhUk.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/14273.html">id326804301</a></div>
+                    <p class="datetime">4 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Этот StoryMaze просто ШИКАРЕН, прошёл весь StoryMaze умер раз 50 :), жду продолжение</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/22879.html"><img class="profile-image" src="/avatar/Gwpe2tIbQNHjXlmlkrkMEAl_Jc069flt.jpeg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/22879.html">SPARTA2oo2</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>это шедевр</p><p>Круче не видела)</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/16538.html"><img class="profile-image" src="/avatar/wqgOxCKhYhX9NeAKJqG8TLMcD5xdPUDx.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/16538.html">Rrr</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Капеееец</p><p>В последний раз догадался до удачной концовки...</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/19335.html"><img class="profile-image" src="http://cs622219.vk.me/v622219967/3cd32/FofpbZqegWk.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/19335.html">kiryakolt</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><ul><li><span class="redactor-invisible-space"></span>где продолжение </li></ul></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/4848.html"><img class="profile-image" src="/avatar/Faign28T75Fi0uzcnJsyHpruXlbljUAl.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/4848.html">three_paper_trees</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>хотела спросить: вы уверены, что это эпилог, а не пролог?</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/12138.html"><img class="profile-image" src="/avatar/4UQEWNYxgR3nFoayLUQTxpG82BXWEGAR.gif" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/12138.html">Siili</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Мне даже проходить все линии лень. Хотя я всегда это делаю. Скука смертная и слишком много смертей. Как же все любят убивать. Только думаешь, что тут может начаться что-то интересное и тебя убивают. Линейность сюжета - совсем не то, что ожидается от сторимейза. </p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/23587.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/23587.html">ilyaistihin</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Шедевр)</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/68.html"><img class="profile-image" src="/avatar/YZBmJfZGDSYVasANNwq1K5X8jOtwl0pw.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/68.html">Vetalione</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Ребят, спасибо вам огромное! Мне очень приятно, что вам так понравилось моё творчество. Я буду продолжать в том же духе и стараться исправлять все недочёты, на которые вы мне указали. А пока что можете заценить продолжение этой истории о Маркере! Его первое дело! Сторимэйз в моём профиле...</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/760.html"><img class="profile-image" src="http://cs313926.vk.me/v313926408/6483/GjXvPxuj7o4.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/760.html">Flaffi</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Потратил полтора часа, чтобы найти счастивую концовку. Оно того стоило !</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/5858.html"><img class="profile-image" src="/avatar/wN8u4aExL979zqf1Noq_OuyObg8xpr54.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/5858.html">Rebelion</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Щикарно, жду еще</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/27601.html"><img class="profile-image" src="http://cs627729.vk.me/v627729059/2c8b2/sJ4A5ray5S0.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/27601.html">sofyashak</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Очень круто, интересно) аж устала играть) но мне понравилось)</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/28710.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/28710.html">Daimas</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Восхитительно! Это лучшее из того, что я когда-либо читал!</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/33544.html"><img class="profile-image" src="/avatar/LrC5L2hQoNYcXF628dGmPp5ru9hfUOyv.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/33544.html">Vicky</a></div>
+                    <p class="datetime">2 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Отличный сторимейз!!! Не знаю сколько времени прошло, но я, всё же, добралась до счастливой концовки!!!)))</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/34538.html"><img class="profile-image" src="http://cs628628.vk.me/v628628439/d790/d0brhGfsK-U.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/34538.html">Graound</a></div>
+                    <p class="datetime">2 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Наконец то много вариантов. Много смертей. С одной стороны это хорошо, но с другой я так и не дошла до счастливого конца, но подумать и понервничать у меня хорошо получилось. За это и спасибо.</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/12683.html"><img class="profile-image" src="http://cs625427.vk.me/v625427792/1c8ac/j2AdxPdVzMs.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/12683.html">Art235</a></div>
+                    <p class="datetime">2 месяца назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Дшёл до счастливой концовки, но я умер конечно несколько раз- и из-за неожиданности.</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/39662.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/39662.html">Aikyn_15</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>хочу продолжения!</p><p><br></p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/39662.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/39662.html">Aikyn_15</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>хочу продолжения!</p><p><br></p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/41642.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/41642.html">Antrophy</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Подобного несвязного бреда я давно не видел. </p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/43050.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/43050.html">Nikavek</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>не смогла найти хорошый конец завтра сново буду искать отлично написанной</p><p><br></p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/43123.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/43123.html">Kotay</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>я так и не нашла хорошего конца</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/42304.html"><img class="profile-image" src="http://cs628124.vk.me/v628124301/23155/XD71YGdu2SU.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/42304.html">id2137301</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Спорить не буду. Получилось очень хорошо. Но некоторые смерти были несколько надуманными и туповатыми. Например (Так что б не спойлерить, те кто прочел догадаются) с гаечным ключом по затылку.</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/35275.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/35275.html">HamiL</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Медведь, гаечным ключом по голове... А так годный рассказ.</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/44811.html"><img class="profile-image" src="http://cs626720.vk.me/v626720819/4d89/SWJKrxp-sZ8.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/44811.html">Connor</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Это просто божественно!Очень жду продолжения!Проходил минут 30,и ни чуть не пожалел.В голове были представления якобы я играю в игру,и это так круто!Спасибо автору за подаренные,за даром, эмоции!Ну оочень жду продолжения!</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/44839.html"><img class="profile-image" src="/avatar/0EBRFQgs5DdzJuuiBud32qd1A615PzG4.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/44839.html">AnrissiaHatarGjen</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Да уж, талант Автора к закрученным сюжетам не может остаться незамеченным, но я действительно посмотрела бы на того, кто прошел все с первой попытки))</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/45755.html"><img class="profile-image" src="http://cs633127.vk.me/v633127541/be06/sbtgGbvoTpE.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/45755.html">kiryukhabassist</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Очень круто!</p><p>Продолжай в том же духе:</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/36353.html"><img class="profile-image" src="http://cs623218.vk.me/v623218668/6720f/BQzTWUsHraU.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/36353.html">v_a_s_o_1769</a></div>
+                    <p class="datetime">4 недели назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>ну где, где же продолжение?? когда оно будет? ну поскорее бы, а то разрываюсь ведь от нетерпенья) </p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/46235.html"><img class="profile-image" src="/avatar/ssCgoHupvAEuA-uArwNxfb140fUU2tFF.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/46235.html">felicefan4</a></div>
+                    <p class="datetime">4 недели назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Мне нужно продолжение. СРОЧНО!!!</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/47025.html"><img class="profile-image" src="http://cs627320.vk.me/v627320927/66f7/R_nGciAwOrQ.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/47025.html">id170407927</a></div>
+                    <p class="datetime">3 недели назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Это шээдээээвр</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/47025.html"><img class="profile-image" src="http://cs627320.vk.me/v627320927/66f7/R_nGciAwOrQ.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/47025.html">id170407927</a></div>
+                    <p class="datetime">3 недели назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Это шээдээээвр</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/47126.html"><img class="profile-image" src="http://cs622322.vk.me/v622322966/1e932/LU_hRYyFIYk.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/47126.html">id187765966</a></div>
+                    <p class="datetime">3 недели назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>блин так интересно!Столько классных концовок.Жду продолжения.</p><p><br></p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/47699.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/47699.html">Viktoria_21</a></div>
+                    <p class="datetime">2 недели назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>можете пожалуйста написать порядок действий чтобы пройти до счастливого конца. Я долго мучалась и никак не могу пройти.( я вроде вышла из больницы, но через 2 месяца меня убили военный у меня дома) Но всё равно очень интересный сюжет. Спасибо автору</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/48063.html"><img class="profile-image" src="/avatar/2TxDacoWj96BNNHMTsLeMwZ5vy_PKCPg.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/48063.html">vstikacheva</a></div>
+                    <p class="datetime">2 недели назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Первая история с которой я начала! </p><p>Просто великолепно! </p><p>Спасибо большое автору</div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/49112.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/49112.html">Flaz3r</a></div>
+                    <p class="datetime">1 неделю назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Я прошёл на концовку "</p><h4>Спустя два месяца" есть ещё концовки?</h4></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/49369.html"><img class="profile-image" src="http://cs628827.vk.me/v628827623/14b88/V4tMFNm1lJs.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/49369.html">far_007</a></div>
+                    <p class="datetime">1 неделю назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>Шикарно. Сложно. Оригинально </p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/49925.html"><img class="profile-image" src="/avatar/ZtseSkYbV74fRSNC6exCWy0lMItc5JJh.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/49925.html">tyumen</a></div>
+                    <p class="datetime">1 неделю назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>гениально</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>                    
+<div class="comment-wrapper">
+        <div class="row margin0">
+            <div class="row margin0">
+                <div class="profile-img pull-left">
+                    <a href="/user/view/50778.html"><img class="profile-image" src="/avatar/Lgj8c7Wlp9X25IfnSMoz280P5aMqy4px.jpg" alt=""></a>                </div>
+                <div class="profile-text pull-left w50">
+                    <div class="byText"><a href="/user/view/50778.html">the_mother_of_order</a></div>
+                    <p class="datetime">1 день назад</p>
+                </div>
+                <div class="w15 pull-left text-center margin-top-20">
+                    &nbsp;                </div>
+                <div class="pull-left cursor-pointer w20 text-center margin-top-20">
+                                    </div>                
+            </div>
+            <div class="row margin0">
+                <div class="w15 pull-left text-center">&nbsp;</div>
+                <div class="w70 pull-left">
+                                        <div class="commentText"><p>+</p><p>это просто бесподобно! Захватывает нереально. В конспекте вместо формул по математике расписывала возможности ходов)) супер, продолжай)</p></div>
+                </div>
+<!--                 <div class="expander pull-left cursor-pointer w15 text-center">
+                                    </div> -->
+            </div>
+        </div>
+</div>            </div>    </div>
+
+</div>
+<div class="navbar-bottom navbar-fixed-bottom">
+    <div class="col-xs-12 navbar-inverse">
+        <div class="row" id="bottomNav">
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/site/index.html" onclick="setActive()">
+                    <img class="menu-image homeH" src="/img/home-small-gr.png" width="25" height="25" alt="">                    <img class="menu-image homeA" src="/img/home-small.png" width="25" height="25" alt="">                </a>
+            </div>
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/site/search.html">
+                    <img class="menu-image searchH" src="/img/search-small-gr.png" width="25" height="25" alt="">                    <img class="menu-image searchA" src="/img/search-small.png" width="25" height="25" alt="">                </a>
+            </div>
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/story/index.html">
+                    <img class="menu-image mymazeH" src="/img/mymaze-small-gr.png" width="25" height="25" alt="">                    <img class="menu-image mymazeA" src="/img/mymaze-small.png" width="25" height="25" alt="">                </a>
+            </div>
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/user/actions.html">
+                    <img class="menu-image heartH" src="/img/heart-small-gr.png" width="25" height="25" alt="">                </a>
+                <a href="/user/actions.html">
+                    <img class="menu-image heartA" src="/img/heart-small.png" width="25" height="25" alt="">                </a>
+            </div>
+                            <div class="col-xs-2 text-center menu-image-bottom">
+                    <a href="/site/login.html">
+                        <img class="menu-image" src="/img/enter-small-gr.png" width="25" height="25" alt="">                    </a>
+                </div>
+                    </div>
+    </div>
+</div>
+<script src="/assets/jquery.js"></script>
+<script src="/assets/social.js"></script>
+<script src="/js/social-likes.min.js"></script>
+<script src="/assets/yii.js"></script>
+<script src="/js/jquery.color.js"></script>
+<script src="/js/jquery.Jcrop.min.js"></script>
+<script src="/js/crop.js"></script>
+<script src="/js/node_modules/sweetalert/dist/sweetalert.min.js"></script>
+<script src="/js/scroll/scroll-startstop.events.jquery.js"></script>
+<script src="/js/jquery-ui-1.11.4/jquery-ui.js"></script>
+<script src="/js/circle-progress.js"></script>
+<script src="/js/site.js"></script>
+<script src="/js/func.js"></script>
+<script src="/js/js.cookie.js"></script>
+<script src="/js/jQueryRotate.js"></script>
+<script src="/assets/js/bootstrap.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+$(".socialShareBlock a").yiiShareLinks();
+});</script><div id="liver">
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter34170405 = new Ya.Metrika({
+                        id:34170405,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/34170405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="dS1HdlVZd2RMYC0dEWhAJSBVBAMzOhocTGMSWwc2HiE7GgEhYApACA==">
+    <title>Десант</title>
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+<link href="/css/jquery.Jcrop.css" rel="stylesheet">
+<link href="/css/jquery.Jcrop.min.css" rel="stylesheet">
+<link href="/js/node_modules/sweetalert/dist/sweetalert.css" rel="stylesheet">
+<link href="/js/scroll/css/style.css" rel="stylesheet">
+<link href="/js/jquery-ui-1.11.4/jquery-ui.css" rel="stylesheet">
+<link href="/css/site.css" rel="stylesheet">
+<link href="/assets/cf41184c/css/font-awesome.min.css" rel="stylesheet"></head>
+<body>
+
+
+<div class="wrap">
+    <nav id="w1" class="navbar-inverse navbar-fixed-top navbar-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w1-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/"><img class="logo-image desktop" src="/img/logo-text-right.png" width="150" height="45" alt=""><img class="logo-image pad" src="/img/logo.png" width="45" height="45" alt=""></a></div><div id="w1-collapse" class="collapse navbar-collapse"><ul id="w2" class="navbar-nav navbar-left nav"><li><a href="/site/index.html"><img class="menu-image" src="/img/home-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Дом</a></li>
+<li><a href="/site/search.html"><img class="menu-image" src="/img/search-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Поиск</a></li>
+<li><a href="/site/signup.html"><img class="menu-image" src="/img/note-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Зарегистрироваться</a></li>
+<li><a href="/site/login.html"><img class="menu-image" src="/img/enter-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Войти</a></li></ul>    <div id="lang-select" class="navbar-text pull-right">
+        
+<form action="/episode/view/5410.html" method="post">
+<input type="hidden" name="_csrf" value="dS1HdlVZd2RMYC0dEWhAJSBVBAMzOhocTGMSWwc2HiE7GgEhYApACA==">
+        <b>Руc</b> | <a href="#" onclick="language_change(&quot;en&quot;)">Eng</a>        <script type="text/javascript">
+            function language_change(selected) {
+                var lng = selected.value;
+                if(lng == undefined)
+                    lng = selected;
+                //alert(lng);
+                $.ajax({
+                    type : "POST",
+                    url : "/site/language.html",
+                    data : "_lang="+lng+"&YII_CSRF_TOKEN=dS1HdlVZd2RMYC0dEWhAJSBVBAMzOhocTGMSWwc2HiE7GgEhYApACA==",
+                    success : function(data){window.location.reload();}
+                });
+            }
+        </script>
+
+</form>    </div>
+    </div></div></nav>
+    <div class="container">
+        <ul class="breadcrumb"><li><a href="/">Главная</a></li>
+<li><a href="/story/index.html">Мои storymaze</a></li>
+<li><a href="/story/view/226.html">Я робот</a></li>
+<li><a href="/episode/index/226.html">Эпизоды</a></li>
+<li class="active">Десант</li>
+</ul>        <div class="episode-view">
+    <div class="header">
+        <p>
+            <img class="profile-image" src="/avatar/FplM9evkl1dE6rQ3QyKm9VOgMhL7ocDU.jpg" width="60" height="60" alt="">&nbsp;&nbsp;<a href="/user/view/54.html">Storymaze</a>        </p>
+        <h3>
+            <a class="pull-left"><img class="act-image" src="/img/back-arrow.png" width="40" height="30" alt=""></a>            <a href="/story/view/226.html">Я робот</a>                    </h3>
+        
+        <!--<div class="text-center episodes">
+            <a class="maze-btn-black" href="/episode/progress/226.html">Прогресс</a>        </div>-->
+    </div>
+
+    
+<div class="episode-wrapper">
+    <h4>Десант</h4>
+    <p></p>
+    <p class="text-episode"><p>Ты разбежался и прыгнул.</p><p>-Черт! - Выругался ты, осознав, что за спиной у тебя нет парашюта. Но наверное он и не нужен, раз я робот... Но все равно ничего уже не изменить.<br><br>Ты успокоился и начал наблюдать происходящее. Судя по всему ты слишком поздно прыгнул, потому что где-то вдали ты видел роботов, падающих с неба как дождь, свет лучей бластеров, сражение...<br></p></p>
+    <div class="text-center episodeNext">
+        <a class="maze-btn-black maze-btn-brown next-btn" href="/episode/view/5411.html" onclick="saveProgress(event, 5411, 5410)">Приземлиться</a>    </div>
+        <div class="text-center">
+            </div>
+    <h4>
+            </h4>
+
+    
+    
+    </div>
+
+</div>    </div>
+
+</div>
+<div class="navbar-bottom navbar-fixed-bottom">
+    <div class="col-xs-12 navbar-inverse">
+        <div class="row" id="bottomNav">
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/site/index.html" onclick="setActive()">
+                    <img class="menu-image homeH" src="/img/home-small-gr.png" width="25" height="25" alt="">                    <img class="menu-image homeA" src="/img/home-small.png" width="25" height="25" alt="">                </a>
+            </div>
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/site/search.html">
+                    <img class="menu-image searchH" src="/img/search-small-gr.png" width="25" height="25" alt="">                    <img class="menu-image searchA" src="/img/search-small.png" width="25" height="25" alt="">                </a>
+            </div>
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/story/index.html">
+                    <img class="menu-image mymazeH" src="/img/mymaze-small-gr.png" width="25" height="25" alt="">                    <img class="menu-image mymazeA" src="/img/mymaze-small.png" width="25" height="25" alt="">                </a>
+            </div>
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/user/actions.html">
+                    <img class="menu-image heartH" src="/img/heart-small-gr.png" width="25" height="25" alt="">                </a>
+                <a href="/user/actions.html">
+                    <img class="menu-image heartA" src="/img/heart-small.png" width="25" height="25" alt="">                </a>
+            </div>
+                            <div class="col-xs-2 text-center menu-image-bottom">
+                    <a href="/site/login.html">
+                        <img class="menu-image" src="/img/enter-small-gr.png" width="25" height="25" alt="">                    </a>
+                </div>
+                    </div>
+    </div>
+</div>
+<script src="/assets/jquery.js"></script>
+<script src="/assets/yii.js"></script>
+<script src="/js/jquery.color.js"></script>
+<script src="/js/jquery.Jcrop.js"></script>
+<script src="/js/jquery.Jcrop.min.js"></script>
+<script src="/js/crop.js"></script>
+<script src="/js/node_modules/sweetalert/dist/sweetalert.min.js"></script>
+<script src="/js/scroll/scroll-startstop.events.jquery.js"></script>
+<script src="/js/jquery-ui-1.11.4/jquery-ui.js"></script>
+<script src="/js/circle-progress.js"></script>
+<script src="/js/site.js"></script>
+<script src="/js/func.js"></script>
+<script src="/assets/js/bootstrap.js"></script><div id="liver">
+    
+</div>
+</body>
+</html>

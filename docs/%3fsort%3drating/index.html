@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="ru" class="storymaze-home">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name='yandex-verification' content='6e37696e0fcbfe7e' />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+    <title>Storymaze - Поиск</title>
+    <!-- VK retargeting -->
+    <!--<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=kF3xgVPVwgzZronUawCde/W5hpGXiUarMoUe1QR..*L38t4Ma2v9swoq6HEJfjNnO4BNY06SJUZN9Ugkfmrny0i9w-';</script>-->
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=lBVXcELOpo6bdlFYnDcvtFvFa2189ayCvSTaXKTS13Oo9/yS0R5rbDmLcUj/N0L/8BXsP3M/Hys/o24HZz/wS1X9HLFlaLYV/6GSJXJr439xm5sLDWlPOqngmr01G6UjSjXzhEtpji5QLnE8u/O*z/atHSqJdnJ0xPy6U8Jf9i8-';</script>
+    <!-- /VK retargeting -->
+    <link href="/assets/72caf0b4/css/bootstrap.css?v=1480660791" rel="stylesheet">
+<link href="/css/jquery.Jcrop.css?v=1454756029" rel="stylesheet">
+<link href="/css/jquery.Jcrop.min.css?v=1454756029" rel="stylesheet">
+<link href="/js/sweetalert2/sweetalert2.css?v=1472760467" rel="stylesheet">
+<link href="/js/scroll/css/style.css?v=1454756029" rel="stylesheet">
+<link href="/js/jquery-ui-1.11.4/jquery-ui.css?v=1454756029" rel="stylesheet">
+<link href="/css/site.css?v=1477931093" rel="stylesheet">
+<link href="/css/chosen.css?v=1472760467" rel="stylesheet">
+<link href="/css/swiper.min.css?v=1472760467" rel="stylesheet">
+<link href="/css/style_new.css?v=1481291478" rel="stylesheet">
+<link href="/css/night_mode.css?v=1474819841" rel="stylesheet">
+<link href="/css/style_mobile.css?v=1480688314" rel="stylesheet">
+<link href="/css/bootstrap.min.css?v=1480613207" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;amp;subset=cyrillic" rel="stylesheet">
+<link href="/css/storymaze-font.css?v=1481548100" rel="stylesheet">
+<link href="/css/owl.carousel.css?v=1480613207" rel="stylesheet">
+<link href="/css/owl.theme.css?v=1480613207" rel="stylesheet">
+<link href="/css/owl.transitions.css?v=1480613207" rel="stylesheet">
+<link href="/css/summernote.css?v=1480613207" rel="stylesheet">
+<link href="/css/style.css?v=1481548100" rel="stylesheet">
+<link href="/css/night-theme.css?v=1480613207" rel="stylesheet">
+<link href="/css/responsive.css?v=1481548100" rel="stylesheet">
+<link href="/assets/f1087a50/css/font-awesome.min.css?v=1480660792" rel="stylesheet">
+</head>
+<body>
+
+
+
+<style type="text/css">
+    #to_top {
+        background: url(../img/anchor_top.png) no-repeat center 100px, rgba(148, 148, 168, .1) !important;
+    }
+</style>
+
+
+<div class="wrap">
+    <nav class="navbar navbar-fixed-top">
+      <div class="navbar-header">
+
+        <button type="button" id="burger" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <ul class="nav navbar-nav navbar-right only-mobile" id="nav-lang">
+          <li>
+            <div>
+<form action="/?sort=rating" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+        <a class="btn btn-switcher lang-switcher active">RU</a><a class="btn btn-switcher lang-switcher" href="#" onclick="language_change(&quot;en&quot;)">EN</a>        <script type="text/javascript">
+            function language_change(selected) {
+                var lng = selected.value;
+                if(lng == undefined)
+                    lng = selected;
+                //alert(lng);
+                $.ajax({
+                    type : "POST",
+                    url : "/site/language.html",
+                    data : "_lang="+lng+"&YII_CSRF_TOKEN=emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==",
+                    success : function(data){window.location.reload();}
+                });
+            }
+        </script>
+
+</form></div>
+          </li>
+        </ul>
+        <a class="navbar-brand" href="/">
+          <img src="/images/logo.svg" alt="">
+        </a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="nav-links">
+          <li>
+            <a href="/site/search.html">Все истории</a>          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" id="nav-login">
+          <!-- <li><button class="btn btn-switcher sw-xl">ЗАРЕГИСТРИРОВАТЬСЯ</button></li> -->
+                        <li>
+                 <a class="btn button-default" href="/site/signup.html" data-method="post">                 Зарегистрироваться                 </a>             </li>
+              <li >
+                  <a class="btn button-default" href="/site/login.html" data-method="post">                  Войти                  </a>             </li>
+                   </ul>
+        <ul class="nav navbar-nav navbar-right no-mobile" id="nav-lang">
+          <li>
+            <div>
+<form action="/?sort=rating" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+        <a class="btn btn-switcher lang-switcher active">RU</a><a class="btn btn-switcher lang-switcher" href="#" onclick="language_change(&quot;en&quot;)">EN</a>        <script type="text/javascript">
+            function language_change(selected) {
+                var lng = selected.value;
+                if(lng == undefined)
+                    lng = selected;
+                //alert(lng);
+                $.ajax({
+                    type : "POST",
+                    url : "/site/language.html",
+                    data : "_lang="+lng+"&YII_CSRF_TOKEN=emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==",
+                    success : function(data){window.location.reload();}
+                });
+            }
+        </script>
+
+</form></div>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" id="nav-links2">
+          <li><a href="#" class="search-link"><span>Поиск</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle help-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Помощь</span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <form>
+                  <div class="help-input">
+                    <textarea class="question_form" type="" name="" label="Текст вопроса" autofocus="" placeholder="Введите Ваш вопрос"></textarea>
+                  </div>
+                  <div class="help-submit">
+                    <a href="#" class="btn button-default">Отправить</a>
+                    <a href="#" class="btn btn-switcher active-orange">
+                    Выключить подсказки</a>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </li>
+                    <li>
+                            <a href="" class="night-link"></a>
+                      </li>
+
+        </ul>
+
+        
+      </div><!--/.nav-collapse -->
+    </nav>
+
+
+    <!--         <div class="download-link-mob">
+            <a href="#"><img class="pull-right" src="/img/cancel-small-bl.png" width="15" height="15" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+            <p>
+
+                <a href="https://play.google.com/store/apps/details?id=ru.hipe.storymaze" target="_blank"><img src="/img/android.png" height="25" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+                <span>Storymaze для Android!</span>
+            </p>
+            <p>
+                <a href="http://storymaze.appstor.io/" target="_blank"><img src="/img/ios.png" height="25" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+                <span>Storymaze для iOS!</span>
+            </p>
+        </div> -->
+        <div class="container">
+        
+        
+<div class="display-none popup-social" id="block">
+    <a href="http://vk.com/storymaze" target="blank"><img src="/img/vk-popup.png" alt=""></a>    <a href="https://twitter.com/storymaze" target="blank"><img src="/img/twitter-popup.png" alt=""></a>    <a href="https://www.facebook.com/RuStorymaze/" target="blank"><img src="/img/facebook-popup.png" alt=""></a>    <a href="https://www.instagram.com/storymaze/" target="blank"><img src="/img/insta-popup.png" alt=""></a>            
+</div>
+
+        
+<div class="home">
+
+    <section class="main-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+                                        <div class="recommended">
+                  <h2>Рекомендованные истории <i class="icon-icon-star"></i></h2>
+                  <div class="row">
+                    
+                        <div class="col-md-6">
+                        <div class="panel panel-singlestory" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/story/fx1uT2uNCJhRknYFuhhTvyfrWJbknkSV.jpg);">
+                          <div class="ep-count">110                            эпизодов                          </div>
+                          <div class="story-headline">
+
+                            <a href="/story/view/1212.html"><h3>Запретная зона: Начало (12+)<h3></a>                            <div class="sstat">
+                              <span><i class="icon-icon-eye" aria-hidden="true"></i> 57.2K</span>
+                              <span><i class="icon-icon-plus" aria-hidden="true"></i> 8.1K</span>
+                              <span><i class="icon-icon-comments" aria-hidden="true"></i> 107</span>
+                            </div>
+
+                            <div class="sinfo">
+                                                            <div class="author">
+                                <div class="author_ava">
+                                  <a href="/user/view/54.html"><img class="profile-image" src="/avatar/FplM9evkl1dE6rQ3QyKm9VOgMhL7ocDU.jpg" alt=""></a>                                </div>
+                                <div class="author_info">
+                                  <span class="author__name">
+                                    <a href="/user/view/54.html">Vladislove_Pestrikov</a>                                  </span>
+                                  <span class="author__addts">
+                                                                        1 год назад                                  </span>
+                                </div>
+                              </div>
+                              <div class="s-btns">
+                                                                                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    
+                        <div class="col-md-6">
+                        <div class="panel panel-singlestory" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/story/aQmr1XhCndh_pyFc7VOWIjNe1mSfwwN0.jpg);">
+                          <div class="ep-count">84                            эпизода                          </div>
+                          <div class="story-headline">
+
+                            <a href="/story/view/4666.html"><h3>Запретная зона: новая Земля (16+)<h3></a>                            <div class="sstat">
+                              <span><i class="icon-icon-eye" aria-hidden="true"></i> 19.4K</span>
+                              <span><i class="icon-icon-plus" aria-hidden="true"></i> 5.1K</span>
+                              <span><i class="icon-icon-comments" aria-hidden="true"></i> 52</span>
+                            </div>
+
+                            <div class="sinfo">
+                                                            <div class="author">
+                                <div class="author_ava">
+                                  <a href="/user/view/54.html"><img class="profile-image" src="/avatar/FplM9evkl1dE6rQ3QyKm9VOgMhL7ocDU.jpg" alt=""></a>                                </div>
+                                <div class="author_info">
+                                  <span class="author__name">
+                                    <a href="/user/view/54.html">Vladislove_Pestrikov</a>                                  </span>
+                                  <span class="author__addts">
+                                                                        11 месяцев назад                                  </span>
+                                </div>
+                              </div>
+                              <div class="s-btns">
+                                                                                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    
+                        <div class="col-md-6">
+                        <div class="panel panel-singlestory" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/story/Ulmt--cZVfhuluxlnaTE54JU3MA21as_.jpg);">
+                          <div class="ep-count">85                            эпизодов                          </div>
+                          <div class="story-headline">
+
+                            <a href="/story/view/1251.html"><h3>Побег из Больницы (Агентство &quot;Маркер&quot; : Пролог) (16+)<h3></a>                            <div class="sstat">
+                              <span><i class="icon-icon-eye" aria-hidden="true"></i> 22.5K</span>
+                              <span><i class="icon-icon-plus" aria-hidden="true"></i> 2.8K</span>
+                              <span><i class="icon-icon-comments" aria-hidden="true"></i> 77</span>
+                            </div>
+
+                            <div class="sinfo">
+                                                            <div class="author">
+                                <div class="author_ava">
+                                  <a href="/user/view/68.html"><img class="profile-image" src="/avatar/YZBmJfZGDSYVasANNwq1K5X8jOtwl0pw.jpg" alt=""></a>                                </div>
+                                <div class="author_info">
+                                  <span class="author__name">
+                                    <a href="/user/view/68.html">Vetalione</a>                                  </span>
+                                  <span class="author__addts">
+                                                                        1 год назад                                  </span>
+                                </div>
+                              </div>
+                              <div class="s-btns">
+                                                                                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    
+                        <div class="col-md-6">
+                        <div class="panel panel-singlestory" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/story/OGw6yimU5WhozdrIRv9aoTyhBVmWhT3g.jpg);">
+                          <div class="ep-count">43                            эпизода                          </div>
+                          <div class="story-headline">
+
+                            <a href="/story/view/10132.html"><h3>Способности: Останавливающий Время (18+)<h3></a>                            <div class="sstat">
+                              <span><i class="icon-icon-eye" aria-hidden="true"></i> 13.8K</span>
+                              <span><i class="icon-icon-plus" aria-hidden="true"></i> 2.5K</span>
+                              <span><i class="icon-icon-comments" aria-hidden="true"></i> 61</span>
+                            </div>
+
+                            <div class="sinfo">
+                                                            <div class="author">
+                                <div class="author_ava">
+                                  <a href="/user/view/25604.html"><img class="profile-image" src="/avatar/CucpD0uq_Rb13TFqQ05ol8jFG1AFYXTv.jpg" alt=""></a>                                </div>
+                                <div class="author_info">
+                                  <span class="author__name">
+                                    <a href="/user/view/25604.html">TroyHolman</a>                                  </span>
+                                  <span class="author__addts">
+                                                                        8 месяцев назад                                  </span>
+                                </div>
+                              </div>
+                              <div class="s-btns">
+                                                                                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                                      </div>
+                  <div class="row">
+                    <div class="col-md-12 text-center loadbtn-wr">
+                      <div class="lb-hwr">
+                          <a class="btn button-default" href="/site/recommended.html">ЗАГРУЗИТЬ ЕЩЕ ИСТОРИИ</a>                      </div>
+                    </div>
+                  </div>
+                </div>
+                      </div>
+          <div class="col-md-4 right-col">
+                            <h2>Обсуждаемые</h2>
+                                    <div class="panel">
+                      <div class="panel-body">
+                        <a href="/story/view/18079.html"><h3>Страшная болезнь 2: Жестокий мир (16+)<h3></a>                                                <div class="author">
+                          <div class="author_ava">
+                            <a href="/user/view/43912.html"><img class="profile-image" src="http://cs630121.vk.me/v630121375/364fc/JzNL8zXBbHM.jpg" alt=""></a>                          </div>
+                          <div class="author_info">
+                            <span class="author__name">VladKarav</span>
+                                                        <span class="author__addts">3 месяца назад</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                                    <div class="panel">
+                      <div class="panel-body">
+                        <a href="/story/view/16767.html"><h3>Бремя короля (16+)<h3></a>                                                <div class="author">
+                          <div class="author_ava">
+                            <a href="/user/view/60149.html"><img class="profile-image" src="/avatar/pARsoz6d2VtMpKB81f1QE_iJJJ2HtuJm.jpg" alt=""></a>                          </div>
+                          <div class="author_info">
+                            <span class="author__name">AugustGreen</span>
+                                                        <span class="author__addts">5 месяцев назад</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                                    <div class="panel">
+                      <div class="panel-body">
+                        <a href="/story/view/224.html"><h3>S.T.A.L.K.E.R. - Тринадцатилуние. Часть 1. (18+)<h3></a>                                                <div class="author">
+                          <div class="author_ava">
+                            <a href="/user/view/131.html"><img class="profile-image" src="/avatar/a1iRwvXgZ3zJv9KbaDsmS9XJ13IH9xV2.jpg" alt=""></a>                          </div>
+                          <div class="author_info">
+                            <span class="author__name">Nagato</span>
+                                                        <span class="author__addts">1 год назад</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                                    <div class="panel">
+                      <div class="panel-body">
+                        <a href="/story/view/15420.html"><h3>Корпорация &quot;Колосс&quot; (16+)<h3></a>                                                <div class="author">
+                          <div class="author_ava">
+                            <a href="/user/view/17797.html"><img class="profile-image" src="/avatar/tuE1hf75pwSSOGU9CsvgEG-TiLcsmgy2.jpg" alt=""></a>                          </div>
+                          <div class="author_info">
+                            <span class="author__name">Smetana</span>
+                                                        <span class="author__addts">3 месяца назад</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                                    <div class="panel">
+                      <div class="panel-body">
+                        <a href="/story/view/16552.html"><h3>Коридор. (18+)<h3></a>                                                <div class="author">
+                          <div class="author_ava">
+                            <a href="/user/view/59191.html"><img class="profile-image" src="/avatar/r46UPPtaNPYX7PjcsrRfJBfhRhXwwf9G.gif" alt=""></a>                          </div>
+                          <div class="author_info">
+                            <span class="author__name">sariel</span>
+                                                        <span class="author__addts">5 часов назад</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                                <a class="ra-link" href="/site/top-commented.html">Топ 20 обсуждаемых историй</a>                      </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="social">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="social-block vk-block">
+              <a target="_blank" href="https://vk.com/storymaze">
+                <i class="fa fa-vk fa-4x" aria-hidden="true"></i>
+                <p>Storymaze VK — Самая атмосферная группа</p>
+                <p class="small">164 954 подписчика</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="social-block fb-block">
+              <a target="_blank" href="https://www.facebook.com/RuStorymaze"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="social-block tw-block">
+              <a target="_blank" href="https://twitter.com/storymaze"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="social-block ins-block">
+              <a target="_blank" href="https://instagram.com/storymaze/"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tags">
+      <div class="container">
+                    <div class="row">
+              <div class="col-md-12">
+                <h2>Популярные рубрики</h2>
+                                    <a class="btn btn-popular" href="/site/search.html?s=%23%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0">#фантастика</a>                                    <a class="btn btn-popular" href="/site/search.html?s=%23%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F">#приключения</a>                                    <a class="btn btn-popular" href="/site/search.html?s=%23%D0%94%D1%80%D0%B0%D0%BC%D0%B0">#Драма</a>                                    <a class="btn btn-popular" href="/site/search.html?s=%23%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8">#фэнтези</a>                                    <a class="btn btn-popular" href="/site/search.html?s=%23%D0%BC%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0">#мистика</a>                                    <a class="btn btn-popular" href="/site/search.html?s=%23%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80">#триллер</a>                                    <a class="btn btn-popular" href="/site/search.html?s=%23%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0">#Романтика</a>                                    <a class="btn btn-popular" href="/site/search.html?s=%23%D1%83%D0%B6%D0%B0%D1%81%D1%8B">#ужасы</a>                                    <a class="btn btn-popular" href="/site/search.html?s=%23%D0%A5%D0%BE%D1%87%D1%83%D0%A4%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D1%83">#ХочуФантастику</a>                                    <a class="btn btn-popular" href="/site/search.html?s=%23%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5">#Приключение</a>                              </div>
+            </div>
+              </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+                            <h2>Популярные авторы</h2>
+                <div class="panel panel-default panel-popular">
+                    <div class="row">
+                        
+                          <div class="col-md-4 panel-block">
+                            <a href="user/view/29014.html">                                <img src="/avatar/EJ_TCk-4J2yPV1D_G0vDdxNm9dbe1kJ3.jpeg" alt="">                                <p>MrIncredible</p>
+                            </a>                          </div>
+
+                        
+                          <div class="col-md-4 panel-block">
+                            <a href="user/view/1294.html">                                <img src="/avatar/oGYsPZZQf8EpxqybmHPNzXwyAgoPrkrF.jpg" alt="">                                <p>Storymaze_avtor</p>
+                            </a>                          </div>
+
+                        
+                          <div class="col-md-4 panel-block">
+                            <a href="user/view/3773.html">                                <img src="/avatar/DeLN_9P0qJkFj9TgDguK_5EV7IigUfey.jpg" alt="">                                <p>Alstard</p>
+                            </a>                          </div>
+
+                                            </div>
+                </div>
+                      </div>
+          <div class="col-md-6">
+                            <h2>Интересные каналы</h2>
+                <div class="panel panel-default panel-popular">
+                    <div class="row">
+                        
+                          <div class="col-md-4 panel-block">
+                            <a href="user/view/43912.html">                                <img src="http://cs630121.vk.me/v630121375/364fc/JzNL8zXBbHM.jpg" alt="">                                <p>VladKarav</p>
+                            </a>                          </div>
+
+                        
+                          <div class="col-md-4 panel-block">
+                            <a href="user/view/16524.html">                                <img src="/avatar/ysE6gvRKknDHM9xh0hmzD57KSpNZGk4K.jpeg" alt="">                                <p>KOHb_B_BaKyyMe</p>
+                            </a>                          </div>
+
+                        
+                          <div class="col-md-4 panel-block">
+                            <a href="user/view/32.html">                                <img src="http://lorempixel.com/200/200/people/?13936" alt="">                                <p>Timmothy McDermott III</p>
+                            </a>                          </div>
+
+                                            </div>
+                </div>
+                      </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chat">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Чат <i class="icon-icon-chat"></i></h2>
+
+                        <div id="w8">
+              
+
+<div class="commentary-index commentary-partial-wrapper panel panel-default">
+
+
+    <!-- Commentary form -->
+                    <div class="text-center only_reg">
+                <p><em>Только зарегистрированные пользователи могут оставлять комментарии</em></p>
+                <a href="/site/signup.html">Зарегистрироваться</a>                /
+                <a href="/site/login.html">Войти</a>            </div>
+        
+    <!-- /Commentary form -->
+
+    
+    <div class="open_comments_wrap">
+                                    
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-37">
+    <div class="media-left">
+      <a href="/user/view/47308.html"><img class="profile-image" src="/avatar/cvJdWtehxJQvGZiAkEdnzLuGthNIgRsK.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/47308.html">Lifesaver</a></h4>
+      <p><p>После обновления сайта работа над сторимейзами с планшетного устройства стала очень неудобной. Частые лаги, полный отказ сайта функционировать, если использовать курсив при создании эпизода, то переключиться на обычный шрифт уже не получается. Эта проблема возникла только на мобильном и планшете (устройства исправны). А так обновление - супер)</p></p>
+      
+      
+                <span class="comm-time">1 день назад</span>
+          <a href="#" role="button" class="reply-btn">Ответить</a>
+      
+      
+    </div>
+  </div>
+
+        <div class="commentary-form">
+          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+              <input type="hidden" name="MainCommentary[replyTo]" value="37">              <div class="form-group">
+                  <div class="col-sm-10 col-xs-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                      <a href="" class="smiles"></a>
+                  </div>
+                  <div class="col-sm-2 col-xs-2 hover_tooltip">
+                      <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                  </div>
+              </div>
+          </form>      </div>
+  
+</div>
+                            
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-35">
+    <div class="media-left">
+      <a href="/user/view/68057.html"><img class="profile-image" src="/avatar/JB1h4QAhEKAdnlLTbCEApbyv9Bh3cbfI.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/68057.html">Ksaitr</a></h4>
+      <p><p>Мой крестовый поход по storymaze.ruпродолжается.</p>  <p>Ранее был совершен налет на форт«Я выбираю жизнь», что находится во владениях «MaryFoxLive» <a href="http://storymaze.ru/story/view/7338.html">http://storymaze.ru/story/view/7338.html</a></p>  <p>После чего была предпринята дерзкая попытка взять штурмом самый известный бастион, не менее известного автора.«Запретная зона: Начало» принадлежащий«Vladislove_Pestrikov» <a href="http://storymaze.ru/story/view/1212.html">http://storymaze.ru/story/view/1212.html</a> </p>  <p>Вот только недавно закончилось еще одно сражение, на этот раз у стен  «Храмовник ч.1» . Над укреплениями были замечены флаги«KOHb_B_BaKyyMe» <a href="http://storymaze.ru/story/view/3952.html">http://storymaze.ru/story/view/3952.html</a></p>  <p>Попутно совершил некоторое количество разбойных нападений на лагеря недавно опубликованных и не очень популярных(не успевших набрать просмотров) авторов.  </p>  <p>Всем добра =) Но это не точно. </p></p>
+      
+      
+                <span class="comm-time">2 дня назад</span>
+          <a href="#" role="button" class="reply-btn">Ответить</a>
+      
+      
+    </div>
+  </div>
+
+        <div class="commentary-form">
+          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+              <input type="hidden" name="MainCommentary[replyTo]" value="35">              <div class="form-group">
+                  <div class="col-sm-10 col-xs-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                      <a href="" class="smiles"></a>
+                  </div>
+                  <div class="col-sm-2 col-xs-2 hover_tooltip">
+                      <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                  </div>
+              </div>
+          </form>      </div>
+  
+</div>
+                            
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-33">
+    <div class="media-left">
+      <a href="/user/view/16789.html"><img class="profile-image" src="/avatar/LjV5ncBdYGf6Sw15jtLnGnaJyIhexkkL.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/16789.html">WhiteFlame</a></h4>
+      <p><p>Проверка связи</p></p>
+      
+      
+                <span class="comm-time">4 дня назад</span>
+          <a href="#" role="button" class="reply-btn">Ответить</a>
+      
+                <div class="media-left">
+                                    
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-34">
+    <div class="media-left">
+      <a href="/user/view/54.html"><img class="profile-image" src="/avatar/FplM9evkl1dE6rQ3QyKm9VOgMhL7ocDU.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/54.html">Vladislove_Pestrikov</a></h4>
+      <p>✌️</p>
+      
+      
+      
+      
+    </div>
+  </div>
+
+  
+</div>
+                        </div>
+      
+    </div>
+  </div>
+
+        <div class="commentary-form">
+          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+              <input type="hidden" name="MainCommentary[replyTo]" value="33">              <div class="form-group">
+                  <div class="col-sm-10 col-xs-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                      <a href="" class="smiles"></a>
+                  </div>
+                  <div class="col-sm-2 col-xs-2 hover_tooltip">
+                      <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                  </div>
+              </div>
+          </form>      </div>
+  
+</div>
+                            
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-31">
+    <div class="media-left">
+      <a href="/user/view/68057.html"><img class="profile-image" src="/avatar/JB1h4QAhEKAdnlLTbCEApbyv9Bh3cbfI.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/68057.html">Ksaitr</a></h4>
+      <p><p>В общем-то тоже интересно(хотя в теории я понимаю что это и как реализуется) Есть ли проекты с эпизодами за которые надо платить?=)  И если происходит оплата(списывается валюта сайта со счета игрока)  кому она зачисляется? автору сторимейза? или же владельцу сайта?=)   <br></p></p>
+      
+      
+                <span class="comm-time">6 дней назад</span>
+          <a href="#" role="button" class="reply-btn">Ответить</a>
+      
+      
+    </div>
+  </div>
+
+        <div class="commentary-form">
+          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+              <input type="hidden" name="MainCommentary[replyTo]" value="31">              <div class="form-group">
+                  <div class="col-sm-10 col-xs-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                      <a href="" class="smiles"></a>
+                  </div>
+                  <div class="col-sm-2 col-xs-2 hover_tooltip">
+                      <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                  </div>
+              </div>
+          </form>      </div>
+  
+</div>
+                            
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-30">
+    <div class="media-left">
+      <a href="/user/view/43791.html"><img class="profile-image" src="/avatar/e2SXn_VZt-DzzxJcYiNhyzpBrfWuXKAV.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/43791.html">Aia_Mousepeas</a></h4>
+      <p><p>Объясните, пожалуйста, что такое "стоимость перехода"?<br></p></p>
+      
+      
+                <span class="comm-time">1 неделю назад</span>
+          <a href="#" role="button" class="reply-btn">Ответить</a>
+      
+      
+    </div>
+  </div>
+
+        <div class="commentary-form">
+          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+              <input type="hidden" name="MainCommentary[replyTo]" value="30">              <div class="form-group">
+                  <div class="col-sm-10 col-xs-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                      <a href="" class="smiles"></a>
+                  </div>
+                  <div class="col-sm-2 col-xs-2 hover_tooltip">
+                      <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                  </div>
+              </div>
+          </form>      </div>
+  
+</div>
+                            
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-29">
+    <div class="media-left">
+      <a href="/user/view/68057.html"><img class="profile-image" src="/avatar/JB1h4QAhEKAdnlLTbCEApbyv9Bh3cbfI.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/68057.html">Ksaitr</a></h4>
+      <p><p>1.чат это несомненно хорошо и раз вы смогли прикрутить его было бы не плохо и личную почту реализовать, возможно и форум. Понятное дело что проект находиться в тесном симбиозе с группой вк(возможно еще где-то)  но от самодостаточности сайта - ему хуже точно не станет. </p><p>2. Сильно сомневаюсь что ради меня и моего запроса будут переделывать систему, однако не отметить этого не могу: Серьезно не хватает такого понятия как "условие". Из-за чего вариации прохождения и концовок сильно сокращаются, либо работа над ними становиться очень тягомотной и нудной. Пожалуйста хотя бы рассмотрите подобный вариант, что в перспективе повысит качество работ.</p><p>3. Возможно это только мой баг, однако сообщаю что на мазиле последней версии при нажатии на поиск выходит белый поисковик в котором (внимание!) не отображается то что я в него ввел.  Не то что бы это сильно мешает, но вводит в некий диссонанс, по крайней мере такой "аномалии" я еще нигде не встречал. </p><p>4. Нет кнопки обращения к администрации или модераторам, хотя бы по техническим вопросам или причинам. Пусть не онлайн - но она однозначно не помешала бы. </p><p>5. Комментарии к стори . Возможно это спорный момент, но хочу затронуть и его. Ценность комментария годовалой давности при первой встрече с мейзом, довольно сомнительна. Порой не актуальна. Возможно стоить выводить в первое открытие, последние комментарии? <br></p><p>6. Возможность вставки музыки как на всю стори, так и на эпизоды, без "шаманств" и сторонник сайтов. Самодостаточности во вред не бывает. Реализация такой возможности несомненно повысило бы качество и количество качественного контента. </p><p>P.S. Стоит понимать что это субъективное мнение человека который недавно пришел на сайт. И тем не менее от-того оно и ценно, что это первое впечатление, проанализировав которое, может быть удастся что-то либо улучшить, оптимизировать или подкорректировать. С уважением, (с) Ксайтр<br> </p></p>
+      
+      
+                <span class="comm-time">1 неделю назад</span>
+          <a href="#" role="button" class="reply-btn">Ответить</a>
+      
+                <div class="media-left">
+                                    
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-32">
+    <div class="media-left">
+      <a href="/user/view/47308.html"><img class="profile-image" src="/avatar/cvJdWtehxJQvGZiAkEdnzLuGthNIgRsK.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/47308.html">Lifesaver</a></h4>
+      <p>*Аплодисменты*</p>
+      
+      
+      
+      
+    </div>
+  </div>
+
+  
+</div>
+                        </div>
+      
+    </div>
+  </div>
+
+        <div class="commentary-form">
+          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+              <input type="hidden" name="MainCommentary[replyTo]" value="29">              <div class="form-group">
+                  <div class="col-sm-10 col-xs-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                      <a href="" class="smiles"></a>
+                  </div>
+                  <div class="col-sm-2 col-xs-2 hover_tooltip">
+                      <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                  </div>
+              </div>
+          </form>      </div>
+  
+</div>
+                            
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-27">
+    <div class="media-left">
+      <a href="/user/view/26812.html"><img class="profile-image" src="/avatar/tKYjpwLNCep1HQxXisy630GhHKdsLCXj.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/26812.html">Ofelya</a></h4>
+      <p><p>Я тоже против такого обновления сайта. То, что чат добавили-это круто, но в остальном- ужас.</p></p>
+      
+      
+                <span class="comm-time">1 неделю назад</span>
+          <a href="#" role="button" class="reply-btn">Ответить</a>
+      
+      
+    </div>
+  </div>
+
+        <div class="commentary-form">
+          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+              <input type="hidden" name="MainCommentary[replyTo]" value="27">              <div class="form-group">
+                  <div class="col-sm-10 col-xs-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                      <a href="" class="smiles"></a>
+                  </div>
+                  <div class="col-sm-2 col-xs-2 hover_tooltip">
+                      <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                  </div>
+              </div>
+          </form>      </div>
+  
+</div>
+                            
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-26">
+    <div class="media-left">
+      <a href="/user/view/5344.html"><img class="profile-image" src="/avatar/sR1Jdlj26inzsemEgKUEDqAJ3Yy_H9fN.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/5344.html">Valera_Spartak</a></h4>
+      <p><p>Круто! У нас есть чат. Слушайте, ребят, такая тема. Завтра буду извиняться перед девушкой за то что накосячил. Может кто знает слов пару красноречивых?</p></p>
+      
+      
+                <span class="comm-time">2 недели назад</span>
+          <a href="#" role="button" class="reply-btn">Ответить</a>
+      
+                <div class="media-left">
+                                    
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-28">
+    <div class="media-left">
+      <a href="/user/view/67976.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/67976.html">KnyzTM</a></h4>
+      <p>Подкаблучник</p>
+      
+      
+      
+      
+    </div>
+  </div>
+
+  
+</div>
+                        </div>
+      
+    </div>
+  </div>
+
+        <div class="commentary-form">
+          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+              <input type="hidden" name="MainCommentary[replyTo]" value="26">              <div class="form-group">
+                  <div class="col-sm-10 col-xs-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                      <a href="" class="smiles"></a>
+                  </div>
+                  <div class="col-sm-2 col-xs-2 hover_tooltip">
+                      <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                  </div>
+              </div>
+          </form>      </div>
+  
+</div>
+                            
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-24">
+    <div class="media-left">
+      <a href="/user/view/29668.html"><img class="profile-image" src="/avatar/7KpnLpx0pOVwMMd1tSwwycgy1SP0MAWu.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/29668.html">Ola</a></h4>
+      <p><p>Зачем было менять дизайн сайта? Это же ужас! Какие ещё монеты?! Почему эта чёрная хрень сверху занимает половину экрана?! Где популярные истории? Где список авторов? ЗАЧЕМ??? Верните всё назад!<br></p></p>
+      
+      
+                <span class="comm-time">2 недели назад</span>
+          <a href="#" role="button" class="reply-btn">Ответить</a>
+      
+                <div class="media-left">
+                                    
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-25">
+    <div class="media-left">
+      <a href="/user/view/54.html"><img class="profile-image" src="/avatar/FplM9evkl1dE6rQ3QyKm9VOgMhL7ocDU.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/54.html">Vladislove_Pestrikov</a></h4>
+      <p>Нажми на "Все истории" и попадешь туда, где все истории и авторы)</p>
+      
+      
+      
+      
+    </div>
+  </div>
+
+  
+</div>
+                        </div>
+      
+    </div>
+  </div>
+
+        <div class="commentary-form">
+          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+              <input type="hidden" name="MainCommentary[replyTo]" value="24">              <div class="form-group">
+                  <div class="col-sm-10 col-xs-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                      <a href="" class="smiles"></a>
+                  </div>
+                  <div class="col-sm-2 col-xs-2 hover_tooltip">
+                      <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                  </div>
+              </div>
+          </form>      </div>
+  
+</div>
+                            
+<div class="panel panel-default panel-chat pchat-btm">
+
+  <div class="media" id="comment-23">
+    <div class="media-left">
+      <a href="/user/view/17797.html"><img class="profile-image" src="/avatar/tuE1hf75pwSSOGU9CsvgEG-TiLcsmgy2.jpg" alt=""></a>    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/user/view/17797.html">Smetana</a></h4>
+      <p><p>Итак. Посмотрим, что изменилось) Пожелайте мне удачи:D</p></p>
+      
+      
+                <span class="comm-time">2 недели назад</span>
+          <a href="#" role="button" class="reply-btn">Ответить</a>
+      
+      
+    </div>
+  </div>
+
+        <div class="commentary-form">
+          <form class="form-horizontal" action="/main-commentary/create.html" method="post">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">
+              <input type="hidden" name="MainCommentary[replyTo]" value="23">              <div class="form-group">
+                  <div class="col-sm-10 col-xs-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='MainCommentary[text]'>
+                      <a href="" class="smiles"></a>
+                  </div>
+                  <div class="col-sm-2 col-xs-2 hover_tooltip">
+                      <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                  </div>
+              </div>
+          </form>      </div>
+  
+</div>
+                        </div>
+
+
+</div>
+
+                                <form class="form-inline" action="/" method="post" data-pjax="">
+<input type="hidden" name="_csrf" value="emoudFkxRkIiXW0Oa2IRJDlbZkwuAhIaNCRcRB9kJyguHF0jbFpyOg==">                      <input type="hidden" name="nextLimit" value="10">                      <button type="submit" class="btn button-default more-comments">Еще</button>                  </form>              
+              </div>          
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+<div class="learning_mode_wrap on">
+    <div class="learning_mode">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-8">
+                <p>Включен режим обучения</p>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-4 text-right">
+                <a href="#" onclick="Training.off(); return false;" class="border_button learning_mode_btn animate">Выключить</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav navbar-nav">
+							<li>
+                <a href="/site/search.html">Все истории</a>              </li>
+							<li>
+                <!-- <a href="#">Что такое Сторимейз</a> -->
+                              </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div id="search">
+      <div class="close"><i class="icon-icon-close"></i></div>
+			<div class="form-box">
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control left-search-icon" placeholder="#Поиск">
+						<p class="help-block">Введите @ для поиска по автору или # для поиска по тегу</p>
+            <input type="submit" class="hidden">
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+    <script src="/assets/9e3a7fe8/jquery.js?v=1480660791"></script>
+<script src="/assets/1fc82ea/yii.js?v=1480660791"></script>
+<script src="/assets/f6352a8b/jquery.pjax.js?v=1480660798"></script>
+<script src="/assets/72caf0b4/js/bootstrap.js?v=1480660791"></script>
+<script src="/js/jquery.color.js?v=1454756029"></script>
+<script src="/js/jquery.scrollTo.min.js?v=1472760467"></script>
+<script src="/js/jquery.Jcrop.min.js?v=1454756029"></script>
+<script src="/js/crop.js?v=1477931093"></script>
+<script src="/js/sweetalert2/sweetalert2.min.js?v=1472760467"></script>
+<script src="/js/scroll/scroll-startstop.events.jquery.js?v=1454756029"></script>
+<script src="/js/jquery-ui-1.11.4/jquery-ui.js?v=1454756029"></script>
+<script src="/js/circle-progress.js?v=1454756029"></script>
+<script src="/js/site.js?v=1477931093"></script>
+<script src="/js/chosen.jquery.js?v=1472760467"></script>
+<script src="/js/swiper.jquery.min.js?v=1472760467"></script>
+<script src="/js/main.js?v=1480613207"></script>
+<script src="/js/func.js?v=1481124083"></script>
+<script src="/js/js.cookie.js?v=1454756029"></script>
+<script src="/js/jQueryRotate.js?v=1454756029"></script>
+<script src="/js/training-mode.js?v=1472760467"></script>
+<script src="/js/owl.carousel.min.js?v=1480613207"></script>
+<script src="/js/summernote.min.js?v=1480613207"></script>
+<script src="/js/scripts.js?v=1480613207"></script>
+<script src="/js/typehead.min.js"></script>
+<script src="/js/search.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery(document).pjax("#w8 a", "#w8", {"push":true,"replace":false,"timeout":1000,"scrollTo":false});
+jQuery(document).on('submit', "#w8 form[data-pjax]", function (event) {jQuery.pjax.submit(event, '#w8', {"push":true,"replace":false,"timeout":1000,"scrollTo":false});});
+
+$('.help-submit .button-default').click(function(event){
+    var msg = $('.question_form').val();
+    console.log(msg);
+    event.preventDefault();
+    $.post('/api/site/ticket', {message: msg}, function(data) {
+        if(data.ok == true) {
+            swal('Ваше сообщение отправлено!');
+            $('.question_form').val("");
+        } else {
+            console.log(data);
+            $('.question_form').val("");
+        }
+    });
+
+});
+
+$('.help-submit .btn-switcher').click(function(event){
+    event.preventDefault();
+    if (Training.isOff()) {
+      Training.on()
+    } else {
+      Training.off()
+    }
+});
+
+var SubscribeReminder = {
+    timeout: 180,
+    now: function() {
+        return Date.now()/1000|0;
+    },
+    setNextAlertIn: function(alertTime) {
+        Cookies.set('showSubscribeAlert', alertTime, {expires: 365});
+        if(alertTime !== 'false' && alertTime !== false) {
+            this.init();
+        }
+    },
+    init: function() {
+        var showAlert = Cookies.get('showSubscribeAlert'),
+            timer=undefined;
+        if(showAlert === undefined || showAlert < this.now()) {
+            this.setNextAlertIn(this.now()+this.timeout);
+            timer = this.timeout;
+        }
+
+        if(showAlert > this.now()) {
+            timer = showAlert - this.now();
+        }
+
+        if(timer) {
+            setTimeout(function() {
+               SubscribeReminder.followAlert.call(SubscribeReminder);
+            }, timer*1000);
+        }
+    },
+    followAlert: function() {
+        that = this;
+        swal({
+            html: $('#block').html(),
+            title: "Подпишись на нас в соцсетях!",
+            showCancelButton: true,
+            cancelButtonText: "Больше не показывать",
+            confirmButtonText: "Позже",
+        }).then(function( isConfirm ){
+            that.setNextAlertIn( isConfirm ? that.now()+that.timeout : 'false' );
+            if (!isConfirm) {
+                $.post('/user/disable-social-alert.html', {userId:0});
+            }
+        });
+    }
+}
+
+SubscribeReminder.init();
+Search.initHashtagSearch([{"tagtext":"\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430","id":"1039","storiesCount":"1167"},{"tagtext":"\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f","id":"1118","storiesCount":"807"},{"tagtext":"\u0414\u0440\u0430\u043c\u0430","id":"1050","storiesCount":"713"},{"tagtext":"\u0444\u044d\u043d\u0442\u0435\u0437\u0438","id":"1172","storiesCount":"671"},{"tagtext":"\u043c\u0438\u0441\u0442\u0438\u043a\u0430","id":"1082","storiesCount":"528"},{"tagtext":"\u0442\u0440\u0438\u043b\u043b\u0435\u0440","id":"1167","storiesCount":"501"},{"tagtext":"\u0420\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0430","id":"1218","storiesCount":"488"},{"tagtext":"\u0443\u0436\u0430\u0441\u044b","id":"1084","storiesCount":"473"},{"tagtext":"\u0425\u043e\u0447\u0443\u0424\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0443","id":"1298","storiesCount":"463"},{"tagtext":"\u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435","id":"1226","storiesCount":"425"}]);
+            $('.timeline-mode-select').change(function(){
+                var mode = $(this).val();
+
+                if(mode) {
+                    if(mode=='authors') {
+                        location.href = "/authors/index.html";
+                    } else {
+                        location.href = "/site/" + mode + ".html";
+                    }
+                }
+            });
+});</script>    <div id="liver">
+        <!--LiveInternet counter--><script type="text/javascript"><!--
+            document.write("<a href='//www.liveinternet.ru/click' "+
+                "target=_blank><img src='//counter.yadro.ru/hit?t26.5;r"+
+                escape(document.referrer)+((typeof(screen)=="undefined")?"":
+                ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+                    screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+                ";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+                "' alt='' title='LiveInternet: показано число посетителей за"+
+                " сегодня' "+
+                "border='0' width='88' height='15'><\/a>")
+            //--></script><!--/LiveInternet-->
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter34170405 = new Ya.Metrika({
+                            id:34170405,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true,
+                            webvisor:true
+                        });
+                    } catch(e) { }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/34170405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+<script type="text/javascript">
+    var Training = new TrainingMode();
+    $( "#search form" ).submit(function( event ) {
+      event.preventDefault();
+      var search = $(this).find('input.form-control').val();
+      if (search) {
+          window.location.replace('/site/search.html?s='+search)
+      }
+    });
+
+</script>
+</body>
+</html>
+

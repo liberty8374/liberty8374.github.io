@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="OHZMVDhRRlVPADQGFWIzAwgkCB1UJzw7QS48eUwTfx9rNH8XWhkVLw==">
+    <title>Storymaze - Поиск</title>
+    <link href="/assets/a0ba7f13/css/bootstrap.css?v=1445807429" rel="stylesheet">
+    <link href="/css/jquery.Jcrop.css?v=1447714205" rel="stylesheet">
+    <link href="/css/jquery.Jcrop.min.css?v=1447714205" rel="stylesheet">
+    <link href="/js/node_modules/sweetalert/dist/sweetalert.css?v=1448567926" rel="stylesheet">
+    <link href="/js/scroll/css/style.css?v=1448858825" rel="stylesheet">
+    <link href="/js/jquery-ui-1.11.4/jquery-ui.css?v=1448902217" rel="stylesheet">
+    <link href="/css/site.css?v=1449356649" rel="stylesheet">
+    <link href="/assets/cf41184c/css/font-awesome.min.css?v=1445807967" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="wrap">
+        <nav id="w10" class="navbar-inverse navbar-fixed-top navbar-top navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w10-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img class="logo-image desktop" src="/img/logo-text-right.png" width="150" height="45" alt="">
+                        <img class="logo-image pad" src="/img/logo.png" width="45" height="45" alt="">
+                    </a>
+                </div>
+                <div id="w10-collapse" class="collapse navbar-collapse">
+                    <ul id="w11" class="navbar-nav navbar-left nav">
+                        <li>
+                            <a href="/site/index.html">
+                                <img class="menu-image" src="/img/home-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Дом</a>
+                        </li>
+                        <li class="active">
+                            <a href="/site/search.html">
+                                <img class="menu-image" src="/img/search-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Поиск</a>
+                        </li>
+                        <li>
+                            <a href="/site/signup.html">
+                                <img class="menu-image" src="/img/note-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Зарегистрироваться</a>
+                        </li>
+                        <li>
+                            <a href="/site/login.html">
+                                <img class="menu-image" src="/img/enter-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Войти</a>
+                        </li>
+                    </ul>
+                    <div id="lang-select" class="navbar-text pull-right">
+
+                        <form action="/site/search.html" method="post">
+                            <input type="hidden" name="_csrf" value="OHZMVDhRRlVPADQGFWIzAwgkCB1UJzw7QS48eUwTfx9rNH8XWhkVLw==">
+                            <b>Руc</b> |
+                            <a href="#" onclick="language_change('en')">Eng</a>
+                            <script type="text/javascript">
+                                function language_change(selected) {
+                                    var lng = selected.value;
+                                    if (lng == undefined)
+                                        lng = selected;
+                                    //alert(lng);
+                                    $.ajax({
+                                        type: "POST",
+                                        url: "/site/language.html",
+                                        data: "_lang=" + lng + "&YII_CSRF_TOKEN=OHZMVDhRRlVPADQGFWIzAwgkCB1UJzw7QS48eUwTfx9rNH8XWhkVLw==",
+                                        success: function (data) { window.location.reload(); }
+                                    });
+                                }
+                            </script>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+
+            <div class="search-wrapper row">
+                <div class="welcome-block text-center">
+                    <!--<h3><?/*= Yii::t('app', 'Welcome!') */?></h3>-->
+                    <h4>Storymaze - рассказы, где читатель управляет сюжетом</h4>
+                    <p>
+                        <div class="welcome-icons">
+                            Начать веселье с помощью:
+                            <a href="/site/auth.html?authclient=vkontakte">
+                                <img src="/img/vk-ico-black.png" width="40" height="40" alt="">
+                            </a>
+                            <a href="/site/auth.html?authclient=facebook">
+                                <img src="/img/fb-ico-black.png" width="40" height="40" alt="">
+                            </a>
+                            <a href="/site/auth.html?authclient=instagram">
+                                <img src="/img/inst_ico-black.png" width="40" height="40" alt="">
+                            </a>
+                        </div>
+                    </p>
+                </div>
+                <form action="/site/search.html" method="get">
+                    <div style="margin-top: 20%">
+                        <div class="col-md-11 col-xs-11 search-input">
+                            <div id="search-container">
+                                <label class="display-none" for="global-search">Search</label>
+                                <input type="text" id="global-search" class="form-control clearable" name="s" placeholder="поиск"> </div>
+                            <div id="search-hint" style="display: none;">
+                                <div id="by-author" class="search-hint-btn">
+                                    по автору @ </div>
+                                <div id="by-tag" class="search-hint-btn">
+                                    по тэгу # </div>
+                                <div id="by-name" class="search-hint-btn">
+                                    по имени </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 col-xs-1 search-btn">
+                            <button type="submit" class="maze-btn-black btn-search">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" id="search-by-rating-btn" class="filter-search active" name="sort" value="rating">по рейтингу
+                            <i class="fa fa-arrow-down"></i>
+                        </button>
+                        <button type="submit" id="search-by-date-btn" class="filter-search" name="sort" value="date">по дате </button>
+                    </div>
+                    <input type="text" name="method" value="3" style="display: none;"> </form>
+            </div>
+
+            <div class="search-result-content">
+
+                <a name="story"></a>
+                <div class="story-wrapper">
+                    <div class="padding">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-1 profile-img hidden-xs ">
+                                <a href="/user/view/54.html">
+                                    <img class="profile-image" src="/avatar/FplM9evkl1dE6rQ3QyKm9VOgMhL7ocDU.jpg" width="60" height="60" alt="">
+                                </a>
+                            </div>
+                            <div class="col-xs-1 profile-img visible-xs ">
+                                <a href="/user/view/54.html">
+                                    <img class="profile-image" src="/avatar/FplM9evkl1dE6rQ3QyKm9VOgMhL7ocDU.jpg" width="40" height="40" alt="">
+                                </a>
+                            </div>
+                            <div class="profile-text col-xs-4">
+                                <div class="byText">
+                                    <a href="/user/view/54.html">Storymaze</a>
+                                </div>
+                                <p class="datetime">1 неделю назад</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-image-block">
+                        <a href="/story/view/226.html">
+                            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/VFlbHrEHnrM0Zby7ogEIlsL6lmu3qX-B.jpg) no-repeat center;
+                width:100%;"></div>
+                        </a>
+
+                        <div class="story-chart-btns">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-2 chart-ico">
+                                    <img class="chart-btn act-image" src="/img/plus-big.png" width="45" height="45" alt="" title="Рейтинг"> </div>
+                                <div class="col-md-3 col-xs-3 eye">
+                                    <img class="chart-btn act-image" src="/img/eye-big.png" width="65" height="45" alt="" title="Уникальные просмотры"> </div>
+                                <div class="col-md-2 col-xs-2 chart-ico">
+                                    <a class="chart-btn" href="#" onclick="repostStory(event, 226);">
+                                        <img id="repost-img-226" class="act-image" src="/img/repost-big-gr.png" width="45" height="45" alt="" title="Поделиться">
+                                    </a>
+                                </div>
+                                <div class="col-md-2 col-xs-2">
+                                    <a class="chart-btn" href="/commentary/index/226.html">
+                                        <img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row count-labels">
+                                <div class="col-md-3 col-xs-3 c-l">
+                                    <span id="rating-label" class="count-label">
+                                        425 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-eye">
+                                    <span class="count-label">
+                                        1.7K </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-rep">
+                                    <span id="repost-label-226" class="count-label">
+                                        82 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-com">
+                                    <span class="count-label">
+                                        6 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding">
+                        <h3>
+                            <a href="/story/view/226.html">Я робот</a> (16+)
+                        </h3>
+
+                        <p>
+                            <p>Ты очнулся в теле робота...</p>
+                        </p>
+
+                        <p>
+                            <b>80 эпизодов</b>
+                        </p>
+
+                        <p class="htags">
+                            <a href="/site/search.html?s=%23%D0%B0%D0%B9%D0%BB%D0%B0%D0%B9%D1%84">#айлайф</a>
+                            <a href="/site/search.html?s=%23%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0">#фантастика</a>
+                            <a href="/site/search.html?s=%23%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D1%8B">#роботы</a>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="story-wrapper">
+                    <div class="padding">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-1 profile-img hidden-xs ">
+                                <a href="/user/view/97.html">
+                                    <img class="profile-image" src="/avatar/user-default.png" width="60" height="60" alt="">
+                                </a>
+                            </div>
+                            <div class="col-xs-1 profile-img visible-xs ">
+                                <a href="/user/view/97.html">
+                                    <img class="profile-image" src="/avatar/user-default.png" width="40" height="40" alt="">
+                                </a>
+                            </div>
+                            <div class="profile-text col-xs-4">
+                                <div class="byText">
+                                    <a href="/user/view/97.html">Иван Стуков</a>
+                                </div>
+                                <p class="datetime">1 неделю назад</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-image-block">
+                        <a href="/story/view/206.html">
+                            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/kPG-_OtHUV_21aKTRQE070X7db1r1drS.jpg) no-repeat center;
+                width:100%;"></div>
+                        </a>
+
+                        <div class="story-chart-btns">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-2 chart-ico">
+                                    <img class="chart-btn act-image" src="/img/plus-big.png" width="45" height="45" alt="" title="Рейтинг"> </div>
+                                <div class="col-md-3 col-xs-3 eye">
+                                    <img class="chart-btn act-image" src="/img/eye-big.png" width="65" height="45" alt="" title="Уникальные просмотры"> </div>
+                                <div class="col-md-2 col-xs-2 chart-ico">
+                                    <a class="chart-btn" href="#" onclick="repostStory(event, 206);">
+                                        <img id="repost-img-206" class="act-image" src="/img/repost-big-gr.png" width="45" height="45" alt="" title="Поделиться">
+                                    </a>
+                                </div>
+                                <div class="col-md-2 col-xs-2">
+                                    <a class="chart-btn" href="/commentary/index/206.html">
+                                        <img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row count-labels">
+                                <div class="col-md-3 col-xs-3 c-l">
+                                    <span id="rating-label" class="count-label">
+                                        151 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-eye">
+                                    <span class="count-label">
+                                        520 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-rep">
+                                    <span id="repost-label-206" class="count-label">
+                                        25 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-com">
+                                    <span class="count-label">
+                                        2 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding">
+                        <h3>
+                            <a href="/story/view/206.html">Месть за Митмена</a> (12+)
+                        </h3>
+
+                        <p>
+                            <p>
+                                <strong></strong>
+                                <strong>
+                                    <em>Внимание, сначала прочитайте сторимэйз "Митмен".</em>
+                                </strong>
+                            </p>
+                            <hr>
+                            <p>
+                                <strong>Этот сторимэйз написан к концовке, где главный герой
+                                    <a class="continue-story-link" href="/story/view/206.html">...</a>
+                            </p>
+
+                            <p>
+                                <b>92 эпизода</b>
+                            </p>
+
+                            <p class="htags">
+                                <a href="/site/search.html?s=%23%D0%BC%D0%B8%D1%82%D0%BC%D0%B5%D0%BD">#митмен</a>
+                                <a href="/site/search.html?s=%23%D0%9F%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5">#Продолжение</a>
+                            </p>
+                    </div>
+                </div>
+
+
+                <div class="story-wrapper">
+                    <div class="padding">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-1 profile-img hidden-xs ">
+                                <a href="/user/view/76.html">
+                                    <img class="profile-image" src="/avatar/_XZRTeBhO6IZo1XOMfQArf8cyWMAc7U4.jpg" width="60" height="60" alt="">
+                                </a>
+                            </div>
+                            <div class="col-xs-1 profile-img visible-xs ">
+                                <a href="/user/view/76.html">
+                                    <img class="profile-image" src="/avatar/_XZRTeBhO6IZo1XOMfQArf8cyWMAc7U4.jpg" width="40" height="40" alt="">
+                                </a>
+                            </div>
+                            <div class="profile-text col-xs-4">
+                                <div class="byText">
+                                    <a href="/user/view/76.html">Заряев Елисей Сергеевич</a>
+                                </div>
+                                <p class="datetime">2 недели назад</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-image-block">
+                        <a href="/story/view/182.html">
+                            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/YoHz4yH-XhAKQRkNCBEGd5NRiwn54Vw7.jpg) no-repeat center;
+                width:100%;"></div>
+                        </a>
+
+                        <div class="story-chart-btns">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-2 chart-ico">
+                                    <img class="chart-btn act-image" src="/img/plus-big.png" width="45" height="45" alt="" title="Рейтинг"> </div>
+                                <div class="col-md-3 col-xs-3 eye">
+                                    <img class="chart-btn act-image" src="/img/eye-big.png" width="65" height="45" alt="" title="Уникальные просмотры"> </div>
+                                <div class="col-md-2 col-xs-2 chart-ico">
+                                    <a class="chart-btn" href="#" onclick="repostStory(event, 182);">
+                                        <img id="repost-img-182" class="act-image" src="/img/repost-big-gr.png" width="45" height="45" alt="" title="Поделиться">
+                                    </a>
+                                </div>
+                                <div class="col-md-2 col-xs-2">
+                                    <a class="chart-btn" href="/commentary/index/182.html">
+                                        <img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row count-labels">
+                                <div class="col-md-3 col-xs-3 c-l">
+                                    <span id="rating-label" class="count-label">
+                                        143 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-eye">
+                                    <span class="count-label">
+                                        703 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-rep">
+                                    <span id="repost-label-182" class="count-label">
+                                        13 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-com">
+                                    <span class="count-label">
+                                        3 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding">
+                        <h3>
+                            <a href="/story/view/182.html">Зомби-апокалипсис</a> (16+)
+                        </h3>
+
+                        <p>
+                            <hr>
+                            <p>Сразу поясню: данный сторимейз содержит элементы насилия и материалы, вызывающие страх. Приятного
+                                <a class="continue-story-link" href="/story/view/182.html">...</a>
+                            </p>
+
+                            <p>
+                                <b>21 эпизод</b>
+                            </p>
+
+                            <p class="htags"></p>
+                    </div>
+                </div>
+
+
+                <div class="story-wrapper">
+                    <div class="padding">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-1 profile-img hidden-xs ">
+                                <a href="/user/view/141.html">
+                                    <img class="profile-image" src="/avatar/SXy7PZQWaew1KvVD5BG7_Ft-LXWVpDB3.png" width="60" height="60" alt="">
+                                </a>
+                            </div>
+                            <div class="col-xs-1 profile-img visible-xs ">
+                                <a href="/user/view/141.html">
+                                    <img class="profile-image" src="/avatar/SXy7PZQWaew1KvVD5BG7_Ft-LXWVpDB3.png" width="40" height="40" alt="">
+                                </a>
+                            </div>
+                            <div class="profile-text col-xs-4">
+                                <div class="byText">
+                                    <a href="/user/view/141.html">in_K</a>
+                                </div>
+                                <p class="datetime">1 неделю назад</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-image-block">
+                        <a href="/story/view/237.html">
+                            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/RTfaAuRy7TWlfdL1KRt2O_WKwwOsOxT6.png) no-repeat center;
+                width:100%;"></div>
+                        </a>
+
+                        <div class="story-chart-btns">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-2 chart-ico">
+                                    <img class="chart-btn act-image" src="/img/plus-big.png" width="45" height="45" alt="" title="Рейтинг"> </div>
+                                <div class="col-md-3 col-xs-3 eye">
+                                    <img class="chart-btn act-image" src="/img/eye-big.png" width="65" height="45" alt="" title="Уникальные просмотры"> </div>
+                                <div class="col-md-2 col-xs-2 chart-ico">
+                                    <a class="chart-btn" href="#" onclick="repostStory(event, 237);">
+                                        <img id="repost-img-237" class="act-image" src="/img/repost-big-gr.png" width="45" height="45" alt="" title="Поделиться">
+                                    </a>
+                                </div>
+                                <div class="col-md-2 col-xs-2">
+                                    <a class="chart-btn" href="/commentary/index/237.html">
+                                        <img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row count-labels">
+                                <div class="col-md-3 col-xs-3 c-l">
+                                    <span id="rating-label" class="count-label">
+                                        117 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-eye">
+                                    <span class="count-label">
+                                        595 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-rep">
+                                    <span id="repost-label-237" class="count-label">
+                                        17 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-com">
+                                    <span class="count-label">
+                                        10 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding">
+                        <h3>
+                            <a href="/story/view/237.html">Не обижайте клоуна</a> (16+)
+                        </h3>
+
+                        <p>
+                            <p>Иногда, самым сложным бывает не сделать выбор, а остаться верным своему решению
+                                <a class="continue-story-link" href="/story/view/237.html">...</a>
+                            </p>
+
+                            <p>
+                                <b>26 эпизодов</b>
+                            </p>
+
+                            <p class="htags">
+                                <a href="/site/search.html?s=%23ink">#ink</a>
+                                <a href="/site/search.html?s=%23%D0%A5%D0%BE%D1%87%D1%83%D0%A2%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80">#ХочуТриллер</a>
+                                <a href="/site/search.html?s=%23%D0%A5%D0%BE%D1%87%D1%83%D0%94%D1%80%D0%B0%D0%BC%D1%83">#ХочуДраму</a>
+                                <a href="/site/search.html?s=%23%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80">#триллер</a>
+                                <a href="/site/search.html?s=%23%D0%94%D1%80%D0%B0%D0%BC%D0%B0">#Драма</a>
+                            </p>
+                    </div>
+                </div>
+
+
+                <div class="story-wrapper">
+                    <div class="padding">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-1 profile-img hidden-xs ">
+                                <a href="/user/view/65.html">
+                                    <img class="profile-image" src="/avatar/user-default.png" width="60" height="60" alt="">
+                                </a>
+                            </div>
+                            <div class="col-xs-1 profile-img visible-xs ">
+                                <a href="/user/view/65.html">
+                                    <img class="profile-image" src="/avatar/user-default.png" width="40" height="40" alt="">
+                                </a>
+                            </div>
+                            <div class="profile-text col-xs-4">
+                                <div class="byText">
+                                    <a href="/user/view/65.html">Nick</a>
+                                </div>
+                                <p class="datetime">2 недели назад</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-image-block">
+                        <a href="/story/view/218.html">
+                            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/8-iq_DBJJW0vJp1goSOXF1H3S8yOAaoS.jpg) no-repeat center;
+                width:100%;"></div>
+                        </a>
+
+                        <div class="story-chart-btns">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-2 chart-ico">
+                                    <img class="chart-btn act-image" src="/img/plus-big.png" width="45" height="45" alt="" title="Рейтинг"> </div>
+                                <div class="col-md-3 col-xs-3 eye">
+                                    <img class="chart-btn act-image" src="/img/eye-big.png" width="65" height="45" alt="" title="Уникальные просмотры"> </div>
+                                <div class="col-md-2 col-xs-2 chart-ico">
+                                    <a class="chart-btn" href="#" onclick="repostStory(event, 218);">
+                                        <img id="repost-img-218" class="act-image" src="/img/repost-big-gr.png" width="45" height="45" alt="" title="Поделиться">
+                                    </a>
+                                </div>
+                                <div class="col-md-2 col-xs-2">
+                                    <a class="chart-btn" href="/commentary/index/218.html">
+                                        <img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row count-labels">
+                                <div class="col-md-3 col-xs-3 c-l">
+                                    <span id="rating-label" class="count-label">
+                                        80 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-eye">
+                                    <span class="count-label">
+                                        519 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-rep">
+                                    <span id="repost-label-218" class="count-label">
+                                        11 </span>
+                                </div>
+                                <div class="col-md-3 col-xs-3 c-l-com">
+                                    <span class="count-label">
+                                        2 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding">
+                        <h3>
+                            <a href="/story/view/218.html">Бесконечный туннель</a> (12+)
+                        </h3>
+
+                        <p>
+                            <p>Представьте место, в котором вы можете столкнуться со своим кошмаром или сделать
+                                <a class="continue-story-link" href="/story/view/218.html">...</a>
+                            </p>
+
+                            <p>
+                                <b>39 эпизодов</b>
+                            </p>
+
+                            <p class="htags"></p>
+                    </div>
+                </div>
+
+
+                <!--
+<div class="jumbotron">
+    <p><?/*= Html::button(Yii::t('app', 'More'), ['class' => 'maze-btn-black more', 'onclick' => 'loadTimelineStories("'. $place . '");']) */?></p>
+</div>
+-->
+                <div style="display:none;" class="nav_up" id="nav_up"></div>
+                <div style="display:none;" class="nav_down" id="nav_down"></div>
+                <div class="progress-load" style="display: none;"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="navbar-bottom navbar-fixed-bottom">
+        <div class="col-xs-12 navbar-inverse">
+            <div class="row" id="bottomNav">
+                <div class="col-xs-2 text-center menu-image-bottom">
+                    <a href="/site/index.html" onclick="setActive()">
+                        <img class="menu-image homeH" src="/img/home-small-gr.png" width="25" height="25" alt="">
+                        <img class="menu-image homeA" src="/img/home-small.png" width="25" height="25" alt=""> </a>
+                </div>
+                <div class="col-xs-2 text-center menu-image-bottom">
+                    <a href="/site/search.html">
+                        <img class="menu-image searchH" src="/img/search-small-gr.png" width="25" height="25" alt="">
+                        <img class="menu-image searchA" src="/img/search-small.png" width="25" height="25" alt=""> </a>
+                </div>
+                <div class="col-xs-2 text-center menu-image-bottom">
+                    <a href="/story/index.html">
+                        <img class="menu-image mymazeH" src="/img/mymaze-small-gr.png" width="25" height="25" alt="">
+                        <img class="menu-image mymazeA" src="/img/mymaze-small.png" width="25" height="25" alt=""> </a>
+                </div>
+                <div class="col-xs-2 text-center menu-image-bottom">
+                    <a href="/user/actions.html">
+                        <img class="menu-image heartH" src="/img/heart-small-gr.png" width="25" height="25" alt=""> </a>
+                    <a href="/user/actions.html">
+                        <img class="menu-image heartA" src="/img/heart-small.png" width="25" height="25" alt=""> </a>
+                </div>
+                <div class="col-xs-2 text-center menu-image-bottom">
+                    <a href="/site/login.html">
+                        <img class="menu-image" src="/img/enter-small-gr.png" width="25" height="25" alt=""> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/c5fe0245/jquery.js?v=1447790732"></script>
+    <script src="/assets/e7cf2f65/yii.js?v=1447790733"></script>
+    <script src="/js/jquery.color.js?v=1447714205"></script>
+    <script src="/js/jquery.Jcrop.js?v=1447714205"></script>
+    <script src="/js/jquery.Jcrop.min.js?v=1447714205"></script>
+    <script src="/js/crop.js?v=1448377701"></script>
+    <script src="/js/node_modules/sweetalert/dist/sweetalert.min.js?v=1448567926"></script>
+    <script src="/js/scroll/scroll-startstop.events.jquery.js?v=1449186573"></script>
+    <script src="/js/jquery-ui-1.11.4/jquery-ui.js?v=1448902217"></script>
+    <script src="/js/circle-progress.js?v=1448812875"></script>
+    <script src="/js/site.js?v=1449360906"></script>
+    <script src="/js/func.js?v=1449356649"></script>
+    <script src="/assets/a0ba7f13/js/bootstrap.js?v=1445807429"></script>
+    <div id="liver">
+        <!--LiveInternet counter-->
+        <script type="text/javascript">//<!--
+            document.write("<a href='//www.liveinternet.ru/click' " +
+                "target=_blank><img src='//counter.yadro.ru/hit?t26.5;r" +
+                escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                    ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                        screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                ";h" + escape(document.title.substring(0, 80)) + ";" + Math.random() +
+                "' alt='' title='LiveInternet: показано число посетителей за" +
+                " сегодня' " +
+                "border='0' width='88' height='15'><\/a>")
+        //--></script>
+        <!--/LiveInternet-->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="ru" class="storymaze-index">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name='yandex-verification' content='6e37696e0fcbfe7e' />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+    <title>Комментарии</title>
+    <!-- VK retargeting -->
+    <!--<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=kF3xgVPVwgzZronUawCde/W5hpGXiUarMoUe1QR..*L38t4Ma2v9swoq6HEJfjNnO4BNY06SJUZN9Ugkfmrny0i9w-';</script>-->
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=lBVXcELOpo6bdlFYnDcvtFvFa2189ayCvSTaXKTS13Oo9/yS0R5rbDmLcUj/N0L/8BXsP3M/Hys/o24HZz/wS1X9HLFlaLYV/6GSJXJr439xm5sLDWlPOqngmr01G6UjSjXzhEtpji5QLnE8u/O*z/atHSqJdnJ0xPy6U8Jf9i8-';</script>
+    <!-- /VK retargeting -->
+    <link href="/assets/72caf0b4/css/bootstrap.css?v=1480660791" rel="stylesheet">
+<link href="/css/jquery.Jcrop.css?v=1454756029" rel="stylesheet">
+<link href="/css/jquery.Jcrop.min.css?v=1454756029" rel="stylesheet">
+<link href="/js/sweetalert2/sweetalert2.css?v=1472760467" rel="stylesheet">
+<link href="/js/scroll/css/style.css?v=1454756029" rel="stylesheet">
+<link href="/js/jquery-ui-1.11.4/jquery-ui.css?v=1454756029" rel="stylesheet">
+<link href="/css/site.css?v=1477931093" rel="stylesheet">
+<link href="/css/chosen.css?v=1472760467" rel="stylesheet">
+<link href="/css/swiper.min.css?v=1472760467" rel="stylesheet">
+<link href="/css/style_new.css?v=1481291478" rel="stylesheet">
+<link href="/css/night_mode.css?v=1474819841" rel="stylesheet">
+<link href="/css/style_mobile.css?v=1480688314" rel="stylesheet">
+<link href="/css/bootstrap.min.css?v=1480613207" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;amp;subset=cyrillic" rel="stylesheet">
+<link href="/css/storymaze-font.css?v=1481548100" rel="stylesheet">
+<link href="/css/owl.carousel.css?v=1480613207" rel="stylesheet">
+<link href="/css/owl.theme.css?v=1480613207" rel="stylesheet">
+<link href="/css/owl.transitions.css?v=1480613207" rel="stylesheet">
+<link href="/css/summernote.css?v=1480613207" rel="stylesheet">
+<link href="/css/style.css?v=1481548100" rel="stylesheet">
+<link href="/css/night-theme.css?v=1480613207" rel="stylesheet">
+<link href="/css/responsive.css?v=1481548100" rel="stylesheet">
+<link href="/assets/f1087a50/css/font-awesome.min.css?v=1480660792" rel="stylesheet">
+</head>
+<body>
+
+
+
+<style type="text/css">
+    #to_top {
+        background: url(../img/anchor_top.png) no-repeat center 100px, rgba(148, 148, 168, .1) !important;
+    }
+</style>
+
+    <div id="to_top"></div>
+
+<div class="wrap">
+    <nav class="navbar navbar-fixed-top">
+      <div class="navbar-header">
+
+        <button type="button" id="burger" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <ul class="nav navbar-nav navbar-right only-mobile" id="nav-lang">
+          <li>
+            <div>
+<form action="/commentary/index/170.html" method="post">
+<input type="hidden" name="_csrf" value="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+        <a class="btn btn-switcher lang-switcher active">RU</a><a class="btn btn-switcher lang-switcher" href="#" onclick="language_change(&quot;en&quot;)">EN</a>        <script type="text/javascript">
+            function language_change(selected) {
+                var lng = selected.value;
+                if(lng == undefined)
+                    lng = selected;
+                //alert(lng);
+                $.ajax({
+                    type : "POST",
+                    url : "/site/language.html",
+                    data : "_lang="+lng+"&YII_CSRF_TOKEN=OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==",
+                    success : function(data){window.location.reload();}
+                });
+            }
+        </script>
+
+</form></div>
+          </li>
+        </ul>
+        <a class="navbar-brand" href="/">
+          <img src="/images/logo.svg" alt="">
+        </a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="nav-links">
+          <li>
+            <a href="/site/search.html">Все истории</a>          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" id="nav-login">
+          <!-- <li><button class="btn btn-switcher sw-xl">ЗАРЕГИСТРИРОВАТЬСЯ</button></li> -->
+                        <li>
+                 <a class="btn button-default" href="/site/signup.html" data-method="post">                 Зарегистрироваться                 </a>             </li>
+              <li >
+                  <a class="btn button-default" href="/site/login.html" data-method="post">                  Войти                  </a>             </li>
+                   </ul>
+        <ul class="nav navbar-nav navbar-right no-mobile" id="nav-lang">
+          <li>
+            <div>
+<form action="/commentary/index/170.html" method="post">
+<input type="hidden" name="_csrf" value="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+        <a class="btn btn-switcher lang-switcher active">RU</a><a class="btn btn-switcher lang-switcher" href="#" onclick="language_change(&quot;en&quot;)">EN</a>        <script type="text/javascript">
+            function language_change(selected) {
+                var lng = selected.value;
+                if(lng == undefined)
+                    lng = selected;
+                //alert(lng);
+                $.ajax({
+                    type : "POST",
+                    url : "/site/language.html",
+                    data : "_lang="+lng+"&YII_CSRF_TOKEN=OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==",
+                    success : function(data){window.location.reload();}
+                });
+            }
+        </script>
+
+</form></div>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" id="nav-links2">
+          <li><a href="#" class="search-link"><span>Поиск</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle help-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Помощь</span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <form>
+                  <div class="help-input">
+                    <textarea class="question_form" type="" name="" label="Текст вопроса" autofocus="" placeholder="Введите Ваш вопрос"></textarea>
+                  </div>
+                  <div class="help-submit">
+                    <a href="#" class="btn button-default">Отправить</a>
+                    <a href="#" class="btn btn-switcher active-orange">
+                    Выключить подсказки</a>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </li>
+                    <li>
+                            <a href="" class="night-link"></a>
+                      </li>
+
+        </ul>
+
+        
+      </div><!--/.nav-collapse -->
+    </nav>
+
+
+    <!--         <div class="download-link-mob">
+            <a href="#"><img class="pull-right" src="/img/cancel-small-bl.png" width="15" height="15" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+            <p>
+
+                <a href="https://play.google.com/store/apps/details?id=ru.hipe.storymaze" target="_blank"><img src="/img/android.png" height="25" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+                <span>Storymaze для Android!</span>
+            </p>
+            <p>
+                <a href="http://storymaze.appstor.io/" target="_blank"><img src="/img/ios.png" height="25" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+                <span>Storymaze для iOS!</span>
+            </p>
+        </div> -->
+        <div class="container">
+        <ul class="breadcrumb"><li><a href="/">Главная</a></li>
+<li class="active">Комментарии</li>
+</ul>
+        
+<div class="display-none popup-social" id="block">
+    <a href="http://vk.com/storymaze" target="blank"><img src="/img/vk-popup.png" alt=""></a>    <a href="https://twitter.com/storymaze" target="blank"><img src="/img/twitter-popup.png" alt=""></a>    <a href="https://www.facebook.com/RuStorymaze/" target="blank"><img src="/img/facebook-popup.png" alt=""></a>    <a href="https://www.instagram.com/storymaze/" target="blank"><img src="/img/insta-popup.png" alt=""></a>            
+</div>
+
+        <div class="commentary-index profile_white profile-wrapper story-create">
+    <div class="row margin0 text-center">
+        <div class="text-center">
+            <h3>
+                <a class="page_title" href="/story/view/170.html">Идеальный побег</a>                <br>
+                            </h3>
+        </div>
+    </div>
+</div>
+
+
+<div class="commentary-index commentary-partial-wrapper">
+    
+ 
+    <!-- Commentary form -->
+                    <div class="text-center only_reg">
+                <p><em>Только зарегистрированные пользователи могут оставлять комментарии</em></p>
+                <a href="/site/signup.html">Зарегистрироваться</a> 
+                / 
+                <a href="/site/login.html">Войти</a>            </div>
+        
+    <!-- /Commentary form -->
+
+            <a href="#" class="more_comments"> Показать все 8 комментариев</a>
+    
+    
+    <div class="open_comments_wrap">
+                                    
+<div class="comment-wrapper" id="comment-1515">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/91.html"><img class="profile-image" src="http://cs5391.vk.me/u81168589/a_7131e46c.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><i class="fa fa-2x fa-pencil critic-icon" title="критик"></i><a href="/user/view/91.html">id81168589</a></p>
+            <div class="commentText">
+                <p><p>Специально для "Юбилейной", десятой истории.<br>"Постарались по максимуму учесть все замечания и пожелания по предыдущим историям" © Одмин.<br>Ну чтож, попробуй)</p><p><img src="https://pp.vk.me/c629428/v629428589/1ef86/UvW-1IMkOdk.jpg"><br><span class="redactor-invisible-space"></span></p><p><span class="redactor-invisible-space">Всем привет, а вы уже приготовили план побега.......из реальной жизни?<br>Знаете, почему-то начиная со второго выбора данной истории мне показалось что я просто продолжаю проходить «Амнезию», после того, как меня посадили в тюрьму. И как вы думаете, что-же навело меня на эту-же мысль? Может быть сюжет, или главные герои? Скорее похожие иррациональности.....<span class="redactor-invisible-space"><br></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><br></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space">И самая главная что-ли ни иррациональность — а именно, хронология действий.<br>Может быть и будучи в космосе там и есть какие либо свои законы пространства и времени (или кота Шрёдингера, который видимо очень нравиться Одмину), но мы придерживаемся логики которую мы знаем, а именно наш ход времени.<br><br>1) Надписи, нацарапанные на нашем теле и ставшие шрамами.<br>Они гласят:<br>«Выход - А <br>Оружие — Б»<br>И всё бы хорошо, если бы вместе со стиранием памяти нас приводили к косметологу, который бы постоянно удалял наши шрамы. Однако таких сеансов в тюрьмах как я понимаю никто не проводит. Есть конечно же добрый врач, вот только он ОБРАБАТЫВАЕТ наши раны, а не ИСЦЕЛЯЕТ шрамы. <br>Согласно двум данным концовкам:<br><a href="https://vk.com/pages?oid=-103840881&p=%D0%9F%D1%8B%D1%82%D0%B0%D1%82%D1%8C_%D0%B5%D0%B3%D0%BE_%D0%B4%D0%B0%D0%BB%D1%8C%D1%88%D0%B5" title="https://vk.com/pages?oid=-103840881&p=Пытать_его_дальше">https://vk.com/pages?oid=-103840881&p=Пытать_его_..</a><br><a href="https://vk.com/pages?oid=-103840881&p=%D0%9F%D1%80%D0%B8%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D1%82%D1%8C_%D0%B4%D1%80%D1%83%D0%B3%D0%B0%2C_%D0%BF%D0%BE%D0%BA%D0%B0_%D0%BE%D0%BD_%D0%BB%D0%B5%D0%B7%D0%B5%D1%82" title="https://vk.com/pages?oid=-103840881&p=Прикрывать_друга,_пока_он_лезет">https://vk.com/pages?oid=-103840881&p=Прикрывать_..</a><br>Мы перед стиранием памяти успеваем написать на своём теле заметки. Узнавая в добавок из некоторых подветок то, что мы пытаемся сбежать вот уже как целый год — логично было бы предположить, что если мы делаем «заметики» в эти разы, то делали и в предыдущие.<br>У ЧУВАКА КОЖА РЕЗИНОВАЯ ЧТОЛИ? Или ему время от времени дарят резинку от шрамов? Вот как он делает одни и те-же заметки вновь и вновь???<span class="redactor-invisible-space"><br></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><br></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">2) Иррациональная последовательность действий.<br>Знаете, чтобы иметь возможность писать такие тексты — я сначала читаю историю, изучаю разные подветки, сопоставляю данные в разных водветках, а уже затем описываю все не стыковки. НО НИКАК НЕ НА ОБОРОТ!<br>Концовка:<br><a href="https://vk.com/pages?oid=-103840881&p=%D0%9F%D1%80%D0%BE%D1%80%D1%8B%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F_%D0%B4%D0%B0%D0%BB%D1%8C%D1%88%D0%B5" title="https://vk.com/pages?oid=-103840881&p=Прорываться_дальше">https://vk.com/pages?oid=-103840881&p=Прорываться..</a><br>Гласит что нас притащили в карцер, а затем стёрли память.<br>Однако в этой концовке:<br><a href="https://vk.com/pages?oid=-103840881&p=%D0%91%D0%B5%D0%B6%D0%B0%D1%82%D1%8C_%D0%B4%D0%B0%D0%BB%D1%8C%D1%88%D0%B5_%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%B5%D0%B5" title="https://vk.com/pages?oid=-103840881&p=Бежать_дальше_быстрее">https://vk.com/pages?oid=-103840881&p=Бежать_даль..</a><br>«вас схватили и бросили в карцер, предварительно стерев память»<br>Даже если предположить что действия происходят по циклу, ввиду особенности теченя времени в космосе и некоторые из циклов не похожи немного отличаются от остальных — почему наш ГГ не помнит что он мог быть как минимум в карцере (где кстати так же сидит его друг) если брать в расчёт то, что в одном из циклов нам стёрли память ДО карцера?<span class="redactor-invisible-space"><br></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><br></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">А вот это уже скорее нелогичности.<br><br>1) Постоянное воспроизведение кадров.<br>Мы знаем что ввиду стирания памяти у ГГ и его друга Мы постоянно пытаемся сбежать, а в случае если нам это не удаётся и мы выживаем — нам стирают память. Так-же при выполнении этих условий есть концовки в которых мы остаёмся в пределах нашей тюрьмы, или же нас переводят в другую тюрьму. Но суть в том что при этих условиях так-же есть концовки где в итоге всех событий перерезается чуть-ли ни вся охрана. Предположим, что на 1 раз в 2 недели выполняются все эти условия. Каждые 2 НЕДЕЛИ нас переводят либо в новую тюрьму, либо пополняют новыми кадрами старую.<br>То есть каждые 2 недели происходит почти что полный цикл с вспышками агрессии, превращением одной из тюрьм в бойню, восстаниями подчинённых и жертвами (причём приличными) как со стороны заключенных, так и со стороны охранников. А в итоге......нас просто переводят постоянно из одной тюрьмы в другую и тюрьмы просто пополняются новыми людьми. <br>Давайте скажем что это просто нелогично.<br><br>2) Разные пути — одинаковый результат.<br>В этом-то и вся проблема, ведь в данная концовка:<br><a href="https://vk.com/page-103840881_49844893">https://vk.com/page-103840881_49844893</a><br>Встречается в вариантах когда мы имеем и не имеем оружия. НО в итоге результат один и тот-же. Согласно некоторым подветкам мы знаем о себе, что обладаем замечательными физическими данными и хорошей реакцией. Концовка гласит:<br>«Когда же все утихло, ты аккуратно вышел и наткнулся на группу охранников»<br>И в этом отчасти вся суть — мы можем наткнуться на них с оружием и без него, но независимо от того мы «Машинально» поднимаем руки. Когда мы делаем это без оружия — ещё всё понятно, а когда С? При нашей «аккуратности» мы бы могли открыть огонь по охранникам раньше, чем они по нам, однако мы этого не сделали. Почему-же?<span class="redactor-invisible-space"><br></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><br></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">Ну а тут у нас располагается скорее просто странная реальность...<br>Космос<br>Ах да, помниться перед тем как прострелить ногу охраннику мы узнаём что мы в космосе. Если предположить что это утверждение истинно (а оно таки истинно, ибо в одной из концовок мы эвакуируемся через спасательную капсулу), то каким образов в концовке:<br><a href="https://vk.com/pages?oid=-103840881&p=%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%8C_%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D0%B7%D0%B5%D0%BC%D0%BB%D1%8E" title="https://vk.com/pages?oid=-103840881&p=Передать_сообщение_на_землю">https://vk.com/pages?oid=-103840881&p=Передать_со..</a><br>К нам:<br>«Прилетели за тобой полицейские»<br>Я просто вижу как полицейские при срочном вызове силой мысли или же просто техническими средствами поднимают свои патрульные машины в космос....<br>С другой-же стороны в данной истории не указывается век, в котором происходят данные события — поэтому вполне возможно что за нами действительно могли прилететь полицейские. (Хотя зная что полицейские одни и те-же — по опыту из предыдущих историй вы сами знаете, что в конечном счёте с нами бы сделали).<br>Просто в данном случае поражает «доступность» космоса, когда не только «космическая полиция», но и просто наши друзья могу притарабаниться с Земли за нами)<br>А вообще не плохо так....Захотели, и через пару месяцев ты слетал в космос.....ну его друзья же смогли......<br><br>Ну и в завершение, помните надпись на картинке в посте:<br><a href="https://vk.com/storymaze?w=wall-103840881_4848">https://vk.com/storymaze?w=wall-103840881_4848</a><br>Для ленивых (дословно):<br>«САМАЯ ЗАЩИЩЁННАЯ ТЮРЬМА»<br>Знаете, описывая выше всё что тут происходит — если уж это САМАЯ защищённая тюрьма — то мне аж страшно предположить что вообще твориться в других тюрьмах.<span class="redactor-invisible-space"><br></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><img src="https://pp.vk.me/c629428/v629428589/1efa3/eHTf5PUYi0U.jpg"><br><span class="redactor-invisible-space"><br></span></span></span></span></span></span></span></p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">1 год назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/170.html" method="post">
+<input type="hidden" name="_csrf" value="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+                <input type="hidden" name="Commentary[replyTo]" value="1515">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-2523">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/4848.html"><img class="profile-image" src="/avatar/cODmEQawpOVBTPw5C-DtwM3AqyboFnlg.png" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/4848.html">three_paper_trees</a></p>
+            <div class="commentText">
+                <p><p>Это был один из первых сторимейзов, который я прочитала на этом сайте. Тогда я еще не знала, что можно нажимать стрелку назад и спокойно выбирать другой путь... да,  я подобно персонажу раз за разом запиналась за все расставленные препятствия. Тогда меня это раздражало. Но теперь я думаю, а может так и надо было?</p><p>Это очень грамотный лабиринт. Я восхищаюсь тем, как он написан. </p><p>Главному герою постоянно стирают память. Да это же просто охрененно! Раз за разом возвращаешься к началу, тебе все нестерпимее хочется удрать из этого места, всеми способами. Если в начале я вела себя как максимально примерный заключенный, то с каждым разом я становилась все наглее и наглее!</p><p>И кусочки мозаики у меня стали складываться. То, что ты узнаешь в одной ветви ведет тебя к другой. Ты пытаешься мыслить логично и рационально - ну раз написано, надо туда, да? Ан нет! Давай, бесись, но ты снова в своей камере, ха-ха!</p><p>Автор максимально требовательно подошел к дозировке информации - обалденно! Вы мой кумир!) это ж надо так разместить подсказки! Это ж надо так развить сюжет, чтобы читатель не сразу уперся в выход, а максимально долго блуждал в лабиринте! В вашем сторимейзе не жалко заблудиться)</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">1 год назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/170.html" method="post">
+<input type="hidden" name="_csrf" value="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+                <input type="hidden" name="Commentary[replyTo]" value="2523">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-5391">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/19774.html"><img class="profile-image" src="/avatar/RNeU0KKbjHkuM_wVUJn87JyoOY3PRqFj.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/19774.html">Alexey_Historical</a></p>
+            <div class="commentText">
+                <p><p>Просто офигенно</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">10 месяцев назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/170.html" method="post">
+<input type="hidden" name="_csrf" value="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+                <input type="hidden" name="Commentary[replyTo]" value="5391">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+    </div>
+
+	<div class="all_comments_wrap">
+                                    
+<div class="comment-wrapper" id="comment-10382">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/22722.html"><img class="profile-image" src="/avatar/919tDFFOgThHoG2LTQ0LFUEER8HB2xbM.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/22722.html">Alive_AM</a></p>
+            <div class="commentText">
+                <p><p>Вааааааауууууууу</p><p>Это нечто! Просто нет слов! </p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">8 месяцев назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/170.html" method="post">
+<input type="hidden" name="_csrf" value="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+                <input type="hidden" name="Commentary[replyTo]" value="10382">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-10908">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/41524.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/41524.html">SaraKey</a></p>
+            <div class="commentText">
+                <p><p>Проходя это историю я просто отвечала на ответы так, что-бы мой перс выглядел как  общительный  и харизматичный программиста. Ну и в этоге я прошла эту игру, болтая со всеми кому не лень и становившись жестоким кэпом</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">8 месяцев назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/170.html" method="post">
+<input type="hidden" name="_csrf" value="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+                <input type="hidden" name="Commentary[replyTo]" value="10908">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-13396">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/47300.html"><img class="profile-image" src="/avatar/YOjqqQgVen-fy8F3RUoiLsobO6YYZ5oV.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/47300.html">Reader_21</a></p>
+            <div class="commentText">
+                <p><p>Довольно интересно вышло. Мне очень понравилось.</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">7 месяцев назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/170.html" method="post">
+<input type="hidden" name="_csrf" value="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+                <input type="hidden" name="Commentary[replyTo]" value="13396">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-17115">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/52837.html"><img class="profile-image" src="https://pp.vk.me/c636025/v636025950/c931/f-Lwz5NauAQ.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/52837.html">IvanARtSon</a></p>
+            <div class="commentText">
+                <p><p>Manhunt 2 напомнило</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">5 месяцев назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/170.html" method="post">
+<input type="hidden" name="_csrf" value="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+                <input type="hidden" name="Commentary[replyTo]" value="17115">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21227">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/6416.html"><img class="profile-image" src="/avatar/UtI_DUDfs8Acm690maCZSrTQFiPfUuMY.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/6416.html">Alice105973</a></p>
+            <div class="commentText">
+                <p><p>Этот сторимэйз проверен редактором сайта и соответствует нормам грамотности и оформления.</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">4 недели назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/170.html" method="post">
+<input type="hidden" name="_csrf" value="OUUxMnpyOWl7FRxLMDNyMA4geFUpAU0oSXAEfC8cCwxTHVNXSysMPQ==">
+                <input type="hidden" name="Commentary[replyTo]" value="21227">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                        </div>
+</div>    </div>
+
+    <footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav navbar-nav">
+							<li>
+                <a href="/site/search.html">Все истории</a>              </li>
+							<li>
+                <!-- <a href="#">Что такое Сторимейз</a> -->
+                              </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div id="search">
+      <div class="close"><i class="icon-icon-close"></i></div>
+			<div class="form-box">
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control left-search-icon" placeholder="#Поиск">
+						<p class="help-block">Введите @ для поиска по автору или # для поиска по тегу</p>
+            <input type="submit" class="hidden">
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+    <script src="/assets/9e3a7fe8/jquery.js?v=1480660791"></script>
+<script src="/assets/1fc82ea/yii.js?v=1480660791"></script>
+<script src="/assets/72caf0b4/js/bootstrap.js?v=1480660791"></script>
+<script src="/js/jquery.color.js?v=1454756029"></script>
+<script src="/js/jquery.scrollTo.min.js?v=1472760467"></script>
+<script src="/js/jquery.Jcrop.min.js?v=1454756029"></script>
+<script src="/js/crop.js?v=1477931093"></script>
+<script src="/js/sweetalert2/sweetalert2.min.js?v=1472760467"></script>
+<script src="/js/scroll/scroll-startstop.events.jquery.js?v=1454756029"></script>
+<script src="/js/jquery-ui-1.11.4/jquery-ui.js?v=1454756029"></script>
+<script src="/js/circle-progress.js?v=1454756029"></script>
+<script src="/js/site.js?v=1477931093"></script>
+<script src="/js/chosen.jquery.js?v=1472760467"></script>
+<script src="/js/swiper.jquery.min.js?v=1472760467"></script>
+<script src="/js/main.js?v=1480613207"></script>
+<script src="/js/func.js?v=1481124083"></script>
+<script src="/js/js.cookie.js?v=1454756029"></script>
+<script src="/js/jQueryRotate.js?v=1454756029"></script>
+<script src="/js/training-mode.js?v=1472760467"></script>
+<script src="/js/owl.carousel.min.js?v=1480613207"></script>
+<script src="/js/summernote.min.js?v=1480613207"></script>
+<script src="/js/scripts.js?v=1480613207"></script>
+<script src="/js/typehead.min.js"></script>
+<script src="/js/search.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+
+$('.help-submit .button-default').click(function(event){
+    var msg = $('.question_form').val();
+    console.log(msg);
+    event.preventDefault();
+    $.post('/api/site/ticket', {message: msg}, function(data) {
+        if(data.ok == true) {
+            swal('Ваше сообщение отправлено!');
+            $('.question_form').val("");
+        } else {
+            console.log(data);
+            $('.question_form').val("");
+        }
+    });
+
+});
+
+$('.help-submit .btn-switcher').click(function(event){
+    event.preventDefault();
+    if (Training.isOff()) {
+      Training.on()
+    } else {
+      Training.off()
+    }
+});
+
+var SubscribeReminder = {
+    timeout: 180,
+    now: function() {
+        return Date.now()/1000|0;
+    },
+    setNextAlertIn: function(alertTime) {
+        Cookies.set('showSubscribeAlert', alertTime, {expires: 365});
+        if(alertTime !== 'false' && alertTime !== false) {
+            this.init();
+        }
+    },
+    init: function() {
+        var showAlert = Cookies.get('showSubscribeAlert'),
+            timer=undefined;
+        if(showAlert === undefined || showAlert < this.now()) {
+            this.setNextAlertIn(this.now()+this.timeout);
+            timer = this.timeout;
+        }
+
+        if(showAlert > this.now()) {
+            timer = showAlert - this.now();
+        }
+
+        if(timer) {
+            setTimeout(function() {
+               SubscribeReminder.followAlert.call(SubscribeReminder);
+            }, timer*1000);
+        }
+    },
+    followAlert: function() {
+        that = this;
+        swal({
+            html: $('#block').html(),
+            title: "Подпишись на нас в соцсетях!",
+            showCancelButton: true,
+            cancelButtonText: "Больше не показывать",
+            confirmButtonText: "Позже",
+        }).then(function( isConfirm ){
+            that.setNextAlertIn( isConfirm ? that.now()+that.timeout : 'false' );
+            if (!isConfirm) {
+                $.post('/user/disable-social-alert.html', {userId:0});
+            }
+        });
+    }
+}
+
+SubscribeReminder.init();
+Search.initHashtagSearch([{"tagtext":"\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430","id":"1039","storiesCount":"1166"},{"tagtext":"\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f","id":"1118","storiesCount":"806"},{"tagtext":"\u0414\u0440\u0430\u043c\u0430","id":"1050","storiesCount":"711"},{"tagtext":"\u0444\u044d\u043d\u0442\u0435\u0437\u0438","id":"1172","storiesCount":"671"},{"tagtext":"\u043c\u0438\u0441\u0442\u0438\u043a\u0430","id":"1082","storiesCount":"528"},{"tagtext":"\u0442\u0440\u0438\u043b\u043b\u0435\u0440","id":"1167","storiesCount":"501"},{"tagtext":"\u0420\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0430","id":"1218","storiesCount":"488"},{"tagtext":"\u0443\u0436\u0430\u0441\u044b","id":"1084","storiesCount":"472"},{"tagtext":"\u0425\u043e\u0447\u0443\u0424\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0443","id":"1298","storiesCount":"464"},{"tagtext":"\u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435","id":"1226","storiesCount":"425"}]);
+            $('.timeline-mode-select').change(function(){
+                var mode = $(this).val();
+
+                if(mode) {
+                    if(mode=='authors') {
+                        location.href = "/authors/index.html";
+                    } else {
+                        location.href = "/site/" + mode + ".html";
+                    }
+                }
+            });
+});</script>    <div id="liver">
+        <!--LiveInternet counter--><script type="text/javascript"><!--
+            document.write("<a href='//www.liveinternet.ru/click' "+
+                "target=_blank><img src='//counter.yadro.ru/hit?t26.5;r"+
+                escape(document.referrer)+((typeof(screen)=="undefined")?"":
+                ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+                    screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+                ";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+                "' alt='' title='LiveInternet: показано число посетителей за"+
+                " сегодня' "+
+                "border='0' width='88' height='15'><\/a>")
+            //--></script><!--/LiveInternet-->
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter34170405 = new Ya.Metrika({
+                            id:34170405,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true,
+                            webvisor:true
+                        });
+                    } catch(e) { }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/34170405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+<script type="text/javascript">
+    var Training = new TrainingMode();
+    $( "#search form" ).submit(function( event ) {
+      event.preventDefault();
+      var search = $(this).find('input.form-control').val();
+      if (search) {
+          window.location.replace('/site/search.html?s='+search)
+      }
+    });
+
+</script>
+</body>
+</html>
+

@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="ru" class="storymaze-index">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name='yandex-verification' content='6e37696e0fcbfe7e' />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+    <title>Комментарии</title>
+    <!-- VK retargeting -->
+    <!--<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=kF3xgVPVwgzZronUawCde/W5hpGXiUarMoUe1QR..*L38t4Ma2v9swoq6HEJfjNnO4BNY06SJUZN9Ugkfmrny0i9w-';</script>-->
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=lBVXcELOpo6bdlFYnDcvtFvFa2189ayCvSTaXKTS13Oo9/yS0R5rbDmLcUj/N0L/8BXsP3M/Hys/o24HZz/wS1X9HLFlaLYV/6GSJXJr439xm5sLDWlPOqngmr01G6UjSjXzhEtpji5QLnE8u/O*z/atHSqJdnJ0xPy6U8Jf9i8-';</script>
+    <!-- /VK retargeting -->
+    <link href="/assets/72caf0b4/css/bootstrap.css?v=1480660791" rel="stylesheet">
+<link href="/css/jquery.Jcrop.css?v=1454756029" rel="stylesheet">
+<link href="/css/jquery.Jcrop.min.css?v=1454756029" rel="stylesheet">
+<link href="/js/sweetalert2/sweetalert2.css?v=1472760467" rel="stylesheet">
+<link href="/js/scroll/css/style.css?v=1454756029" rel="stylesheet">
+<link href="/js/jquery-ui-1.11.4/jquery-ui.css?v=1454756029" rel="stylesheet">
+<link href="/css/site.css?v=1477931093" rel="stylesheet">
+<link href="/css/chosen.css?v=1472760467" rel="stylesheet">
+<link href="/css/swiper.min.css?v=1472760467" rel="stylesheet">
+<link href="/css/style_new.css?v=1481291478" rel="stylesheet">
+<link href="/css/night_mode.css?v=1474819841" rel="stylesheet">
+<link href="/css/style_mobile.css?v=1480688314" rel="stylesheet">
+<link href="/css/bootstrap.min.css?v=1480613207" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;amp;subset=cyrillic" rel="stylesheet">
+<link href="/css/storymaze-font.css?v=1481548100" rel="stylesheet">
+<link href="/css/owl.carousel.css?v=1480613207" rel="stylesheet">
+<link href="/css/owl.theme.css?v=1480613207" rel="stylesheet">
+<link href="/css/owl.transitions.css?v=1480613207" rel="stylesheet">
+<link href="/css/summernote.css?v=1480613207" rel="stylesheet">
+<link href="/css/style.css?v=1481548100" rel="stylesheet">
+<link href="/css/night-theme.css?v=1480613207" rel="stylesheet">
+<link href="/css/responsive.css?v=1481548100" rel="stylesheet">
+<link href="/assets/f1087a50/css/font-awesome.min.css?v=1480660792" rel="stylesheet">
+</head>
+<body>
+
+
+
+<style type="text/css">
+    #to_top {
+        background: url(../img/anchor_top.png) no-repeat center 100px, rgba(148, 148, 168, .1) !important;
+    }
+</style>
+
+    <div id="to_top"></div>
+
+<div class="wrap">
+    <nav class="navbar navbar-fixed-top">
+      <div class="navbar-header">
+
+        <button type="button" id="burger" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <ul class="nav navbar-nav navbar-right only-mobile" id="nav-lang">
+          <li>
+            <div>
+<form action="/commentary/index/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+        <a class="btn btn-switcher lang-switcher active">RU</a><a class="btn btn-switcher lang-switcher" href="#" onclick="language_change(&quot;en&quot;)">EN</a>        <script type="text/javascript">
+            function language_change(selected) {
+                var lng = selected.value;
+                if(lng == undefined)
+                    lng = selected;
+                //alert(lng);
+                $.ajax({
+                    type : "POST",
+                    url : "/site/language.html",
+                    data : "_lang="+lng+"&YII_CSRF_TOKEN=SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==",
+                    success : function(data){window.location.reload();}
+                });
+            }
+        </script>
+
+</form></div>
+          </li>
+        </ul>
+        <a class="navbar-brand" href="/">
+          <img src="/images/logo.svg" alt="">
+        </a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="nav-links">
+          <li>
+            <a href="/site/search.html">Все истории</a>          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" id="nav-login">
+          <!-- <li><button class="btn btn-switcher sw-xl">ЗАРЕГИСТРИРОВАТЬСЯ</button></li> -->
+                        <li>
+                 <a class="btn button-default" href="/site/signup.html" data-method="post">                 Зарегистрироваться                 </a>             </li>
+              <li >
+                  <a class="btn button-default" href="/site/login.html" data-method="post">                  Войти                  </a>             </li>
+                   </ul>
+        <ul class="nav navbar-nav navbar-right no-mobile" id="nav-lang">
+          <li>
+            <div>
+<form action="/commentary/index/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+        <a class="btn btn-switcher lang-switcher active">RU</a><a class="btn btn-switcher lang-switcher" href="#" onclick="language_change(&quot;en&quot;)">EN</a>        <script type="text/javascript">
+            function language_change(selected) {
+                var lng = selected.value;
+                if(lng == undefined)
+                    lng = selected;
+                //alert(lng);
+                $.ajax({
+                    type : "POST",
+                    url : "/site/language.html",
+                    data : "_lang="+lng+"&YII_CSRF_TOKEN=SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==",
+                    success : function(data){window.location.reload();}
+                });
+            }
+        </script>
+
+</form></div>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" id="nav-links2">
+          <li><a href="#" class="search-link"><span>Поиск</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle help-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Помощь</span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <form>
+                  <div class="help-input">
+                    <textarea class="question_form" type="" name="" label="Текст вопроса" autofocus="" placeholder="Введите Ваш вопрос"></textarea>
+                  </div>
+                  <div class="help-submit">
+                    <a href="#" class="btn button-default">Отправить</a>
+                    <a href="#" class="btn btn-switcher active-orange">
+                    Выключить подсказки</a>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </li>
+                    <li>
+                            <a href="" class="night-link"></a>
+                      </li>
+
+        </ul>
+
+        
+      </div><!--/.nav-collapse -->
+    </nav>
+
+
+    <!--         <div class="download-link-mob">
+            <a href="#"><img class="pull-right" src="/img/cancel-small-bl.png" width="15" height="15" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+            <p>
+
+                <a href="https://play.google.com/store/apps/details?id=ru.hipe.storymaze" target="_blank"><img src="/img/android.png" height="25" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+                <span>Storymaze для Android!</span>
+            </p>
+            <p>
+                <a href="http://storymaze.appstor.io/" target="_blank"><img src="/img/ios.png" height="25" alt="" onclick="Cookies.set(&quot;_hidemobilebanner&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+                <span>Storymaze для iOS!</span>
+            </p>
+        </div> -->
+        <div class="container">
+        <ul class="breadcrumb"><li><a href="/">Главная</a></li>
+<li class="active">Комментарии</li>
+</ul>
+        
+<div class="display-none popup-social" id="block">
+    <a href="http://vk.com/storymaze" target="blank"><img src="/img/vk-popup.png" alt=""></a>    <a href="https://twitter.com/storymaze" target="blank"><img src="/img/twitter-popup.png" alt=""></a>    <a href="https://www.facebook.com/RuStorymaze/" target="blank"><img src="/img/facebook-popup.png" alt=""></a>    <a href="https://www.instagram.com/storymaze/" target="blank"><img src="/img/insta-popup.png" alt=""></a>            
+</div>
+
+        <div class="commentary-index profile_white profile-wrapper story-create">
+    <div class="row margin0 text-center">
+        <div class="text-center">
+            <h3>
+                <a class="page_title" href="/story/view/19123.html">My Love Is A Ghost!</a>                <br>
+                            </h3>
+        </div>
+    </div>
+</div>
+
+
+<div class="commentary-index commentary-partial-wrapper">
+    
+ 
+    <!-- Commentary form -->
+                    <div class="text-center only_reg">
+                <p><em>Только зарегистрированные пользователи могут оставлять комментарии</em></p>
+                <a href="/site/signup.html">Зарегистрироваться</a> 
+                / 
+                <a href="/site/login.html">Войти</a>            </div>
+        
+    <!-- /Commentary form -->
+
+            <a href="#" class="more_comments"> Показать все 12 комментариев</a>
+    
+    
+    <div class="open_comments_wrap">
+                                    
+<div class="comment-wrapper" id="comment-21670">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/61679.html"><img class="profile-image" src="/avatar/wW1MFsMhmbwqfG-7qGSGvPhAdH0NZfdv.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/61679.html">PobedinskiY</a></p>
+            <div class="commentText">
+                <p><p>Мой новый проект. Не такой глобальный, как прошлый, но очень душевный. (В концовках, от меня вас ждет бонус). Жду с нетерпением от вас отзывов! :)</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">1 месяц назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21670">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21674">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/55387.html"><img class="profile-image" src="/avatar/rdXW2z6481RO74dwHV7imeuSfjrGIa6o.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/55387.html">Xaff</a></p>
+            <div class="commentText">
+                <p><p>Этот сторимэйз проверен редактором сайта и соответствует нормам грамотности и оформления</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">1 месяц назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21674">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21677">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/64260.html"><img class="profile-image" src="/avatar/djql_dKVvRl97l6tHG94utnyZtvJAI00.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/64260.html">FallenLegion</a></p>
+            <div class="commentText">
+                <p><p>Если этот сторимэйз проверен редактором сайта, то какого я то и дело, находил ошибки!?!? Затрещина отослана Xaff.<br>По стори. Качественный стори даже для тех, кто не особо любит подобные жанры, как любовь. Думаю вам тож понравится, ибо даже моему ржавому сердцу понравилось. НО! Главное читать надо только ради концовок. Поверьте мне - это того стоит...</p> </p>
+
+                                    <div class="commentary-image">
+                        <img src="/commentary/HmgMTkyxku8yQUUif9IxKgo6j4ArHdPI.jpg" alt="">                    </div>
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">1 месяц назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21677">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+    </div>
+
+	<div class="all_comments_wrap">
+                                    
+<div class="comment-wrapper" id="comment-21678">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/55387.html"><img class="profile-image" src="/avatar/rdXW2z6481RO74dwHV7imeuSfjrGIa6o.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/55387.html">Xaff</a></p>
+            <div class="commentText">
+                <p><p>Затрещина возвращена обратно</p><p>Чем скрупулезно выискивать малейшие косяки в чужих стори, поди загляни в свои.</p><p>И заодно напомню, что фраза "проверен редактором сайта" означает, что в данном мейзе нет вопиющих нарушений базовых правил русского языка, он читабелен и не режет глаза в корне неверным употреблением слов. Нашел пропущенную опечатку - молодец, возьми с полки пирожок и вдави клавишу "нашел ошибку"</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">1 месяц назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21678">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21688">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/58755.html"><img class="profile-image" src="/avatar/1nfflM5INo0TVpjLW9mrcXoUtrzV17Dj.jpeg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/58755.html">DiLyKaTes</a></p>
+            <div class="commentText">
+                <p><p>Огромные повороты сюжета, казалось бы из-за незначительных выборов, а выглядит довольно неплохо. Хоть с жанром романтики слабовато, сторимейз зацепил. В некоторых моментах чувствуется почерк анимешника из России) До Хорошей концовки добрался последней, но радовали конечно не только они, а сам путь к ним. Слишком уж быстро главный герой становится другом для всех одноклассников, хоть сказано, что он не любил общение с большим количеством людей. В итоге - стори довольно хороший, исключая некоторые синтаксические ошибки. </p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">4 недели назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21688">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21693">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/61679.html"><img class="profile-image" src="/avatar/wW1MFsMhmbwqfG-7qGSGvPhAdH0NZfdv.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/61679.html">PobedinskiY</a></p>
+            <div class="commentText">
+                <p><p>Спасибо, не для всех. Только близняшки, Кирилл и Аркаша стали для него друзьями. Это всё объясняется. Прости, но я ни как не анимешник, просто богатая фантазия. Не смотрел ни одного аниме. Это больше не романтика, а трагичная история. Еще в счастливой концовке, Влад объясняет свою точку мнения, он хотел бы подружится в будущем с Данилой. Ведь по задумке, характер Влада, это мой характер, хоть с неточностями.</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">4 недели назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21693">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21694">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/69064.html"><img class="profile-image" src="/avatar/4ydfW8vzbb3nsCT8WNothIn70jdamyjs.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/69064.html">Libushe</a></p>
+            <div class="commentText">
+                <p><p>Я считаю,что история просто шикарна!<del></del><span></span></p><p>Вот умеешь ты брать за душу.Так погрузилась в атмосферу,что чуть не прослезилась,когда погибла Лина и Влад....я прочувствовала всю боль Данилы и Полины...Просто потрясающе!И крайне необычная счастливая концовка,которая дает волю фантазии...либо это на самом деле все,либо на том свете!</p><p>Как обычно твое творчество только улучшается!</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">3 недели назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21694">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21695">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/61679.html"><img class="profile-image" src="/avatar/wW1MFsMhmbwqfG-7qGSGvPhAdH0NZfdv.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/61679.html">PobedinskiY</a></p>
+            <div class="commentText">
+                <p><p>Спасибо! Возможно..</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">3 недели назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21695">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21705">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/30332.html"><img class="profile-image" src="/avatar/VxF1dozcyFbb9a31CbQCJKEJ7y1mFfOd.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/30332.html">LanaStormwind</a></p>
+            <div class="commentText">
+                <p><p>Глядя на большое количество хвалебных комментариев, решила не пройти мимо этой истории, хотя романтика и драма не вызывает у меня восторга.</p><p>Тем, кто не читал сторимэйз просьба не смотреть в данную рецензию, так как будет ОЧЕНЬ МНОГО СПОЙЛЕРОВ.</p><p>Как переводчик заметила ошибочку в названии. Сердечко екнуло, но, все же, решила продолжить.</p><p>"Капля слезы собралась, и начала потихоньку сползать с её глаз." — оборот не особо красивый. Совсем некрасивый. Как будто капля у нас одушевленный предмет.</p><p>Первый эпизод слегка интригует, но, к сожалению, только слегка. Готовимся к клише.</p><p>Итак, мы сталкиваемся с первой проблемой —<span class="redactor-invisible-space"> тавтология. Ладно, терпим.</span></p><p><span class="redactor-invisible-space">Вторая проблема —<span class="redactor-invisible-space"> выборы. Где. Выборы? Ау-у-у! Успокаиваемся, это только начало, потом автор даст нам интерактива.</span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space">Разбор ляпов, которые меня выбили из чтения. Осторожно, возможен юмор!</span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space">"ответил охранник, который был в возрасте, с натуральными черными усами.<span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> натуральными? А герой успел проверить их на натуральность? Видимо, я что-то упустила...</span></span></span></span></p><p>"Я подложил ей листок. Даже не оборачиваясь на неё." "Она перевернула листок другой стороной и, написав что-то, подвинула лист мне без оглядки.<span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> видимо, они чувствуют друг друга на ментальном уровне, раз не глядя передают несчастный листочек. Хоть и она сидит позади него и, в принципе, ей не нужно оглядываться.</span></span></p><p>"Но заметила как я её палю, немного улыбнулась."<span class="redactor-invisible-space"> —<span class="redactor-invisible-space"> палю? Он ее поджигает, а она улыбается? Простите, я слишком старая, чтобы воспринимать такие словечки небуквально.</span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space">"Девушка взяла в руки листок и серьезно прочитала.<span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> а как он понял, что она серьезно прочитала? Или она читала это вслух? Хм-м... загадочка.</span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"></span>"— Хм, на серой ветке. — Лина улыбнулась. Меня это завораживало." —<span class="redactor-invisible-space"> прошу прощения? Что ж героя заворожило-то? То, что она разговаривать умеет?</span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"></span>"Меня застала грусть." —<span class="redactor-invisible-space"> немного шутливого диалога, позволяющего понять, что не так: —<span class="redactor-invisible-space"> Тук-тук! —<span class="redactor-invisible-space"> Кто там? —<span class="redactor-invisible-space"> Грусть. —<span class="redactor-invisible-space"> Ох, вы успели меня застать дома, как неловко!</span></span></span></span></span></span></span><br></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"Что-же мне делать?! Если Влад проводит Лину, то считай я её потеряю. Или, возможно, просто стану ей другом. Да, я хотел с ней общаться, но не только как друг. Мне нужно разобраться в себе. Что со мною?! Лина повернулась ко мне, неожиданно для меня…<span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> воу, без истерик! Тише. У нас же герой мужчина.</span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"— Спасибо большое ребят, вы правда классные. Увидимся завтра! — <span class="redactor-invisible-space"> она поцеловала нас в щеки." —<span class="redactor-invisible-space"> поцеловала. В щеки. Одновременно? Девушка-мутант с двумя ртами? Хм-м...</span></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"— Ну что, парень. Решим все по-мужски?<span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> ух-х, вот это серьезности. Как будто вернулась в 8 класс на двор школы.</span></span></span><br></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">Про сцену драки я молчу. Не потому, что мне нечего сказать, просто она описана по две строчки на эпизод, что уже не очень хорошо.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"— Какие же вы… жалкие! Вы оба мои друзья!!! — Она развернулась и ушла сквозь толпу.<span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> вы оба мои друзья? Вот это пригово-о-ор.</span><br></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>— Стой, — сказал я Владу. — Ну что тебе? — пробормотал он. — Так чья теперь Лина?! — Ой, слушай, разбирайся сам. — он развернулся и ушел."  — На кой. Черт. Они. Дрались? Конфликт только что был перечеркнут, а ведь так неплохо начинался!<br></p><p>"Я понял, что не могу без неё<span class="redactor-invisible-space">."  —<span class="redactor-invisible-space"> Они знакомы пару дней, на секундочку. Герой даже толком ее не знает. Мало ли какие скелеты у нее в шкафу.</span><br></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space">"К сожалению, телефона Лины, у меня не было. <span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> даже телефона нет, а уже любовь всей его жизни. Эх.</span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"Может, я уже сильно влюблен в неё?! Посмотрим.<span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> он же не может жить без нее, зачем сомнения?</span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"— Это я во всем виноват…если бы я отказался от твоей драки и пошел бы её провожать, ничего бы не было! —<span class="redactor-invisible-space"> с отчаянием, произнес я." —<span class="redactor-invisible-space"> а вот если бы автор дал право выбора читателю, то вполне себе можно было бы и поменять обстоятельства. Еще один минус в копилку недостаточного выбора.</span><br></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"Нам рассказали, что в автобус влетела машина на скорости, и полный зад автобуса, разворотило<span class="redactor-invisible-space">." —<span class="redactor-invisible-space"> полный зад автобуса? Мне не показалось? К сожалению, не показалось...</span><br></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"Глаза закрылись.<span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> еще шутливый диалог для разъяснения ошибки: —<span class="redactor-invisible-space"> Простите, а глаза еще работают? —<span class="redactor-invisible-space"> Нет-нет, глаза уже закрылись! Приходите завтра.</span></span></span><br></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"— Когда я узнал о случившемся, я готов был умереть за тебя! Я люблю тебя!!! — Прокричал я.<span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> страсти страстями, но почему он так быстро поверил, что это Лина? Вдруг это призрак старого извращенца, который умеет хорошо копировать женский голос и знает человека по имени Влад? Ладно-ладно, это в принципе невозможно. Хотя... кто знает этих призраков...</span><br></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">На пятой части я уже поняла, что мне надоело читать. Слишком затянуто. Ничего, я сильная, я справлюсь и дочитаю подростковые сопли до конца!</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">"— Мм, Данила Климов ко мне пожаловал! Привет! — Он протянул мне руку. Я пожал. Дедушка уже был в хорошем возрасте, но всегда был добрый и, как мне показалось, очень мудрый. <span class="redactor-invisible-space">" —<span class="redactor-invisible-space"> очень подозрительный дед, который знает героя, но герой не знает деда (или не помнит, так как о профессоре заговорила Лина). Не иначе как это Русский Профессор Икс.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">Ох, вот и концовка. Обычная концовка. Ладно, меня и такая устроит, не хочу еще раз проходить, спасибо.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">И что у нас в итоге? Воды в тексте столько, что можно затопить небольшую страну. <br></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>Выбора толком так и не было, хотя я верила в лучшее до последнего! Разочарована.<br>Персонажи. Главный герой — влюбленная истеричка. Героиня —<span class="redactor-invisible-space"> просто истеричка. Второстепенные персонажи (друзья героя) особо-то ни на что не влияют. Вот если убрать их, то, по сути, ничего не изменится. Персонаж по имени Влад толком не раскрыт. Если честно, он привлек больше моего внимания, чем тот же Данил. Но автор вбросил нам его и на этом всё. Грустно, обидно и неинтересно.</span><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><br></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">История неплоха для неискушенного читателя, так скажем, работа новичка без особого опыта в плане написания чувственных рассказов. Короче, для школьниц покатит.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space"><span class="redactor-invisible-space">Прошу прощения, если где-то была груба. Постаралась написать так, как есть.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">3 недели назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21705">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21708">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/61679.html"><img class="profile-image" src="/avatar/wW1MFsMhmbwqfG-7qGSGvPhAdH0NZfdv.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/61679.html">PobedinskiY</a></p>
+            <div class="commentText">
+                <p><p>Спасибо за большую рецензию</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">3 недели назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21708">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21715">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/35996.html"><img class="profile-image" src="/avatar/KeyLpuASkM1akv2wZl2oLr-z0dYqFVfV.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/35996.html">Diagory</a></p>
+            <div class="commentText">
+                <p><p>История очень цепляет за душу:) Хотелось бы ещё увидеть картинки, впрочем, вы умеете брать за душу даже без них, используя лишь текст. Надеюсь, что вы ещё порадуете нас вашими историями! Желаю вам вдохновения и свободного времени:)</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">3 недели назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21715">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                            
+<div class="comment-wrapper" id="comment-21716">
+    <div class="row margin0">
+        <div class="profile-img pull-left">
+            <div class="hover_tooltip">
+                <a href="/user/view/61679.html"><img class="profile-image" src="/avatar/wW1MFsMhmbwqfG-7qGSGvPhAdH0NZfdv.jpg" alt=""></a>                <!-- <p class="online">Online</p> -->
+
+            </div>
+        </div>
+
+        <div class="profile-text float-left">
+            <p class="author_name"><a href="/user/view/61679.html">PobedinskiY</a></p>
+            <div class="commentText">
+                <p><p>Спасибо! Очень приятно, конечно порадую! Хотя тут с просмотрами беда стала :(</p> </p>
+
+                
+                            </div>
+
+<!-- if commentary is not reply to other commentary -->
+                        <ul class="clearfix">
+                <li class="time_online datetime">3 недели назад</li>
+                <li><a href="" class="reply">Ответить</a></li>
+            </ul>
+                    </div>
+<!-- Replies -->
+        <!-- / Replies -->
+    </div>
+    <!-- if commentary is not reply to other commentary -->
+            <div class="commentary-form">
+            <form class="form-horizontal" action="/commentary/create/19123.html" method="post">
+<input type="hidden" name="_csrf" value="SmVzTk5nRW8zEjt4Jw0nJx0uPjkvEw1bKEg4CHkOcgYyMjcIJwUkPA==">
+                <input type="hidden" name="Commentary[replyTo]" value="21716">                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Написать комментарий" name='Commentary[text]'>
+                        <a href="" class="smiles"></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-2 hover_tooltip">
+                        <input type="submit" class="form-control blue_btn border_rad5 animate btn" value="Отправить">
+
+                    </div>
+                </div>
+            </form>        </div>
+    </div>
+                        </div>
+</div>    </div>
+
+    <footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav navbar-nav">
+							<li>
+                <a href="/site/search.html">Все истории</a>              </li>
+							<li>
+                <!-- <a href="#">Что такое Сторимейз</a> -->
+                              </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div id="search">
+      <div class="close"><i class="icon-icon-close"></i></div>
+			<div class="form-box">
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control left-search-icon" placeholder="#Поиск">
+						<p class="help-block">Введите @ для поиска по автору или # для поиска по тегу</p>
+            <input type="submit" class="hidden">
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+    <script src="/assets/9e3a7fe8/jquery.js?v=1480660791"></script>
+<script src="/assets/1fc82ea/yii.js?v=1480660791"></script>
+<script src="/assets/72caf0b4/js/bootstrap.js?v=1480660791"></script>
+<script src="/js/jquery.color.js?v=1454756029"></script>
+<script src="/js/jquery.scrollTo.min.js?v=1472760467"></script>
+<script src="/js/jquery.Jcrop.min.js?v=1454756029"></script>
+<script src="/js/crop.js?v=1477931093"></script>
+<script src="/js/sweetalert2/sweetalert2.min.js?v=1472760467"></script>
+<script src="/js/scroll/scroll-startstop.events.jquery.js?v=1454756029"></script>
+<script src="/js/jquery-ui-1.11.4/jquery-ui.js?v=1454756029"></script>
+<script src="/js/circle-progress.js?v=1454756029"></script>
+<script src="/js/site.js?v=1477931093"></script>
+<script src="/js/chosen.jquery.js?v=1472760467"></script>
+<script src="/js/swiper.jquery.min.js?v=1472760467"></script>
+<script src="/js/main.js?v=1480613207"></script>
+<script src="/js/func.js?v=1481124083"></script>
+<script src="/js/js.cookie.js?v=1454756029"></script>
+<script src="/js/jQueryRotate.js?v=1454756029"></script>
+<script src="/js/training-mode.js?v=1472760467"></script>
+<script src="/js/owl.carousel.min.js?v=1480613207"></script>
+<script src="/js/summernote.min.js?v=1480613207"></script>
+<script src="/js/scripts.js?v=1480613207"></script>
+<script src="/js/typehead.min.js"></script>
+<script src="/js/search.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+
+$('.help-submit .button-default').click(function(event){
+    var msg = $('.question_form').val();
+    console.log(msg);
+    event.preventDefault();
+    $.post('/api/site/ticket', {message: msg}, function(data) {
+        if(data.ok == true) {
+            swal('Ваше сообщение отправлено!');
+            $('.question_form').val("");
+        } else {
+            console.log(data);
+            $('.question_form').val("");
+        }
+    });
+
+});
+
+$('.help-submit .btn-switcher').click(function(event){
+    event.preventDefault();
+    if (Training.isOff()) {
+      Training.on()
+    } else {
+      Training.off()
+    }
+});
+
+var SubscribeReminder = {
+    timeout: 180,
+    now: function() {
+        return Date.now()/1000|0;
+    },
+    setNextAlertIn: function(alertTime) {
+        Cookies.set('showSubscribeAlert', alertTime, {expires: 365});
+        if(alertTime !== 'false' && alertTime !== false) {
+            this.init();
+        }
+    },
+    init: function() {
+        var showAlert = Cookies.get('showSubscribeAlert'),
+            timer=undefined;
+        if(showAlert === undefined || showAlert < this.now()) {
+            this.setNextAlertIn(this.now()+this.timeout);
+            timer = this.timeout;
+        }
+
+        if(showAlert > this.now()) {
+            timer = showAlert - this.now();
+        }
+
+        if(timer) {
+            setTimeout(function() {
+               SubscribeReminder.followAlert.call(SubscribeReminder);
+            }, timer*1000);
+        }
+    },
+    followAlert: function() {
+        that = this;
+        swal({
+            html: $('#block').html(),
+            title: "Подпишись на нас в соцсетях!",
+            showCancelButton: true,
+            cancelButtonText: "Больше не показывать",
+            confirmButtonText: "Позже",
+        }).then(function( isConfirm ){
+            that.setNextAlertIn( isConfirm ? that.now()+that.timeout : 'false' );
+            if (!isConfirm) {
+                $.post('/user/disable-social-alert.html', {userId:0});
+            }
+        });
+    }
+}
+
+SubscribeReminder.init();
+Search.initHashtagSearch([{"tagtext":"\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430","id":"1039","storiesCount":"1206"},{"tagtext":"\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f","id":"1118","storiesCount":"836"},{"tagtext":"\u0414\u0440\u0430\u043c\u0430","id":"1050","storiesCount":"731"},{"tagtext":"\u0444\u044d\u043d\u0442\u0435\u0437\u0438","id":"1172","storiesCount":"688"},{"tagtext":"\u043c\u0438\u0441\u0442\u0438\u043a\u0430","id":"1082","storiesCount":"550"},{"tagtext":"\u0442\u0440\u0438\u043b\u043b\u0435\u0440","id":"1167","storiesCount":"518"},{"tagtext":"\u0420\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0430","id":"1218","storiesCount":"506"},{"tagtext":"\u0443\u0436\u0430\u0441\u044b","id":"1084","storiesCount":"493"},{"tagtext":"\u0425\u043e\u0447\u0443\u0424\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0443","id":"1298","storiesCount":"470"},{"tagtext":"\u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435","id":"1226","storiesCount":"438"}]);
+            $('.timeline-mode-select').change(function(){
+                var mode = $(this).val();
+
+                if(mode) {
+                    if(mode=='authors') {
+                        location.href = "/authors/index.html";
+                    } else {
+                        location.href = "/site/" + mode + ".html";
+                    }
+                }
+            });
+});</script>    <div id="liver">
+        <!--LiveInternet counter--><script type="text/javascript"><!--
+            document.write("<a href='//www.liveinternet.ru/click' "+
+                "target=_blank><img src='//counter.yadro.ru/hit?t26.5;r"+
+                escape(document.referrer)+((typeof(screen)=="undefined")?"":
+                ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+                    screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+                ";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+                "' alt='' title='LiveInternet: показано число посетителей за"+
+                " сегодня' "+
+                "border='0' width='88' height='15'><\/a>")
+            //--></script><!--/LiveInternet-->
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter34170405 = new Ya.Metrika({
+                            id:34170405,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true,
+                            webvisor:true
+                        });
+                    } catch(e) { }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/34170405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+<script type="text/javascript">
+    var Training = new TrainingMode();
+    $( "#search form" ).submit(function( event ) {
+      event.preventDefault();
+      var search = $(this).find('input.form-control').val();
+      if (search) {
+          window.location.replace('/site/search.html?s='+search)
+      }
+    });
+
+</script>
+</body>
+</html>
+

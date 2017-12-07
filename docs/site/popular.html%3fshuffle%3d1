@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='yandex-verification' content='6e37696e0fcbfe7e' />
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="Ynd1UEIzQmkXJztjEX8MOlMBMwAIdCEKTy0TCQcGcC0NRURkCAALBA==">
+    <title>Storymaze - Поиск</title>
+    <!-- VK retargeting -->
+    <!--<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=kF3xgVPVwgzZronUawCde/W5hpGXiUarMoUe1QR..*L38t4Ma2v9swoq6HEJfjNnO4BNY06SJUZN9Ugkfmrny0i9w-';</script>-->
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=lBVXcELOpo6bdlFYnDcvtFvFa2189ayCvSTaXKTS13Oo9/yS0R5rbDmLcUj/N0L/8BXsP3M/Hys/o24HZz/wS1X9HLFlaLYV/6GSJXJr439xm5sLDWlPOqngmr01G6UjSjXzhEtpji5QLnE8u/O*z/atHSqJdnJ0xPy6U8Jf9i8-';</script>
+    <!-- /VK retargeting -->
+    <link href="/assets/a0ba7f13/css/bootstrap.css?v=1459332455" rel="stylesheet">
+<link href="/css/jquery.Jcrop.css?v=1454756029" rel="stylesheet">
+<link href="/css/jquery.Jcrop.min.css?v=1454756029" rel="stylesheet">
+<link href="/js/node_modules/sweetalert/dist/sweetalert.css?v=1454756029" rel="stylesheet">
+<link href="/js/scroll/css/style.css?v=1454756029" rel="stylesheet">
+<link href="/js/jquery-ui-1.11.4/jquery-ui.css?v=1454756029" rel="stylesheet">
+<link href="/css/site.css?v=1460701378" rel="stylesheet">
+<link href="/assets/9c1fa2f3/css/font-awesome.min.css?v=1459799999" rel="stylesheet"></head>
+<body>
+
+
+<div class="wrap">
+    <nav id="w40" class="navbar-inverse navbar-fixed-top navbar-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w40-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/"><img class="logo-image desktop" src="/img/logo-text-right.png" width="150" height="45" alt=""><img class="logo-image pad" src="/img/logo.png" width="45" height="45" alt=""></a></div><div id="w40-collapse" class="collapse navbar-collapse"><ul id="w41" class="navbar-nav navbar-left nav"><li><a href="/site/index.html"><img class="menu-image" src="/img/home-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Дом</a></li>
+<li><a href="/site/recommended.html"><img class="menu-image" src="/img/search-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Поиск</a></li>
+<li><a href="/site/signup.html"><img class="menu-image" src="/img/note-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Зарегистрироваться</a></li>
+<li><a href="/site/login.html"><img class="menu-image" src="/img/enter-small-gr.png" width="20" height="20" alt="">&nbsp;&nbsp;Войти</a></li></ul>    <div class="pull-right">
+        <div id="lang-select" class="navbar-text pull-left">
+            <div style="width: auto;overflow: hidden;">
+                <div style="width: auto;float:left;">
+<form action="/site/popular.html?shuffle=1" method="post">
+<input type="hidden" name="_csrf" value="Ynd1UEIzQmkXJztjEX8MOlMBMwAIdCEKTy0TCQcGcC0NRURkCAALBA==">
+        <b>Руc</b> | <a href="#" onclick="language_change(&quot;en&quot;)">Eng</a>        <script type="text/javascript">
+            function language_change(selected) {
+                var lng = selected.value;
+                if(lng == undefined)
+                    lng = selected;
+                //alert(lng);
+                $.ajax({
+                    type : "POST",
+                    url : "/site/language.html",
+                    data : "_lang="+lng+"&YII_CSRF_TOKEN=Ynd1UEIzQmkXJztjEX8MOlMBMwAIdCEKTy0TCQcGcC0NRURkCAALBA==",
+                    success : function(data){window.location.reload();}
+                });
+            }
+        </script>
+
+</form></div>
+            </div>
+        </div>
+        <div class="pull-left download-link">
+            <a href="https://play.google.com/store/apps/details?id=ru.hipe.storymaze" target="_blank"><img src="/img/download-android.jpg" width="80" height="25" alt=""></a>
+        </div>
+    </div>
+    </div></div></nav>            <div class="download-link-mob">
+            <a href="#"><img class="pull-right" src="/img/cancel-small-bl.png" width="15" height="15" alt="" onclick="Cookies.set(&quot;_smdal&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+            <a href="https://play.google.com/store/apps/details?id=ru.hipe.storymaze" target="_blank"><img src="/img/download-android.jpg" width="80" height="25" alt="" onclick="Cookies.set(&quot;_smdal&quot;, &quot;1&quot;);$(&quot;.download-link-mob&quot;).hide();$(&quot;.wrap &gt; .container&quot;).css(&quot;padding-top&quot;,&quot;1%&quot;);"></a>
+            Storymaze для Android!
+        </div>
+    
+    <div class="container">
+                
+<div class="search-wrapper row">
+    <div class="welcome-block text-center">
+    <!--<h3><?/*= Yii::t('app', 'Welcome!') */?></h3>-->
+    <h4>Storymaze - рассказы, где читатель управляет сюжетом</h4>
+    <p>
+        <div class="welcome-icons">
+            Авторизуйся, чтобы получить доступ ко всем функциям            <span>
+                <a href="/site/auth.html?authclient=vkontakte"><img src="/img/vk-ico-black.png" width="40" height="40" alt=""></a>                <a href="/site/auth.html?authclient=facebook"><img src="/img/fb-ico-black.png" width="40" height="40" alt=""></a>                <a href="/site/auth.html?authclient=instagram"><img src="/img/inst_ico-black.png" width="40" height="40" alt=""></a>            </span>
+        </div>
+    </p>
+</div>
+    <form action="/site/search.html" method="get">    <div class="row search-row search-margin-top">
+        <div class="w90 pull-left search-input">
+            <div id="search-container">
+                <label class="display-none" for="global-search">Search</label>                <input type="text" id="global-search" class="form-control clearable" name="s" placeholder="поиск">            </div>
+        </div>
+        <div class="w10 pull-left text-right">
+            <button type="submit" class="maze-btn-black btn-search"><i class="fa fa-search"></i> </button>        </div>
+    </div>
+    <div id="search-hint" style="display: none;">
+        <div id="by-author" class="search-hint-btn">
+            по автору @        </div>
+        <div id="by-tag" class="search-hint-btn">
+            по тэгу #        </div>
+        <div id="by-name" class="search-hint-btn">
+            по имени        </div>
+    </div>
+    <div class="row margin0 text-center search-sort">
+        <div class="w5 pull-left">&nbsp;</div>
+        <div class="w30 pull-left sort  active a-down" id="search-rating">
+            <a id="search-by-rating-btn" name="sort" value="rating" href="/site/popular.html?asc=1">популярное</a>        </div>
+        <div class="w30 pull-left sort " id="search-rating">
+            <a id="search-by-popular-btn" name="sort" value="popular" href="/site/recommended.html">рекомендуемое</a>        </div>
+        <div class="w30 pull-left sort  " id="search-date">
+            <a id="search-by-date-btn" name="sort" value="date" href="/site/search.html?sort=date">все истории</a>        </div>
+        <div style="margin-top: 43px;">
+            <a href="?shuffle=1" class="button"><img src="/img/shuffle.png" alt=""></a>
+        </div>
+    </div>
+
+
+    <input type="text" name="sort" value="popular" style="display: none;">    <input type="checkbox" name="asc" value="1" style="display: none;">    </form></div>
+
+<div class="search-result-content" style="margin-top: -18px;">
+            <a name="story"></a>    <div class="story-wrapper" data-story-id= 4230 data-story-rating=>
+    <div class="padding">
+        <div class="row">
+                        <div class="profile-img float-left">
+                <a href="/user/view/8915.html"><img class="profile-image" src="/avatar/PlvDQRCrYQ3KEkl7IlJQoAKa2A-5J_gC.jpg" alt=""></a>            </div>
+            <div class="profile-text float-left">
+                                    <div class="byText"><a href="/user/view/8915.html">MidNight</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                            </div>
+            <div class="float-right follow-btn-wrapper text-right">
+                <!-- Subscribe button -->
+                                                                    <!-- /Subscribe button -->
+            </div>
+
+
+        </div>
+    </div>
+    <a href="/story/view/4230.html" >
+        <div class="story-image-block">
+            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/6KLCr81BWDyi87X9DhxLr8iXNRs2njYz.jpg) no-repeat center;
+                width:100%;">
+            </div>
+            
+    <div class="story-chart-btns">
+        <div class="row">
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image" src="/img/plus-big.png" alt="" title="Рейтинг" style="visibility:hidden">            </div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image eye" src="/img/eye-big.png" alt="" title="Просмотры" style="visibility:hidden">            </div>
+            <!--<div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="#" onclick="repostStory(event, 4230);"><img id="repost-img-4230" class="act-image" src="/img/repost-small-bl.png" width="45" height="45" alt="" title="Поделиться"></a>            </div>
+            <div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="/commentary/index/4230.html"><img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии"></a>            </div>-->
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+        </div>
+        <div class="row count-labels">
+            <div class="text-center pull-left c-l">&nbsp;</div>
+            <div class="text-center pull-left c-l">
+            <span id="rating-label" class="count-label">
+                            </span>
+            </div>
+            <div class="text-center pull-left c-l">
+            <span class="count-label">
+                            </span>
+            </div>
+            <!--<div class="text-center pull-left c-l">
+            <span id="repost-label-4230" class="count-label">
+                0            </span>
+        </div>
+        <div class="text-center pull-left c-l">
+            <span class="count-label">
+                0            </span>
+        </div>-->
+            <div class="text-center pull-left c-l">&nbsp;</div>
+        </div>
+    </div>
+            </div>
+    </a>
+    <div class="padding">
+        <span class="story-name">
+                        <a href="/story/view/4230.html">Моя История</a>            (16+)
+        </span>
+                <p>Кромер Хайнс- Это тот, кто рассказывает вам свою историю и то что он будет рассказывать зависит только от вас  (<a class="continue-story-link" href="/story/view/4230.html">...</a>)</p>
+
+        <div class="row padding">
+                <div class="w20 pull-left">
+        <span id="repost-label-4230" class="">
+            0        </span>
+        <a class="chart-btn" href="#" onclick="repostStory(event, 4230);"><img id="repost-img-4230" class="act-image-repost" src="/img/repost-small-bl.png" alt="" title="Поделиться"></a>    </div>
+    <div class="w20 pull-left comment-btn-block">
+        <span class="">
+            0        </span>
+        <a class="chart-btn" href="/commentary/index/4230.html"><img class="act-image-comment" src="/img/comments-small-bl.png" alt="" title="Комментарии"></a>    </div>
+                <div class="w60 pull-left text-right episodes-count">1 эпизод</div>
+        </div>
+
+        <div class="row htags">
+            <div class="pull-left w50">
+                <a href="/site/search.html?s=%23%D0%94%D1%80%D0%B0%D0%BC%D0%B0">#Драма</a> <a href="/site/search.html?s=%23%D0%BC%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0">#мистика</a> <a href="/site/search.html?s=%23%D0%AD%D0%9A%D0%A8%D0%95%D0%9D">#ЭКШЕН</a> <a href="/site/search.html?s=%23%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0">#Романтика</a>             </div>
+            <div class="pull-left w50 text-right">
+                <a href="#" onclick="claim(event,4230,&#039;Моя История&#039;)"><img class="claim" src="/img/claim.png" alt=""></a>            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="story-wrapper" data-story-id= 3800 data-story-rating=>
+    <div class="padding">
+        <div class="row">
+                        <div class="profile-img float-left">
+                <a href="/user/view/15368.html"><img class="profile-image" src="/avatar/F88Uq57ULqL0JM_bBs_8lXXhN238-3qs.png" alt=""></a>            </div>
+            <div class="profile-text float-left">
+                                    <div class="byText"><a href="/user/view/15368.html">Dmitry_Moon</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                            </div>
+            <div class="float-right follow-btn-wrapper text-right">
+                <!-- Subscribe button -->
+                                                                    <!-- /Subscribe button -->
+            </div>
+
+
+        </div>
+    </div>
+    <a href="/story/view/3800.html" >
+        <div class="story-image-block">
+            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/mJ5mboUurFXGPt57s1xzkQz-pdPeYkHK.jpg) no-repeat center;
+                width:100%;">
+            </div>
+            
+    <div class="story-chart-btns">
+        <div class="row">
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image" src="/img/plus-big.png" alt="" title="Рейтинг">            </div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image eye" src="/img/eye-big.png" alt="" title="Просмотры">            </div>
+            <!--<div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="#" onclick="repostStory(event, 3800);"><img id="repost-img-3800" class="act-image" src="/img/repost-small-bl.png" width="45" height="45" alt="" title="Поделиться"></a>            </div>
+            <div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="/commentary/index/3800.html"><img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии"></a>            </div>-->
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+        </div>
+        <div class="row count-labels">
+            <div class="text-center pull-left c-l">&nbsp;</div>
+            <div class="text-center pull-left c-l">
+            <span id="rating-label" class="count-label">
+                                    30                            </span>
+            </div>
+            <div class="text-center pull-left c-l">
+            <span class="count-label">
+                                    375                            </span>
+            </div>
+            <!--<div class="text-center pull-left c-l">
+            <span id="repost-label-3800" class="count-label">
+                2            </span>
+        </div>
+        <div class="text-center pull-left c-l">
+            <span class="count-label">
+                1            </span>
+        </div>-->
+            <div class="text-center pull-left c-l">&nbsp;</div>
+        </div>
+    </div>
+            </div>
+    </a>
+    <div class="padding">
+        <span class="story-name">
+                        <a href="/story/view/3800.html">Под водой</a>            (16+)
+        </span>
+                <p>Ты был членом команды исследователей,вы уже приближались к планете на которой возможна жизнь.Но что то пошло не так....                                                                                                                            Это мой  (<a class="continue-story-link" href="/story/view/3800.html">...</a>)</p>
+
+        <div class="row padding">
+                <div class="w20 pull-left">
+        <span id="repost-label-3800" class="">
+            2        </span>
+        <a class="chart-btn" href="#" onclick="repostStory(event, 3800);"><img id="repost-img-3800" class="act-image-repost" src="/img/repost-small-bl.png" alt="" title="Поделиться"></a>    </div>
+    <div class="w20 pull-left comment-btn-block">
+        <span class="">
+            1        </span>
+        <a class="chart-btn" href="/commentary/index/3800.html"><img class="act-image-comment" src="/img/comments-small-bl.png" alt="" title="Комментарии"></a>    </div>
+                <div class="w60 pull-left text-right episodes-count">64 эпизода</div>
+        </div>
+
+        <div class="row htags">
+            <div class="pull-left w50">
+                <a href="/site/search.html?s=%23%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0">#фантастика</a> <a href="/site/search.html?s=%23%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5">#Приключение</a> <a href="/site/search.html?s=%23%D0%BA%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B0">#катастрофа</a> <a href="/site/search.html?s=%23%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D0%B4%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5">#Неизведанное</a> <a href="/site/search.html?s=%23%D0%A7%D1%83%D0%B4%D0%BE%D0%B2%D0%B8%D1%89%D0%B0">#Чудовища</a> <a href="/site/search.html?s=%23%D0%BE%D0%BA%D0%B5%D0%B0%D0%BD">#океан</a> <a href="/site/search.html?s=%23%D0%B3%D0%BB%D1%83%D0%B1%D0%B8%D0%BD%D0%B0">#глубина</a> <a href="/site/search.html?s=%23%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">#исследование</a> <a href="/site/search.html?s=%23%D0%BA%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%B8%D0%B5">#крушение</a> <a href="/site/search.html?s=%23%D1%80%D1%8B%D0%B1%D1%8B">#рыбы</a> <a href="/site/search.html?s=%23%D0%B4%D1%80%D1%83%D0%B3%D0%B0%D1%8F%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0">#другаяпланета</a>             </div>
+            <div class="pull-left w50 text-right">
+                <a href="#" onclick="claim(event,3800,&#039;Под водой&#039;)"><img class="claim" src="/img/claim.png" alt=""></a>            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="story-wrapper" data-story-id= 10849 data-story-rating=>
+    <div class="padding">
+        <div class="row">
+                        <div class="profile-img float-left">
+                <a href="/user/view/43145.html"><img class="profile-image" src="/avatar/XcxbfG-VTMqPsSY-851EeYBP36n29Xgl.jpg" alt=""></a>            </div>
+            <div class="profile-text float-left">
+                                    <div class="byText"><a href="/user/view/43145.html">MintleStark</a></div>
+                    <p class="datetime">2 дня назад</p>
+                            </div>
+            <div class="float-right follow-btn-wrapper text-right">
+                <!-- Subscribe button -->
+                                                                    <!-- /Subscribe button -->
+            </div>
+
+
+        </div>
+    </div>
+    <a href="/story/view/10849.html" >
+        <div class="story-image-block">
+            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/aPIWW8CC7538ooQuffdX4UEzrg7NeVo0.jpg) no-repeat center;
+                width:100%;">
+            </div>
+            
+    <div class="story-chart-btns">
+        <div class="row">
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image" src="/img/plus-big.png" alt="" title="Рейтинг">            </div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image eye" src="/img/eye-big.png" alt="" title="Просмотры">            </div>
+            <!--<div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="#" onclick="repostStory(event, 10849);"><img id="repost-img-10849" class="act-image" src="/img/repost-small-bl.png" width="45" height="45" alt="" title="Поделиться"></a>            </div>
+            <div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="/commentary/index/10849.html"><img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии"></a>            </div>-->
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+        </div>
+        <div class="row count-labels">
+            <div class="text-center pull-left c-l">&nbsp;</div>
+            <div class="text-center pull-left c-l">
+            <span id="rating-label" class="count-label">
+                                    0                            </span>
+            </div>
+            <div class="text-center pull-left c-l">
+            <span class="count-label">
+                                    7                            </span>
+            </div>
+            <!--<div class="text-center pull-left c-l">
+            <span id="repost-label-10849" class="count-label">
+                1            </span>
+        </div>
+        <div class="text-center pull-left c-l">
+            <span class="count-label">
+                0            </span>
+        </div>-->
+            <div class="text-center pull-left c-l">&nbsp;</div>
+        </div>
+    </div>
+            </div>
+    </a>
+    <div class="padding">
+        <span class="story-name">
+                        <a href="/story/view/10849.html">История Минти: Внезапное перемещение</a>            (12+)
+        </span>
+                <p>История по поняшку по имени Минти, которая проходя через все испытания жизни, стала заколдована одним молодым единорогом, и перемещена в  (<a class="continue-story-link" href="/story/view/10849.html">...</a>)</p>
+
+        <div class="row padding">
+                <div class="w20 pull-left">
+        <span id="repost-label-10849" class="">
+            1        </span>
+        <a class="chart-btn" href="#" onclick="repostStory(event, 10849);"><img id="repost-img-10849" class="act-image-repost" src="/img/repost-small-bl.png" alt="" title="Поделиться"></a>    </div>
+    <div class="w20 pull-left comment-btn-block">
+        <span class="">
+            0        </span>
+        <a class="chart-btn" href="/commentary/index/10849.html"><img class="act-image-comment" src="/img/comments-small-bl.png" alt="" title="Комментарии"></a>    </div>
+                <div class="w60 pull-left text-right episodes-count">19 эпизодов</div>
+        </div>
+
+        <div class="row htags">
+            <div class="pull-left w50">
+                &nbsp;            </div>
+            <div class="pull-left w50 text-right">
+                <a href="#" onclick="claim(event,10849,&#039;История Минти: Внезапное перемещение&#039;)"><img class="claim" src="/img/claim.png" alt=""></a>            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="story-wrapper" data-story-id= 4147 data-story-rating=>
+    <div class="padding">
+        <div class="row">
+                        <div class="profile-img float-left">
+                <a href="/user/view/6895.html"><img class="profile-image" src="http://cs630829.vk.me/v630829586/621b/bdUaqvzScYo.jpg" alt=""></a>            </div>
+            <div class="profile-text float-left">
+                                    <div class="byText"><a href="/user/view/6895.html">swatam</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                            </div>
+            <div class="float-right follow-btn-wrapper text-right">
+                <!-- Subscribe button -->
+                                                                    <!-- /Subscribe button -->
+            </div>
+
+
+        </div>
+    </div>
+    <a href="/story/view/4147.html" >
+        <div class="story-image-block">
+            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/Uom00eAfMXdnLMOBy2g50mxjilyOYsuL.jpg) no-repeat center;
+                width:100%;">
+            </div>
+            
+    <div class="story-chart-btns">
+        <div class="row">
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image" src="/img/plus-big.png" alt="" title="Рейтинг" style="visibility:hidden">            </div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image eye" src="/img/eye-big.png" alt="" title="Просмотры" style="visibility:hidden">            </div>
+            <!--<div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="#" onclick="repostStory(event, 4147);"><img id="repost-img-4147" class="act-image" src="/img/repost-small-bl.png" width="45" height="45" alt="" title="Поделиться"></a>            </div>
+            <div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="/commentary/index/4147.html"><img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии"></a>            </div>-->
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+        </div>
+        <div class="row count-labels">
+            <div class="text-center pull-left c-l">&nbsp;</div>
+            <div class="text-center pull-left c-l">
+            <span id="rating-label" class="count-label">
+                            </span>
+            </div>
+            <div class="text-center pull-left c-l">
+            <span class="count-label">
+                            </span>
+            </div>
+            <!--<div class="text-center pull-left c-l">
+            <span id="repost-label-4147" class="count-label">
+                0            </span>
+        </div>
+        <div class="text-center pull-left c-l">
+            <span class="count-label">
+                0            </span>
+        </div>-->
+            <div class="text-center pull-left c-l">&nbsp;</div>
+        </div>
+    </div>
+            </div>
+    </a>
+    <div class="padding">
+        <span class="story-name">
+                        <a href="/story/view/4147.html">Холодная Смерть.</a>            (12+)
+        </span>
+                <p>Сможешь ли ты противостоять аномальному похолоданию и остаться в живых?</p>
+
+        <div class="row padding">
+                <div class="w20 pull-left">
+        <span id="repost-label-4147" class="">
+            0        </span>
+        <a class="chart-btn" href="#" onclick="repostStory(event, 4147);"><img id="repost-img-4147" class="act-image-repost" src="/img/repost-small-bl.png" alt="" title="Поделиться"></a>    </div>
+    <div class="w20 pull-left comment-btn-block">
+        <span class="">
+            0        </span>
+        <a class="chart-btn" href="/commentary/index/4147.html"><img class="act-image-comment" src="/img/comments-small-bl.png" alt="" title="Комментарии"></a>    </div>
+                <div class="w60 pull-left text-right episodes-count">6 эпизодов</div>
+        </div>
+
+        <div class="row htags">
+            <div class="pull-left w50">
+                &nbsp;            </div>
+            <div class="pull-left w50 text-right">
+                <a href="#" onclick="claim(event,4147,&#039;Холодная Смерть.&#039;)"><img class="claim" src="/img/claim.png" alt=""></a>            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="story-wrapper" data-story-id= 7892 data-story-rating=>
+    <div class="padding">
+        <div class="row">
+                        <div class="profile-img float-left">
+                <a href="/user/view/31829.html"><img class="profile-image" src="/avatar/user-default.png" alt=""></a>            </div>
+            <div class="profile-text float-left">
+                                    <div class="byText"><a href="/user/view/31829.html">MrMarley</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                            </div>
+            <div class="float-right follow-btn-wrapper text-right">
+                <!-- Subscribe button -->
+                                                                    <!-- /Subscribe button -->
+            </div>
+
+
+        </div>
+    </div>
+    <a href="/story/view/7892.html" >
+        <div class="story-image-block">
+            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/aB4r3tu7hJdLC73whM4CjD_Hec1Qpclf.jpg) no-repeat center;
+                width:100%;">
+            </div>
+            
+    <div class="story-chart-btns">
+        <div class="row">
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image" src="/img/plus-big.png" alt="" title="Рейтинг" style="visibility:hidden">            </div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image eye" src="/img/eye-big.png" alt="" title="Просмотры" style="visibility:hidden">            </div>
+            <!--<div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="#" onclick="repostStory(event, 7892);"><img id="repost-img-7892" class="act-image" src="/img/repost-small-bl.png" width="45" height="45" alt="" title="Поделиться"></a>            </div>
+            <div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="/commentary/index/7892.html"><img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии"></a>            </div>-->
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+        </div>
+        <div class="row count-labels">
+            <div class="text-center pull-left c-l">&nbsp;</div>
+            <div class="text-center pull-left c-l">
+            <span id="rating-label" class="count-label">
+                            </span>
+            </div>
+            <div class="text-center pull-left c-l">
+            <span class="count-label">
+                            </span>
+            </div>
+            <!--<div class="text-center pull-left c-l">
+            <span id="repost-label-7892" class="count-label">
+                0            </span>
+        </div>
+        <div class="text-center pull-left c-l">
+            <span class="count-label">
+                0            </span>
+        </div>-->
+            <div class="text-center pull-left c-l">&nbsp;</div>
+        </div>
+    </div>
+            </div>
+    </a>
+    <div class="padding">
+        <span class="story-name">
+                        <a href="/story/view/7892.html">История в самолёте</a>            (0+)
+        </span>
+                <p>Простите за картинку просто телефон говно.Так а вот и досье вашего персонажа:Вы работали в полиции Нью Йорка 2 года потом  (<a class="continue-story-link" href="/story/view/7892.html">...</a>)</p>
+
+        <div class="row padding">
+                <div class="w20 pull-left">
+        <span id="repost-label-7892" class="">
+            0        </span>
+        <a class="chart-btn" href="#" onclick="repostStory(event, 7892);"><img id="repost-img-7892" class="act-image-repost" src="/img/repost-small-bl.png" alt="" title="Поделиться"></a>    </div>
+    <div class="w20 pull-left comment-btn-block">
+        <span class="">
+            0        </span>
+        <a class="chart-btn" href="/commentary/index/7892.html"><img class="act-image-comment" src="/img/comments-small-bl.png" alt="" title="Комментарии"></a>    </div>
+                <div class="w60 pull-left text-right episodes-count">15 эпизодов</div>
+        </div>
+
+        <div class="row htags">
+            <div class="pull-left w50">
+                <a href="/site/search.html?s=%23%D1%81%D0%B0%D0%BC%D0%BE%D0%BB%D0%B5%D1%82">#самолет</a>             </div>
+            <div class="pull-left w50 text-right">
+                <a href="#" onclick="claim(event,7892,&#039;История в самолёте&#039;)"><img class="claim" src="/img/claim.png" alt=""></a>            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="story-wrapper" data-story-id= 2337 data-story-rating=>
+    <div class="padding">
+        <div class="row">
+                        <div class="profile-img float-left">
+                <a href="/user/view/9832.html"><img class="profile-image" src="/avatar/XWjPhF9f77kZxiS1SZjH4jSXvVYSC-zb.jpg" alt=""></a>            </div>
+            <div class="profile-text float-left">
+                                    <div class="byText"><a href="/user/view/9832.html">little_owl</a></div>
+                    <p class="datetime">3 месяца назад</p>
+                            </div>
+            <div class="float-right follow-btn-wrapper text-right">
+                <!-- Subscribe button -->
+                                                                    <!-- /Subscribe button -->
+            </div>
+
+
+        </div>
+    </div>
+    <a href="/story/view/2337.html" >
+        <div class="story-image-block">
+            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/xLgj-LsSrRZZh-nF31WqOuFNwFRdZcda.jpg) no-repeat center;
+                width:100%;">
+            </div>
+            
+    <div class="story-chart-btns">
+        <div class="row">
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image" src="/img/plus-big.png" alt="" title="Рейтинг" style="visibility:hidden">            </div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image eye" src="/img/eye-big.png" alt="" title="Просмотры" style="visibility:hidden">            </div>
+            <!--<div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="#" onclick="repostStory(event, 2337);"><img id="repost-img-2337" class="act-image" src="/img/repost-small-bl.png" width="45" height="45" alt="" title="Поделиться"></a>            </div>
+            <div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="/commentary/index/2337.html"><img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии"></a>            </div>-->
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+        </div>
+        <div class="row count-labels">
+            <div class="text-center pull-left c-l">&nbsp;</div>
+            <div class="text-center pull-left c-l">
+            <span id="rating-label" class="count-label">
+                            </span>
+            </div>
+            <div class="text-center pull-left c-l">
+            <span class="count-label">
+                            </span>
+            </div>
+            <!--<div class="text-center pull-left c-l">
+            <span id="repost-label-2337" class="count-label">
+                0            </span>
+        </div>
+        <div class="text-center pull-left c-l">
+            <span class="count-label">
+                0            </span>
+        </div>-->
+            <div class="text-center pull-left c-l">&nbsp;</div>
+        </div>
+    </div>
+            </div>
+    </a>
+    <div class="padding">
+        <span class="story-name">
+                        <a href="/story/view/2337.html">Обычный день</a>            (12+)
+        </span>
+                <p>Ты - Чарльз Бакеттон, обычный парень, а может не обычный, кто ж его знает. Так вот, чтобы узнать про этого  (<a class="continue-story-link" href="/story/view/2337.html">...</a>)</p>
+
+        <div class="row padding">
+                <div class="w20 pull-left">
+        <span id="repost-label-2337" class="">
+            0        </span>
+        <a class="chart-btn" href="#" onclick="repostStory(event, 2337);"><img id="repost-img-2337" class="act-image-repost" src="/img/repost-small-bl.png" alt="" title="Поделиться"></a>    </div>
+    <div class="w20 pull-left comment-btn-block">
+        <span class="">
+            0        </span>
+        <a class="chart-btn" href="/commentary/index/2337.html"><img class="act-image-comment" src="/img/comments-small-bl.png" alt="" title="Комментарии"></a>    </div>
+                <div class="w60 pull-left text-right episodes-count">3 эпизода</div>
+        </div>
+
+        <div class="row htags">
+            <div class="pull-left w50">
+                <a href="/site/search.html?s=%23%D0%9A%D0%BE%D1%82%D0%B8%D0%BA%D0%B8">#Котики</a> <a href="/site/search.html?s=%23%D0%A5%D0%BE%D1%87%D1%83%D0%AE%D0%BC%D0%BE%D1%80">#ХочуЮмор</a> <a href="/site/search.html?s=%23%D0%BE%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9">#обычный</a>             </div>
+            <div class="pull-left w50 text-right">
+                <a href="#" onclick="claim(event,2337,&#039;Обычный день&#039;)"><img class="claim" src="/img/claim.png" alt=""></a>            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="story-wrapper" data-story-id= 8655 data-story-rating=>
+    <div class="padding">
+        <div class="row">
+                        <div class="profile-img float-left">
+                <a href="/user/view/33696.html"><img class="profile-image" src="/avatar/vJsuQNNDMOfxb8yR2dlzR3CFPdyY74DU.jpg" alt=""></a>            </div>
+            <div class="profile-text float-left">
+                                    <div class="byText"><a href="/user/view/33696.html">FoXi13</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                            </div>
+            <div class="float-right follow-btn-wrapper text-right">
+                <!-- Subscribe button -->
+                                                                    <!-- /Subscribe button -->
+            </div>
+
+
+        </div>
+    </div>
+    <a href="/story/view/8655.html" >
+        <div class="story-image-block">
+            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/FMpmcaIVU2fVF5IrgSo5Je4xon9Fab5B.jpg) no-repeat center;
+                width:100%;">
+            </div>
+            
+    <div class="story-chart-btns">
+        <div class="row">
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image" src="/img/plus-big.png" alt="" title="Рейтинг" style="visibility:hidden">            </div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image eye" src="/img/eye-big.png" alt="" title="Просмотры" style="visibility:hidden">            </div>
+            <!--<div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="#" onclick="repostStory(event, 8655);"><img id="repost-img-8655" class="act-image" src="/img/repost-small-bl.png" width="45" height="45" alt="" title="Поделиться"></a>            </div>
+            <div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="/commentary/index/8655.html"><img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии"></a>            </div>-->
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+        </div>
+        <div class="row count-labels">
+            <div class="text-center pull-left c-l">&nbsp;</div>
+            <div class="text-center pull-left c-l">
+            <span id="rating-label" class="count-label">
+                            </span>
+            </div>
+            <div class="text-center pull-left c-l">
+            <span class="count-label">
+                            </span>
+            </div>
+            <!--<div class="text-center pull-left c-l">
+            <span id="repost-label-8655" class="count-label">
+                0            </span>
+        </div>
+        <div class="text-center pull-left c-l">
+            <span class="count-label">
+                0            </span>
+        </div>-->
+            <div class="text-center pull-left c-l">&nbsp;</div>
+        </div>
+    </div>
+            </div>
+    </a>
+    <div class="padding">
+        <span class="story-name">
+                        <a href="/story/view/8655.html">Энергия. Начало</a>            (6+)
+        </span>
+                <p>Речь пойдет об удивительных краях и о магии, которая зародилась не так давно.</p>
+
+        <div class="row padding">
+                <div class="w20 pull-left">
+        <span id="repost-label-8655" class="">
+            0        </span>
+        <a class="chart-btn" href="#" onclick="repostStory(event, 8655);"><img id="repost-img-8655" class="act-image-repost" src="/img/repost-small-bl.png" alt="" title="Поделиться"></a>    </div>
+    <div class="w20 pull-left comment-btn-block">
+        <span class="">
+            0        </span>
+        <a class="chart-btn" href="/commentary/index/8655.html"><img class="act-image-comment" src="/img/comments-small-bl.png" alt="" title="Комментарии"></a>    </div>
+                <div class="w60 pull-left text-right episodes-count">0 эпизодов</div>
+        </div>
+
+        <div class="row htags">
+            <div class="pull-left w50">
+                <a href="/site/search.html?s=%23%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0">#фантастика</a>             </div>
+            <div class="pull-left w50 text-right">
+                <a href="#" onclick="claim(event,8655,&#039;Энергия. Начало&#039;)"><img class="claim" src="/img/claim.png" alt=""></a>            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="story-wrapper" data-story-id= 6624 data-story-rating=>
+    <div class="padding">
+        <div class="row">
+                        <div class="profile-img float-left">
+                <a href="/user/view/27118.html"><img class="profile-image" src="https://scontent.xx.fbcdn.net/hprofile-xpt1/v/t1.0-1/p50x50/12742350_229446370730540_1179679243446955257_n.jpg?oh=bb2dcc0e6888069d3b5218fa7b58e0a3&amp;oe=572C44A0" alt=""></a>            </div>
+            <div class="profile-text float-left">
+                                    <div class="byText"><a href="/user/view/27118.html">Oribi</a></div>
+                    <p class="datetime">1 месяц назад</p>
+                            </div>
+            <div class="float-right follow-btn-wrapper text-right">
+                <!-- Subscribe button -->
+                                                                    <!-- /Subscribe button -->
+            </div>
+
+
+        </div>
+    </div>
+    <a href="/story/view/6624.html" >
+        <div class="story-image-block">
+            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/5eHyRHvyRqwGMgmZCZ9oy0uI1jKSrtLu.jpeg) no-repeat center;
+                width:100%;">
+            </div>
+            
+    <div class="story-chart-btns">
+        <div class="row">
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image" src="/img/plus-big.png" alt="" title="Рейтинг" style="visibility:hidden">            </div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image eye" src="/img/eye-big.png" alt="" title="Просмотры" style="visibility:hidden">            </div>
+            <!--<div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="#" onclick="repostStory(event, 6624);"><img id="repost-img-6624" class="act-image" src="/img/repost-small-bl.png" width="45" height="45" alt="" title="Поделиться"></a>            </div>
+            <div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="/commentary/index/6624.html"><img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии"></a>            </div>-->
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+        </div>
+        <div class="row count-labels">
+            <div class="text-center pull-left c-l">&nbsp;</div>
+            <div class="text-center pull-left c-l">
+            <span id="rating-label" class="count-label">
+                            </span>
+            </div>
+            <div class="text-center pull-left c-l">
+            <span class="count-label">
+                            </span>
+            </div>
+            <!--<div class="text-center pull-left c-l">
+            <span id="repost-label-6624" class="count-label">
+                0            </span>
+        </div>
+        <div class="text-center pull-left c-l">
+            <span class="count-label">
+                0            </span>
+        </div>-->
+            <div class="text-center pull-left c-l">&nbsp;</div>
+        </div>
+    </div>
+            </div>
+    </a>
+    <div class="padding">
+        <span class="story-name">
+                        <a href="/story/view/6624.html">Кровь сосны</a>            (6+)
+        </span>
+                <p>Сосны так же могут чувствовать боль...</p>
+
+        <div class="row padding">
+                <div class="w20 pull-left">
+        <span id="repost-label-6624" class="">
+            0        </span>
+        <a class="chart-btn" href="#" onclick="repostStory(event, 6624);"><img id="repost-img-6624" class="act-image-repost" src="/img/repost-small-bl.png" alt="" title="Поделиться"></a>    </div>
+    <div class="w20 pull-left comment-btn-block">
+        <span class="">
+            0        </span>
+        <a class="chart-btn" href="/commentary/index/6624.html"><img class="act-image-comment" src="/img/comments-small-bl.png" alt="" title="Комментарии"></a>    </div>
+                <div class="w60 pull-left text-right episodes-count">1 эпизод</div>
+        </div>
+
+        <div class="row htags">
+            <div class="pull-left w50">
+                <a href="/site/search.html?s=%23%D1%8D%D0%BA%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F">#экология</a> <a href="/site/search.html?s=%23%D1%81%D0%BE%D1%81%D0%BD%D1%8B">#сосны</a>             </div>
+            <div class="pull-left w50 text-right">
+                <a href="#" onclick="claim(event,6624,&#039;Кровь сосны&#039;)"><img class="claim" src="/img/claim.png" alt=""></a>            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="story-wrapper" data-story-id= 4670 data-story-rating=>
+    <div class="padding">
+        <div class="row">
+                        <div class="profile-img float-left">
+                <a href="/user/view/18890.html"><img class="profile-image" src="/avatar/MCCyiEkyxgdQL0pwQEqG_R9KA3GxeTGf.jpg" alt=""></a>            </div>
+            <div class="profile-text float-left">
+                                    <div class="byText"><a href="/user/view/18890.html">kNaBs</a></div>
+                    <p class="datetime">2 месяца назад</p>
+                            </div>
+            <div class="float-right follow-btn-wrapper text-right">
+                <!-- Subscribe button -->
+                                                                    <!-- /Subscribe button -->
+            </div>
+
+
+        </div>
+    </div>
+    <a href="/story/view/4670.html" >
+        <div class="story-image-block">
+            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/tb7-VaEI6voCF2o1XsLP0DtfsHMoL6Gh.jpg) no-repeat center;
+                width:100%;">
+            </div>
+            
+    <div class="story-chart-btns">
+        <div class="row">
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image" src="/img/plus-big.png" alt="" title="Рейтинг">            </div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image eye" src="/img/eye-big.png" alt="" title="Просмотры">            </div>
+            <!--<div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="#" onclick="repostStory(event, 4670);"><img id="repost-img-4670" class="act-image" src="/img/repost-small-bl.png" width="45" height="45" alt="" title="Поделиться"></a>            </div>
+            <div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="/commentary/index/4670.html"><img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии"></a>            </div>-->
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+        </div>
+        <div class="row count-labels">
+            <div class="text-center pull-left c-l">&nbsp;</div>
+            <div class="text-center pull-left c-l">
+            <span id="rating-label" class="count-label">
+                                    1                            </span>
+            </div>
+            <div class="text-center pull-left c-l">
+            <span class="count-label">
+                                    75                            </span>
+            </div>
+            <!--<div class="text-center pull-left c-l">
+            <span id="repost-label-4670" class="count-label">
+                1            </span>
+        </div>
+        <div class="text-center pull-left c-l">
+            <span class="count-label">
+                1            </span>
+        </div>-->
+            <div class="text-center pull-left c-l">&nbsp;</div>
+        </div>
+    </div>
+            </div>
+    </a>
+    <div class="padding">
+        <span class="story-name">
+                        <a href="/story/view/4670.html">Однажды в душе </a>            (18+)
+        </span>
+                <p>Как-то раз у вас упало мыло...
+</p>
+
+        <div class="row padding">
+                <div class="w20 pull-left">
+        <span id="repost-label-4670" class="">
+            1        </span>
+        <a class="chart-btn" href="#" onclick="repostStory(event, 4670);"><img id="repost-img-4670" class="act-image-repost" src="/img/repost-small-bl.png" alt="" title="Поделиться"></a>    </div>
+    <div class="w20 pull-left comment-btn-block">
+        <span class="">
+            1        </span>
+        <a class="chart-btn" href="/commentary/index/4670.html"><img class="act-image-comment" src="/img/comments-small-bl.png" alt="" title="Комментарии"></a>    </div>
+                <div class="w60 pull-left text-right episodes-count">6 эпизодов</div>
+        </div>
+
+        <div class="row htags">
+            <div class="pull-left w50">
+                <a href="/site/search.html?s=%23%D0%A2%D1%8E%D1%80%D1%8C%D0%BC%D0%B0">#Тюрьма</a> <a href="/site/search.html?s=%23%D0%A4%D0%B0%D0%BD">#Фан</a>             </div>
+            <div class="pull-left w50 text-right">
+                <a href="#" onclick="claim(event,4670,&#039;Однажды в душе &#039;)"><img class="claim" src="/img/claim.png" alt=""></a>            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="story-wrapper" data-story-id= 9163 data-story-rating=>
+    <div class="padding">
+        <div class="row">
+                        <div class="profile-img float-left">
+                <a href="/user/view/37074.html"><img class="profile-image" src="http://cs629308.vk.me/v629308749/41d6e/8rfykSvdlIg.jpg" alt=""></a>            </div>
+            <div class="profile-text float-left">
+                                    <div class="byText"><a href="/user/view/37074.html">star7light</a></div>
+                    <p class="datetime">3 недели назад</p>
+                            </div>
+            <div class="float-right follow-btn-wrapper text-right">
+                <!-- Subscribe button -->
+                                                                    <!-- /Subscribe button -->
+            </div>
+
+
+        </div>
+    </div>
+    <a href="/story/view/9163.html" >
+        <div class="story-image-block">
+            <div class="story-image" style="background:
+                linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+                url(/story/2op_bLlRQwZZ6s0i9wnhcOLM_X8nnfag.jpg) no-repeat center;
+                width:100%;">
+            </div>
+            
+    <div class="story-chart-btns">
+        <div class="row">
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image" src="/img/plus-big.png" alt="" title="Рейтинг" style="visibility:hidden">            </div>
+            <div class="chart-ico text-center pull-left">
+                <img class="chart-btn act-image eye" src="/img/eye-big.png" alt="" title="Просмотры" style="visibility:hidden">            </div>
+            <!--<div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="#" onclick="repostStory(event, 9163);"><img id="repost-img-9163" class="act-image" src="/img/repost-small-bl.png" width="45" height="45" alt="" title="Поделиться"></a>            </div>
+            <div class="chart-ico text-center pull-left">
+                <a class="chart-btn" href="/commentary/index/9163.html"><img class="act-image" src="/img/comments-big-gr.png" width="45" height="45" alt="" title="Комментарии"></a>            </div>-->
+            <div class="chart-ico text-center pull-left">&nbsp;</div>
+        </div>
+        <div class="row count-labels">
+            <div class="text-center pull-left c-l">&nbsp;</div>
+            <div class="text-center pull-left c-l">
+            <span id="rating-label" class="count-label">
+                            </span>
+            </div>
+            <div class="text-center pull-left c-l">
+            <span class="count-label">
+                            </span>
+            </div>
+            <!--<div class="text-center pull-left c-l">
+            <span id="repost-label-9163" class="count-label">
+                0            </span>
+        </div>
+        <div class="text-center pull-left c-l">
+            <span class="count-label">
+                0            </span>
+        </div>-->
+            <div class="text-center pull-left c-l">&nbsp;</div>
+        </div>
+    </div>
+            </div>
+    </a>
+    <div class="padding">
+        <span class="story-name">
+                        <a href="/story/view/9163.html">Грань Часть 1</a>            (18+)
+        </span>
+                <p>Грань-это киберпанк антиутопичная новелла. Желаю вам приятного чтения
+P.S. Буду рад объективной критике
+  (<a class="continue-story-link" href="/story/view/9163.html">...</a>)</p>
+
+        <div class="row padding">
+                <div class="w20 pull-left">
+        <span id="repost-label-9163" class="">
+            0        </span>
+        <a class="chart-btn" href="#" onclick="repostStory(event, 9163);"><img id="repost-img-9163" class="act-image-repost" src="/img/repost-small-bl.png" alt="" title="Поделиться"></a>    </div>
+    <div class="w20 pull-left comment-btn-block">
+        <span class="">
+            0        </span>
+        <a class="chart-btn" href="/commentary/index/9163.html"><img class="act-image-comment" src="/img/comments-small-bl.png" alt="" title="Комментарии"></a>    </div>
+                <div class="w60 pull-left text-right episodes-count">7 эпизодов</div>
+        </div>
+
+        <div class="row htags">
+            <div class="pull-left w50">
+                &nbsp;            </div>
+            <div class="pull-left w50 text-right">
+                <a href="#" onclick="claim(event,9163,&#039;Грань Часть 1&#039;)"><img class="claim" src="/img/claim.png" alt=""></a>            </div>
+        </div>
+    </div>
+</div>
+
+    
+<!--
+<div class="jumbotron">
+    <p><?/*= Html::button(Yii::t('app', 'More'), ['class' => 'maze-btn-black more', 'onclick' => 'loadTimelineStories("'. $place . '");']) */?></p>
+</div>
+--><div style="display:none;" class="nav_up" id="nav_up"></div>
+<div style="display:none;" class="nav_down" id="nav_down"></div>
+<div class="progress-load" style="display: none;"></div>    
+</div>
+
+    </div>
+
+</div>
+<div class="navbar-bottom navbar-fixed-bottom">
+    <div class="col-xs-12 navbar-inverse">
+        <div class="row" id="bottomNav">
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/site/index.html" onclick="setActive()">
+                    <img class="menu-image homeH" src="/img/home-small-gr.png" width="25" height="25" alt="">                    <img class="menu-image homeA" src="/img/home-small.png" width="25" height="25" alt="">                </a>
+            </div>
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/site/search.html">
+                    <img class="menu-image searchH" src="/img/search-small-gr.png" width="25" height="25" alt="">                    <img class="menu-image searchA" src="/img/search-small.png" width="25" height="25" alt="">                </a>
+            </div>
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/story/index.html">
+                    <img class="menu-image mymazeH" src="/img/mymaze-small-gr.png" width="25" height="25" alt="">                    <img class="menu-image mymazeA" src="/img/mymaze-small.png" width="25" height="25" alt="">                </a>
+            </div>
+            <div class="col-xs-2 text-center menu-image-bottom">
+                <a href="/user/actions.html">
+                    <img class="menu-image heartH" src="/img/heart-small-gr.png" width="25" height="25" alt="">                </a>
+                <a href="/user/actions.html">
+                    <img class="menu-image heartA" src="/img/heart-small.png" width="25" height="25" alt="">                </a>
+            </div>
+                            <div class="col-xs-2 text-center menu-image-bottom">
+                    <a href="/site/login.html">
+                        <img class="menu-image" src="/img/enter-small-gr.png" width="25" height="25" alt="">                    </a>
+                </div>
+                    </div>
+    </div>
+</div>
+<script src="/assets/e209f43c/jquery.js?v=1459799998"></script>
+<script src="/js/typehead.min.js"></script>
+<script src="/js/search.js"></script>
+<script src="/assets/c038d91c/yii.js?v=1459799998"></script>
+<script src="/js/jquery.color.js?v=1454756029"></script>
+<script src="/js/jquery.Jcrop.min.js?v=1454756029"></script>
+<script src="/js/crop.js?v=1454756029"></script>
+<script src="/js/node_modules/sweetalert/dist/sweetalert.min.js?v=1454756029"></script>
+<script src="/js/scroll/scroll-startstop.events.jquery.js?v=1454756029"></script>
+<script src="/js/jquery-ui-1.11.4/jquery-ui.js?v=1454756029"></script>
+<script src="/js/circle-progress.js?v=1454756029"></script>
+<script src="/js/site.js?v=1459895269"></script>
+<script src="/js/func.js?v=1459895269"></script>
+<script src="/js/js.cookie.js?v=1454756029"></script>
+<script src="/js/jQueryRotate.js?v=1454756029"></script>
+<script src="/assets/a0ba7f13/js/bootstrap.js?v=1459332455"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+Search.initHashtagSearch([{"tagtext":"\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430","id":"1039","storiesCount":"598"},{"tagtext":"\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f","id":"1118","storiesCount":"444"},{"tagtext":"\u0444\u044d\u043d\u0442\u0435\u0437\u0438","id":"1172","storiesCount":"377"},{"tagtext":"\u0414\u0440\u0430\u043c\u0430","id":"1050","storiesCount":"352"},{"tagtext":"\u0425\u043e\u0447\u0443\u0424\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0443","id":"1298","storiesCount":"327"},{"tagtext":"\u043c\u0438\u0441\u0442\u0438\u043a\u0430","id":"1082","storiesCount":"293"},{"tagtext":"\u0425\u043e\u0447\u0443\u041a\u0440\u0438\u0442\u0438\u043a\u0438","id":"1699","storiesCount":"278"},{"tagtext":"\u0410\u043f\u043e\u043a\u0430\u043b\u0438\u043f\u0441\u0438\u0441","id":"1013","storiesCount":"257"},{"tagtext":"\u0425\u043e\u0440\u0440\u043e\u0440","id":"1071","storiesCount":"256"},{"tagtext":"\u0442\u0440\u0438\u043b\u043b\u0435\u0440","id":"1167","storiesCount":"254"}]);
+});</script><div id="liver">
+    <!--LiveInternet counter--><script type="text/javascript"><!--
+        document.write("<a href='//www.liveinternet.ru/click' "+
+            "target=_blank><img src='//counter.yadro.ru/hit?t26.5;r"+
+            escape(document.referrer)+((typeof(screen)=="undefined")?"":
+            ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+                screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+            ";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+            "' alt='' title='LiveInternet: показано число посетителей за"+
+            " сегодня' "+
+            "border='0' width='88' height='15'><\/a>")
+        //--></script><!--/LiveInternet-->
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter34170405 = new Ya.Metrika({
+                        id:34170405,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/34170405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</div>
+</body>
+</html>
