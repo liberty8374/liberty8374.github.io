@@ -22,33 +22,11 @@
         </div>
         <hr class="row">
         <div v-if="loaded" class="row">
-            <table v-if="default_table">
-                <thead>
-                    <tr>
-                        <th>Сторимейз</th>
-                        <th>Эпизод</th>
-                        <th>Ссылка</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr v-for="desc in filtered()">
-                        <td>{{desc.story}}</td>
-                        <td>{{desc.episode}}</td>
-                        <td>
-                            <a target="_blank" :href="'/episode/view/' + desc.id + '.html'">
-                                {{desc.id}}
-                            </a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <div v-else>
-                <v-client-table :data="filtered()" :columns="columns" :options="tableOptions">
-                    <a slot="id" slot-scope="props" target="_blank" :href="'/episode/view/' + props.row.id + '.html'">
-                        {{props.row.id}}
-                    </a>
-                </v-client-table>
-            </div>
+            <v-client-table :data="filtered()" :columns="columns" :options="tableOptions">
+                <a slot="id" slot-scope="props" target="_blank" :href="'/episode/view/' + props.row.id + '.html'">
+                    {{props.row.id}}
+                </a>
+            </v-client-table>
         </div>
         <div v-else class="row">
             <p>

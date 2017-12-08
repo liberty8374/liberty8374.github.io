@@ -1,7 +1,6 @@
 let data = {
     episodes: [],
     show_stories: false,
-    default_table: false,
     loaded: false,
     columns: ['story', 'episode', 'id'],
     tableOptions: {
