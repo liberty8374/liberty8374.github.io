@@ -11,16 +11,10 @@
     <div id="app" class="container">
         <div class="row">
             <p>
-                <b>Настройки</b>
-            </p>
-            <p>
                 <input type="checkbox" v-model="show_stories"> Показать ссылки на главные страницы сторимейзов (не эпизоды, много дублирующихся)
             </p>
-            <p>
-                <input type="checkbox" v-model="default_table"> Простая таблица
-            </p>
+            <hr>
         </div>
-        <hr class="row">
         <div v-if="loaded" class="row">
             <v-client-table :data="filtered()" :columns="columns" :options="tableOptions">
                 <a slot="id" slot-scope="props" target="_blank" :href="'/episode/view/' + props.row.id + '.html'">
