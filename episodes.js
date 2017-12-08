@@ -5,7 +5,16 @@ let data = {
 
 let app = new Vue({
     el: '#episodes_table',
-    data: data
+    data: data,
+    methods: {
+        filtered() {
+            return this.episodes.filter(episode => {
+                if (!this.show_stories && episode.type === 'story') return false;
+                if (episode.story === 'none') return false;
+                return true;
+            });
+        }
+    }
 });
 
 $.getJSON('/episodes.json').then(function (json) {

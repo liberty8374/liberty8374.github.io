@@ -16,7 +16,7 @@
             </p>
         </div>
         <hr>
-        <table v-if="episodes.length > 0">
+        <table v-if="filtered().length > 0">
             <thead>
                 <tr>
                     <th>Сторимейз</th>
@@ -25,7 +25,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="desc in episodes" v-if="desc.story !== 'none' && (show_stories || desc.type !== 'story')">
+                <tr v-for="desc in filtered()">
                     <td>{{desc.story}}</td>
                     <td>{{desc.episode}}</td>
                     <td>
