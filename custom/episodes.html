@@ -1,0 +1,38 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Список эпизодов в архиве</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <script src="/js/vue.js"></script>
+    <script src="/js/vue-tables-2.min.js"></script>
+    <script src="/assets/jquery.js"></script>
+</head>
+
+<body>
+    <div id="app" class="container">
+        <div class="row">
+            <p>
+                <input type="checkbox" v-model="show_stories"> Показать ссылки на главные страницы сторимейзов (не эпизоды, много дублирующихся)
+            </p>
+            <hr>
+        </div>
+        <div v-if="loaded" class="row">
+            <v-client-table :data="filtered()" :columns="columns" :options="tableOptions">
+                <a slot="id" slot-scope="props" target="_blank" :href="'/episode/view/' + props.row.id + '.html'">
+                    {{props.row.id}}
+                </a>
+            </v-client-table>
+        </div>
+        <div v-else class="row">
+            <p>
+                Загрузка...
+            </p>
+        </div>
+    </div>
+
+    <script src="/custom/episodes.js"></script>
+</body>
+
+</html>

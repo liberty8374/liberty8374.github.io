@@ -45,7 +45,7 @@ let app = new Vue({
     }
 });
 
-$.getJSON('/episodes.json').then(function (json) {
+$.getJSON('/custom/episodes.json').then(function (json) {
     data.episodes = json.episodes;
     data.loaded = true;
 }, function (err) {
