@@ -2,46 +2,63 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Список эпизодов в архиве</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div id="episodes_table">
-        <div>
+    <div id="app" class="container">
+        <div class="row">
             <p>
-                Некоторые страницы оказались главными страницами сторимейзов, а не эпизодами.
+                <b>Настройки</b>
             </p>
             <p>
-                <input type="checkbox" v-model="show_stories"> Показать сторимейзы
+                <input type="checkbox" v-model="show_stories"> Показать ссылки на главные страницы сторимейзов (не эпизоды, много дублирующихся)
+            </p>
+            <p>
+                <input type="checkbox" v-model="default_table"> Простая таблица
             </p>
         </div>
-        <hr>
-        <table v-if="filtered().length > 0">
-            <thead>
-                <tr>
-                    <th>Сторимейз</th>
-                    <th>Эпизод</th>
-                    <th>Ссылка</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr v-for="desc in filtered()">
-                    <td>{{desc.story}}</td>
-                    <td>{{desc.episode}}</td>
-                    <td>
-                        <a target="_blank" :href="'/episode/view/' + desc.id + '.html'">
-                            {{desc.id}}
-                        </a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <p v-else>
-            Загрузка...
-        </p>
+        <hr class="row">
+        <div v-if="loaded" class="row">
+            <table v-if="default_table">
+                <thead>
+                    <tr>
+                        <th>Сторимейз</th>
+                        <th>Эпизод</th>
+                        <th>Ссылка</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="desc in filtered()">
+                        <td>{{desc.story}}</td>
+                        <td>{{desc.episode}}</td>
+                        <td>
+                            <a target="_blank" :href="'/episode/view/' + desc.id + '.html'">
+                                {{desc.id}}
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div v-else>
+                <v-client-table :data="filtered()" :columns="columns" :options="tableOptions">
+                    <a slot="id" slot-scope="props" target="_blank" :href="'/episode/view/' + props.row.id + '.html'">
+                        {{props.row.id}}
+                    </a>
+                </v-client-table>
+            </div>
+        </div>
+        <div v-else class="row">
+            <p>
+                Загрузка...
+            </p>
+        </div>
     </div>
 
     <script src="/js/vue.js"></script>
+    <script src="/js/vue-tables-2.min.js"></script>
     <script src="/assets/jquery.js"></script>
     <script src="/episodes.js"></script>
 </body>
